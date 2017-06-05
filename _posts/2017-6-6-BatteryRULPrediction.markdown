@@ -63,6 +63,8 @@ For demo purpose, I have used a set of Li-ion battery cycle life test data provi
 
  A set of test data for Li-ion battery is used in this example is result of testing four Li-ion batteries (B5, B6, B 7 and B 18). The tests are carried out at room temperature for three different operating conditions (charging, discharging, and impedance measurements). The data is compressed in the format of MATLAB file (*.mat). Figure 1 shows capacity changes of the battery (B5) over the charge-discharge cycles.
  
+ <img src="{{ '/assets/img/2017-06-06-Fig1.png' | prepend: site.baseurl }}" alt=""> 
+ 
  Figure 1 Li-ion battery cycle capacity degradation curve
  
  The capacity degradation data for four batteries is collected as a time series set, and is used for training and testing a LSTM model, so that the trained model can be used to predict the remaining cycles. Since the NASA’s battery measurement data files are binary compressed files and contain more data than what is needed, I wrote a converter in C# that reads data from a MATLAB file, filters data, and outputs filtered data as time series matrix in which each row is a cycle (Figure 3).
