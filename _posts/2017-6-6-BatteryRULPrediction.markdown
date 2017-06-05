@@ -97,7 +97,6 @@ CNTK, developed by Microsoft, is one of the major open source deep learning fram
 Developing a neural network model is usually a complex process. The following flowchart illustrates the steps in the process.
 
 <img src="{{'/assets/img/2017-06-06-flowchart.png' | prepend: site.baseurl }}" alt="">
-
 Not only it takes multiple steps, it also has many files involved in the process, including a time series data file, training/testing/evaluation data files, model output file, and a predicted time series file. Furthermore, the model training steps is an iterative process that requires constant tuning of learning algorithm parameters. Finally, deploying the trained model into use is also difficult task. 
 
 In a complex business environment, we are talking about the possibility of developing hundreds of models by users in different business units, it will become tremendous difficult and error-prone task without a tool.
