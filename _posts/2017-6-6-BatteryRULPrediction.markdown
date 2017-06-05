@@ -42,7 +42,6 @@ Deep learning has shown very promising results in many fields, but the use of op
 The solution that I have been working on consists of the following approaches:
 
 First of all, Li-ion battery RUL prediction is considered as a time series problem. Unlike regression predictive modeling, time series also adds the complexity of a sequence dependence among the input variables. A powerful type of neural network designed to handle sequence dependence is called LSTM (Long Short-Term Memory).
-
 In my solution, I choose to develop LSTM networks using the CNTK framework, an open source deep learning framework developed by Microsoft. 
 
 Secondly, among battery cycle life data I have, I used the capacity/cycle data sequence as time series to train and test the LSTM model.
@@ -63,9 +62,8 @@ For demo purpose, I have used a set of Li-ion battery cycle life test data provi
 
  A set of test data for Li-ion battery is used in this example is result of testing four Li-ion batteries (B5, B6, B 7 and B 18). The tests are carried out at room temperature for three different operating conditions (charging, discharging, and impedance measurements). The data is compressed in the format of MATLAB file (*.mat). Figure 1 shows capacity changes of the battery (B5) over the charge-discharge cycles.
  
- <img src="{{ '/assets/img/2017-06-06-Fig1.png' | prepend: site.baseurl }}" alt=""> 
- 
- Figure 1 Li-ion battery cycle capacity degradation curve
+ <img src="{{'/assets/img/2017-06-06-Fig1.png' | prepend: site.baseurl }}" alt="">
+Figure 1 Li-ion battery cycle capacity degradation curve
  
  The capacity degradation data for four batteries is collected as a time series set, and is used for training and testing a LSTM model, so that the trained model can be used to predict the remaining cycles. Since the NASA’s battery measurement data files are binary compressed files and contain more data than what is needed, I wrote a converter in C# that reads data from a MATLAB file, filters data, and outputs filtered data as time series matrix in which each row is a cycle (Figure 3).
  
