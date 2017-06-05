@@ -63,7 +63,7 @@ For demo purpose, I have used a set of Li-ion battery cycle life test data provi
  A set of test data for Li-ion battery is used in this example is result of testing four Li-ion batteries (B5, B6, B 7 and B 18). The tests are carried out at room temperature for three different operating conditions (charging, discharging, and impedance measurements). The data is compressed in the format of MATLAB file (*.mat). Figure 1 shows capacity changes of the battery (B5) over the charge-discharge cycles.
  
  <img src="{{'/assets/img/2017-06-06-Fig1.png' | prepend: site.baseurl }}" alt="">
-Figure 1 Li-ion battery cycle capacity degradation curve
+Figure1. - Li-ion battery cycle capacity degradation curve
  
  The capacity degradation data for four batteries is collected as a time series set, and is used for training and testing a LSTM model, so that the trained model can be used to predict the remaining cycles. Since the NASA’s battery measurement data files are binary compressed files and contain more data than what is needed, I wrote a converter in C# that reads data from a MATLAB file, filters data, and outputs filtered data as time series matrix in which each row is a cycle (Figure 3).
  
@@ -75,15 +75,18 @@ Smart TDM is a SPA (Single Page Application) application that I have developed. 
 
 For our battery RUL prediction example, we first need to create a test item instance, called Li-ion battery cycle life test, in Smart TDM and then upload the four battery test files as a test result to the server as shown in Figure 2.
 
-Figure 2 Upload the Li-ion battery test data files
+<img src="{{'/assets/img/2017-06-06-Fig2.png' | prepend: site.baseurl }}" alt="">
+Figure2. - Upload the Li-ion battery test data files
 
 Upon the files are uploaded, the server will process the files automatically based on a pre-configured data preprocessing workflow, and then displays the structured test data in a table (Figure 3).
 
-Figure 3 Li-ion battery structured test data
+<img src="{{'/assets/img/2017-06-06-Fig3.png' | prepend: site.baseurl }}" alt="">
+Figure3. - Li-ion battery structured test data
 
 For our battery RUL prediction purpose, we only need to collect the battery capacity data as time series. Figure 4 shows a collection of time series of capacity data for the four batteries.
 
-Figure 4 Li-ion battery capacity time series data set
+<img src="{{'/assets/img/2017-06-06-Fig4.png' | prepend: site.baseurl }}" alt="">
+Figure4. - Li-ion battery capacity time series data set
 
 Although we can collect more battery data in the data set, but for the demo, only data from the four batteries is used for developing a model. Let’s download the data set as a text file (view data here). We will use this it as an example to train and test a LSTM model in the next section.
 
@@ -93,7 +96,7 @@ CNTK, developed by Microsoft, is one of the major open source deep learning fram
 
 Developing a neural network model is usually a complex process. The following flowchart illustrates the steps in the process.
 
-Flowchart
+<img src="{{'/assets/img/2017-06-06-flowchart.png' | prepend: site.baseurl }}" alt="">
 
 Not only it takes multiple steps, it also has many files involved in the process, including a time series data file, training/testing/evaluation data files, model output file, and a predicted time series file. Furthermore, the model training steps is an iterative process that requires constant tuning of learning algorithm parameters. Finally, deploying the trained model into use is also difficult task. 
 
@@ -109,17 +112,20 @@ To simplify the process of developing models, I developed a tool, called ML Stud
 
 As demonstrated in Figure 5, it is the main screen of the ML Studio, in which a process template is in the middle, the components of templates is at the  left, and the settings of a selected component in the template is at the right.
 
-Figure 5 ML Studio Tool
+<img src="{{'/assets/img/2017-06-06-Fig5.png' | prepend: site.baseurl }}" alt="">
+Figure5. - ML Studio Tool
 
 For our example of battery RUL prediction, I created a template with a parallel component (shown in Figure 5) so that I can have two LSTM models with different configurations which helps me to experiment different settings and discover optimized training parameters.
 
 ML Studio is integrated with Google’s Tensorboard which allow you to view, compare, and analyze models in ML Studio. As shown in Figure 6, Tensorboard displays the testing result of two LSTM models in my experiment.
 
-Figure 6 Tensorboard’s comparison of model test results
+<img src="{{'/assets/img/2017-06-06-Fig6.png' | prepend: site.baseurl }}" alt="">
+Figure6. - Tensorboard’s comparison of model test results
  
 Once you are satisfied with the model performance, you can use ML Studio to publish trained models to Smart TDM application server. The deployment process is done by using a wizard which uploads the model file and related scripts to the server and creates meta-data describing the model. Figure 7 shows the final step of the deployment wizard for our battery RUL prediction model.
 
-Figure 7 Model Deployment Wizard
+<img src="{{'/assets/img/2017-06-06-Fig7.png' | prepend: site.baseurl }}" alt="">
+Figure7. - Model Deployment Wizard
 
 ## Performing battery RUL prediction using model
 
@@ -127,7 +133,8 @@ Once the model is deployed on the server, it is easy to perform a battery RUL ta
 
 The line with blue dots shows the battery capacities in the past cycles, and line with red dots shows the remaining capacities of future cycles predicted by the model.
 
-Figure 8 Predicting the remaining cycle capacities of a Li-ion battery
+<img src="{{'/assets/img/2017-06-06-Fig8.png' | prepend: site.baseurl }}" alt="">
+Figure8. - Predicting the remaining cycle capacities of a Li-ion battery
 
 Since Smart TDM may have many models deployed, you may wonder how it knows which model to use when predicting a battery RUL? It is because there is a biding between a test item instance with a model, and the binding is described in term of meta-data created when the model is deployed.
 
@@ -150,5 +157,6 @@ The working environment for this post consists of following software and tools:
 * Microsoft SQL Server Compact Edition (Embedded in Smart TDM)
 
 The Figure 9 shows the role that each piece of software plays in a whole picture.
+<img src="{{'/assets/img/2017-06-06-Fig9.png' | prepend: site.baseurl }}" alt="">
 
 
