@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Implementation of Li-ion Battery RUL Prediction using LSTM"
