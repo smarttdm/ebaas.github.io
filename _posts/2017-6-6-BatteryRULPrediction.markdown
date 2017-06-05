@@ -17,7 +17,7 @@ In this post, I will address the above issues by introducing some of the work I 
 
 There are many research on Li-ion battery RUL prediction using various techniques and algorithms. But the focus here is not on the accuracy of predicting model, but rather on design and implementation of a software system that make it easy for enterprises to apply deep learning on test data from the experiments.
 
-# The Problem
+## The Problem
 
 Li-ion batteries are widely used in consumer electronics, electric vehicles and space systems. However, a Li-ion battery has a useful life, that means with continuous charge and discharge cycles and material aging, battery performance will continue to decline until it fails to function.
 
@@ -37,7 +37,7 @@ However, the main focus of the research has been on choosing modeling methods an
 
 Deep learning has shown very promising results in many fields, but the use of open source deep learning framework for Li-ion battery RUL prediction has just began. Steep learning curve of deep learning frameworks and lack of application platform and tools for simplifying the development and deployment of deep learning models have been obstacles to the progress.
 
-# Solution Overview
+## Solution Overview
 
 The solution that I have been working on consists of the following approaches:
 
@@ -57,7 +57,7 @@ Following, I will introduce the solution in detail based on the process, general
 * Developing, testing and deploying model
 * Performing battery RUL prediction using model
 
-# Data collection and Preprocessing
+## Data collection and Preprocessing
 
 For demo purpose, I have used a set of Li-ion battery cycle life test data provided by PCoE (NASA Prognostic Center of Excellence, PCoE) for public use.
 
@@ -87,7 +87,7 @@ Figure 4 Li-ion battery capacity time series data set
 
 Although we can collect more battery data in the data set, but for the demo, only data from the four batteries is used for developing a model. Let’s download the data set as a text file (view data here). We will use this it as an example to train and test a LSTM model in the next section.
 
-# Developing, Testing and Deploying Model
+## Developing, Testing and Deploying Model
 
 CNTK, developed by Microsoft, is one of the major open source deep learning frameworks. As of this writing, it’s current release is 2.0 rc3. CNTK supports many types of deep learning networks, including multi-layered Neural Network, CNN, RNN, LSTM and Seq2Seq. CNTK allows defining neural network models using Python language and a configuration script, called BrainScript. CNTK’s BrainScript is relatively easy to use for beginners or those who are not familiar with Python programming. In this post, I am going to use BrainScript to define a LSTM model.
 
@@ -121,7 +121,7 @@ Once you are satisfied with the model performance, you can use ML Studio to publ
 
 Figure 7 Model Deployment Wizard
 
-# Performing battery RUL prediction using model
+## Performing battery RUL prediction using model
 
 Once the model is deployed on the server, it is easy to perform a battery RUL task using the model. You just need to open a web browser, login to your Smart TDM account, find the battery cycle life test item instance, step into the “Data Chart” view where you can click on “Forecast” button and see the predicted data graphically, as shown in Figure 8. 
 
@@ -131,7 +131,7 @@ Figure 8 Predicting the remaining cycle capacities of a Li-ion battery
 
 Since Smart TDM may have many models deployed, you may wonder how it knows which model to use when predicting a battery RUL? It is because there is a biding between a test item instance with a model, and the binding is described in term of meta-data created when the model is deployed.
 
-# Summary
+## Summary
 
 So far, I have demonstrated the whole process of developing and applying a LSTM model to the problem of Li-ion battery RUL prediction, using Smart TDM software and ML Studio tool that I developed. Lots of details are omitted to keep the post short. I plan to write posts to offer more details. 
 
