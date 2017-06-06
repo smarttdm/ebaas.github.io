@@ -1,4 +1,4 @@
-s---
+---
 layout: default
 title: Contact Yong Zhang
 ---
