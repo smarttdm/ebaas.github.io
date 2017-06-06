@@ -5,19 +5,20 @@ title: About Yong Zhang
 
 <div class="post">
 	<h1 class="pageTitle">About Me</h1>
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
+	<p>Yong Zhang is a seasoned software professional with over 25 years of experience in a wide range of software development roles from a team member, manager, director, solution consultant, VP of engineering to the founder of a software company. He excels at developing enterprise software solutions that create real value for customers.</p>
+	<h2>Facts about me</h2>
 	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+		<li>Solid background in computer fundamentals with both BS and Master degrees in Computer Science</li>
+  		<li>Passionate about software development and learning new technology</li>
+  		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges</li>
+		<li>A business-minded techie with a breath of skills in business, technology, and user experiences</li>
+  	</ul>
+	<h2>Programming Skills</h2>
+	<ul>
+		<li>Machine Learning: CNTK, Python, BrainScript</li>
+  		<li>Object-oriented Development: In-depth knowledge and expertise in OO design and programming</li>
+  		<li>SPA (Single Page Application) Development: JavaScript, AngularJS, Html 5 for front-end development; ASP.Net Web API, Net framework, C# for backend development</li>
+		<li>Tool Development: Windows Form, C#</li>
+		<li>Databases: SQL Server, Oracle</li>
   	</ul>
 </div>
