@@ -6,7 +6,7 @@ title: About Yong Zhang
 <div class="post">
 	<h1 class="pageTitle">About Me</h1>
 	<div align="center">
-	<img src="{{ '/assets/img/yong-small.jpg' | prepend: site.baseurl }}" height="100" width="120" alt="">
+	<img src="{{ '/assets/img/yong-small.jpg' | prepend: site.baseurl }}" height="100" width="110" alt="">
 	</div>
 	<p>Yong Zhang is a seasoned software professional with over 25 years of experience in a wide range of software development roles from a team member, manager, director, solution consultant, VP of engineering to the founder of a software company. He excels at developing enterprise software solutions that create real value for customers.</p>
 	<h2>Facts about me</h2>
