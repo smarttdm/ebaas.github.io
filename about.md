@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Yong Zhang
+title: About Me
 ---
 
 <div class="post">
