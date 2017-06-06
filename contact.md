@@ -1,4 +1,4 @@
----
+s---
 layout: default
 title: Contact Yong Zhang
 ---
@@ -10,7 +10,7 @@ title: Contact Yong Zhang
     </p>
     <p class="intro">If you are interested in using the software in your business and need my service, please feel free to <a href="mailto:yongz@yahoo.com">email me</a>, thank you very much!</p>
   </div>
-  <form action="http://formspree.io/yongz@yahoo.com" method="POST">
+  <form action="https://formspree.io/yongz@yahoo.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
