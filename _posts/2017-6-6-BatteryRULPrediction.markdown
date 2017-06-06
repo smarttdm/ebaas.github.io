@@ -6,7 +6,7 @@ date:   2017-6-6
 
 <p class="intro"><span class="dropcap">D</span>eep learning is the study of artificial neural networks and related machine learning algorithms that contain more than one hidden layer. Deep learning networks, such as deep feed forward network(DFF), convolution neural network(CNN), recurrent neural network(RNN), long-short term memory (LSTM), and sequence to sequence (Seq2Seq) have been applied to computer vision, speech recognition, natural language processing,  and audio recognition  fields, etc. and have achieved excellent results.</p>
 
-In this post, I would like to present a case where I apply deep learning for a business problem. The particular application of deep learning in this post is using LSTM, which is a type of recurrent neural network, to predict Li-ion battery remaining useful life(RUL).
+In this post, I would like to present a case where I apply deep learning for a business problem. The particular application of deep learning in this post is using LSTM, which is a type of recurrent neural network, to predict Li-ion battery remaining useful life (RUL).
 
 Deep learning can be solutions to many of problems in enterprises. Like any new technology, it will be a slow process for businesses to adopt deep learning technology. At present, some of the biggest problems faced by businesses in adopting deep learning, or machine learning in general, are following:
 * Machine learning requires having high quality and structured data sets. To take advantage of machine learning, enterprises must first establish a standardized data management system.
