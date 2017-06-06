@@ -131,6 +131,7 @@ Figure6. - Tensorboard’s comparison of model test results
 Once you are satisfied with the model performance, you can use ML Studio to publish trained models to Smart TDM application server. The deployment process is done by using a wizard which uploads the model file and related scripts to the server and creates meta-data describing the model. Figure 7 shows the final step of the deployment wizard for our battery RUL prediction model.
 
 <img src="{{'/assets/img/2017-06-06-Fig7.png' | prepend: site.baseurl }}" alt="">
+
 Figure7. - Model Deployment Wizard
 
 ## Performing battery RUL prediction using model
