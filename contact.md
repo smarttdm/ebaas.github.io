@@ -6,7 +6,7 @@ title: Contact Yong Zhang
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">If you have any questions about my posts and downloaded software, please feel free to contact me using the contact form.
+    <p class="intro">If you have any questions about my posts or using the downloaded software, please feel free to contact me using the contact form.
     </p>
     <p class="intro">If you are interested in using the software in your business and need my service, please feel free to <a href="mailto:yongz@yahoo.com">email me</a>, thank you very much!</p>
   </div>
