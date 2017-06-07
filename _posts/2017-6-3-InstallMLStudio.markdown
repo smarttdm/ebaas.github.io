@@ -6,7 +6,7 @@ date:   2017-6-3
 
 <p class="intro"><span class="dropcap">M</span>L Studio is a GUI tool that provides a modeling environment for deep learning. It simplifies the process of developing deep learning models.</p>
 
-<p>In this post will walk you through the steps of setting up the ML Studio software and related frameworks on your computer. </p>
+<p>This post will walk you through the steps of setting up the ML Studio software and related frameworks on your computer. </p>
 
 ## Installation Requirements
 
