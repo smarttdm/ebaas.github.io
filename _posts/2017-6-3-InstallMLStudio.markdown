@@ -4,21 +4,29 @@ title:  "Installation of ML Studio"
 date:   2017-6-3
 ---
 
-<p class="intro"><span class="dropcap">E</span>baas is an enterprise application for Testing Data Management (TDM). Testing Data Management software in product testing fields can shorten the product test cycle, reduce test costs, accelerate market-to-market. </p>
+<p class="intro"><span class="dropcap">M</span>L Studio is a GUI tool that provides a modeling environment for deep learning. It simplifies the process of developing deep learning models.</p>
 
-<p>In this post, you will find the instructions for installing the Ebaas (out-of-the-box version), launching the application server, and log in using one of the demo accounts. If you ran into problems, please refer to "FAQ" page for possible solutions.</p>
+<p>In this post will walk you through the steps of setting up the ML Studio software and related frameworks on your computer. </p>
 
 ## Installation Requirements
 
-First of all, please make sure your installation environment meets the following requirements.
+First of all, please make sure your computer meets the following requirements.
 
-* Your computer is running one of operating systems, such as Windows 7 (x64), Windows 10 (x64), Windows 2008 (x64)
+* Your computer is running Windows 10 (x64)
 * Your computer has installed Microsoft.Net Framework 4.5.2
-* Your computer has one of the web browsers, such as Google Chrome,  Windows Edge, or IE 11
+* Your computer has one of the web browsers, such as Google Chrome, Windows Edge, or IE 11
 
-## Installations
+## CNTK Setup
 
-Run the downloaded Ebaas_x64_7.1.0_beta2_Setup.msi as the Administrator, follow the steps until the installation is complete. The out-of-the-box version has an embedded SQL Server Compact database, therefore, you don't need to install a database.
+ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep learning framework. You should first install the CNTK on your computer. There are several approaches for setting up CNTK on your computer, I recommend the script-driven installation approach, which is easier.
+
+The instruction of using the script-driven installation is here(https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-binary-script). It will walk you through the process of installing the Microsoft Cognitive Toolkit (CNTK) for Windows based on a binary distribution.
+
+ML Studio utilizes the Google Tensorboard for visualizing the result of training and testing models. To enable this feature, you should install Tensorflow for Windows on your computer in which the Tensorboard is one of the components.
+
+## ML Studio Setup
+
+Run the downloaded MLStudio _x64_1.0.0_Setup.msi, follow the steps until the installation is complete. Then, launch the ML Studio by clicking the ML Studio icon on your desktop.
 
 ## License
 
