@@ -74,11 +74,11 @@ The capacity degradation data for four batteries is collected as a time series s
 
 Test data may come in with a variety of file formats, such as CSV, Excel, or other file formats. Even with the same file format, the structure of data content and the naming conventions are usually different. Therefore, converting raw test data into standard and usable data is a tedious and complicated process.
 
-To deal with the problem, one of the primary features in the Smart TDM is to automate data processing process that can deal with discrepancies of test data in their original formats. I will describe the implementation of the data processing automation in other posts. The main idea is to enable users to upload test data files using a web browser and let the system do the dirty work of processing data, without any manual intervention.
+To deal with the problem, one of the primary features in the Ebaas is to automate data processing process that can deal with discrepancies of test data in their original formats. I will describe the implementation of the data processing automation in other posts. The main idea is to enable users to upload test data files using a web browser and let the system do the dirty work of processing data, without any manual intervention.
 
-Smart TDM is a SPA (Single Page Application) application that I have developed. Its front-end is implemented with HTML5, JavaScript, AngularJS, and Bootstrap. Its back-end is an application server implemented with .net framework. The application server provides RESTFUL API as services to the front-end or other clients. Smart TDM can work with different relational databases, such as SQL Server Compact Edition, SQL Server and Oracle. Smart TDM is designed to be a software platform for Test Data Management (TDM). It has a wealth of features that I will introduce in follow-up posts.
+Ebaas is a SPA (Single Page Application) application that I have developed. Its front-end is implemented with HTML5, JavaScript, AngularJS, and Bootstrap. Its back-end is an application server implemented with .net framework. The application server provides RESTFUL API as services to the front-end or other clients. Smart TDM can work with different relational databases, such as SQL Server Compact Edition, SQL Server and Oracle. Ebaas is designed to be a software platform for Test Data Management (TDM). It has a wealth of features that I will introduce in follow-up posts.
 
-For our battery RUL prediction example, we first need to create a test item instance, called Li-ion battery cycle life test, in Smart TDM and then upload the four battery test files as a test result to the server as shown in Figure 2.
+For our battery RUL prediction example, we first need to create a test item instance, called Li-ion battery cycle life test, in Ebaas and then upload the four battery test files as a test result to the server as shown in Figure 2.
 
 <img src="{{'/assets/img/2017-06-06-Fig2.png' | prepend: site.baseurl }}" alt="">
 Figure2. - Upload the Li-ion battery test data files
@@ -128,7 +128,7 @@ I have integrated ML Studio with Google’s Tensorboard which allow you to view,
 <img src="{{'/assets/img/2017-06-06-Fig6.png' | prepend: site.baseurl }}" alt="">
 Figure6. - Tensorboard’s comparison of model test results
  
-Once you are satisfied with the model performance, you can use ML Studio to publish trained models to Smart TDM application server. The deployment process is done by using a wizard which uploads the model file and related scripts to the server and creates meta-data describing the model. Figure 7 shows the final step of the deployment wizard for our battery RUL prediction model.
+Once you are satisfied with the model performance, you can use ML Studio to publish trained models to Ebaas application server. The deployment process is done by using a wizard which uploads the model file and related scripts to the server and creates meta-data describing the model. Figure 7 shows the final step of the deployment wizard for our battery RUL prediction model.
 
 <img src="{{'/assets/img/2017-06-06-Fig7.png' | prepend: site.baseurl }}" alt="">
 
@@ -136,33 +136,33 @@ Figure7. - Model Deployment Wizard
 
 ## Performing battery RUL prediction using model
 
-Once the model is deployed on the server, it is easy to carry out a battery RUL task using the model. You just need to open a web browser, log in to your Smart TDM account, find the test item instance for the battery cycle life, step into the "Data Chart" view where you can click on "Forecast” button and see the predicted data graphically, as shown in Figure 8. 
+Once the model is deployed on the server, it is easy to carry out a battery RUL task using the model. You just need to open a web browser, log in to your Ebaas account, find the test item instance for the battery cycle life, step into the "Data Chart" view where you can click on "Forecast” button and see the predicted data graphically, as shown in Figure 8. 
 
 The line with blue dots shows the battery capacities in the past cycles, and line with red dots shows the remaining ones of future cycles predicted by the model.
 
 <img src="{{'/assets/img/2017-06-06-Fig8.png' | prepend: site.baseurl }}" alt="">
 Figure8. - Predicting the remaining cycle capacities of a Li-ion battery
 
-Since Smart TDM may have many models deployed, you may wonder how it knows which model to use when predicting a battery RUL? It is because there is a binding between a test item instance with a model, and the binding is described in term of meta-data created when the model is deployed. 
+Since Ebaas may have many models deployed, you may wonder how it knows which model to use when predicting a battery RUL? It is because there is a binding between a test item instance with a model, and the binding is described in term of meta-data created when the model is deployed. 
 
 ## Summary
 
-So far, I have demonstrated the whole process of developing and applying an LSTM model to the problem of Li-ion battery RUL prediction, using Smart TDM software and ML Studio tool that I developed. Lots of details are omitted to keep the post short. I plan to write posts to offer more information. 
+So far, I have demonstrated the whole process of developing and applying an LSTM model to the problem of Li-ion battery RUL prediction, using Ebaas software and ML Studio tool that I developed. Lots of details are omitted to keep the post short. I plan to write posts to offer more information. 
 
 Although machine learning can be used in many fields in businesses, my focus has been applying machine learning technology in solving the problems in product testing or experiment area. Machine learning can potentially apply to various fields, including product reliability evaluations, predicting testing results, preventing repeat test tasks, etc. The battery RUL prediction is just an example of the many applications.
 
 In short, applications of machine learning technology in product test field can shorten the product test cycle, reduce test costs, accelerate market-to-market.
 
-If you are interested in trying out the software I used in this post, you can download the free version of Smart TDM and ML Studio from the “Download” page. 
+If you are interested in trying out the software I demonstrated in this post, you can download the free version of Ebaas and ML Studio from the “Download” page. 
 
 The working environment for this post consists of following software and tools:
 
 * Microsoft Windows 10
 * Microsoft.Net Framework 4.5.2
 * Microsoft CNTK 2.0 rc2
-* Smart TDM 7.1.0
+* Ebaas 7.1.0
 * ML Studio 1.0.0
-* Microsoft SQL Server Compact Edition (Embedded in Smart TDM)
+* Microsoft SQL Server Compact Edition (Embedded in Ebaas)
 
 Figure 9 shows the role that each piece of software plays in a whole picture.
 <img src="{{'/assets/img/2017-06-06-Fig9.png' | prepend: site.baseurl }}" alt="">
