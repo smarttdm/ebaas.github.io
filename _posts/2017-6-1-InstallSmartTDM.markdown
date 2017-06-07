@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to install Smart TDM (OOTB version)"
+title:  "Installation of Smart TDM Software"
 date:   2017-6-1
 ---
 
