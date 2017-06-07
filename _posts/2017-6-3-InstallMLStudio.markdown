@@ -12,7 +12,7 @@ date:   2017-6-3
 
 First of all, please make sure your computer meets the following requirements.
 
-* Your computer is running Windows 10 (x64)
+* Your computer is running Windows 10 (64 bit)
 * Your computer has installed Microsoft.Net Framework 4.5.2
 * Your computer has one of the web browsers, such as Google Chrome, Windows Edge, or IE 11
 
