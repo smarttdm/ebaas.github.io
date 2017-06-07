@@ -18,11 +18,11 @@ First of all, please make sure your computer meets the following requirements.
 
 ## CNTK Setup
 
-ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep learning framework. You should first install the CNTK on your computer. There are several approaches for setting up CNTK on your computer, I recommend the script-driven installation approach, which is simpler.
+ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep learning framework. You should first install the CNTK 2.0 release on your computer. There are several approaches for setting up CNTK on your computer, I recommend the script-driven installation approach, which is simpler.
 
-The instruction of using the script-driven installation is <a class="post-link" href="https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-binary-script">here</a>. It will walk you through the process of installing the Microsoft Cognitive Toolkit (CNTK) for Windows based on a binary distribution.
+The instruction of using the script-driven installation is <a class="post-link" href="https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-binary-script">here</a>. It will walk you through the process of installing the CNTK 2.0 for Windows based on a binary distribution.
 
-<b>Note: You must unpack the zip file into the <code>c:\local\CNTK-2-0</code> folder.</b>
+<b>Note: You must unpack the downloaded zip file into the <code>c:\local\CNTK-2-0</code> folder.</b>
 
 ML Studio utilizes the Google Tensorboard for visualizing the result of training and testing models. To enable this feature, you should install Tensorflow for Windows on your computer in which the Tensorboard is one of the components.
 
