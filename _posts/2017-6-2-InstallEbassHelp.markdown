@@ -12,7 +12,7 @@ date:   2017-6-2
 
 First of all, please make sure your installation environment meets the following requirements.
 
-* Your computer is running one of operating systems, such as Windows 7 (x64), Windows 10 (x64), Windows 2008 (x64)
+* Your computer is using Windows 10 (64bit)
 * Your computer has installed Microsoft.Net Framework 4.5.2
 * Your computer has one of the web browsers, such as Google Chrome,  Windows Edge, or IE 11
 
