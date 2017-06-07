@@ -26,7 +26,7 @@ ML Studio utilizes the Google Tensorboard for visualizing the result of training
 
 ## ML Studio Setup
 
-Run the downloaded MLStudio _x64_1.0.0_Setup.msi, follow the steps until the installation is complete. Then, launch the ML Studio by clicking the ML Studio icon on your desktop.
+Download ML Studio setup from <a class="post-link" href="https://ebaas.github.io/download/">here</a>, run the downloaded ML Studio setup, follow the steps until the installation is complete. Then, launch the ML Studio by clicking the ML Studio icon on your desktop.
 
 ## License
 
