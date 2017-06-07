@@ -22,9 +22,15 @@ Run the Ebaas_7.1.x_x64_Setup.msi as the Administrator, follow the steps until t
 
 Find the command at Start->Ebaas->StartServer and click on the command to launch the application server. Please run the command as the administrator on Windows 7 or Windows 10, and You will see the command windows shown in Figure 1 if the application server started successfully. To stop the application server, just close the command window.
 
+<img src="{{'/assets/img/2017-06-01-Fig1.png' | prepend: site.baseurl }}" alt="">
+Figure1. - Application Server Window
+
 ## Login to Smart TDM
 
 Use a recommended web browser to connect to the application at http: // localhost: 8080.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and try out various features of Smart TDM. Hope you like it.
+
+<img src="{{'/assets/img/2017-06-01-Fig2.png' | prepend: site.baseurl }}" alt="">
+Figure2. - Log in page
 
 ## License
 
