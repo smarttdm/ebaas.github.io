@@ -160,8 +160,8 @@ The working environment for this post consists of following software and tools:
 * Microsoft Windows 10
 * Microsoft.Net Framework 4.5.2
 * Microsoft CNTK 2.0 rc2
-* Smart TDM 7.1.0 ([Download](/download))
-* ML Studio 1.0.0 ([Download](/download))
+* Smart TDM 7.1.0
+* ML Studio 1.0.0
 * Microsoft SQL Server Compact Edition (Embedded in Smart TDM)
 
 Figure 9 shows the role that each piece of software plays in a whole picture.
