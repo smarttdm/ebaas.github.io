@@ -28,7 +28,7 @@ Figure1. - Application Server Window
 
 ## Login to Smart TDM
 
-Use a recommended web browser to connect to the application at http: // localhost: 8080.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and try out various features of Smart TDM. Hope you like it.
+Use a recommended web browser to connect to the application at <code>http: // localhost: 8080</code>.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and try out various features of Smart TDM. Hope you like it.
 
 | User ID | Password | User Role |
 |-------|--------|---------|
