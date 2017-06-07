@@ -18,7 +18,7 @@ First of all, please make sure your installation environment meets the following
 
 ## Installations
 
-Run the Ebaas_7.1.x_x64_Setup.msi as the Administrator, follow the steps until the installation is complete. The out-of-the-box version has an embedded SQL Server Compact database, therefore, you don't need to install a database.
+Run the downloaded Ebaas_x64_7.1.0_beta2_Setup.msi as the Administrator, follow the steps until the installation is complete. The out-of-the-box version has an embedded SQL Server Compact database, therefore, you don't need to install a database.
 
 ## Launch Application Server
 
