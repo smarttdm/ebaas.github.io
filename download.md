@@ -5,7 +5,7 @@ title: Download Page
 
 <div class="post">
 	<h1 class="pageTitle">Download Software</h1>
-	<h3>Smart TDM (OOTB version)</h3>
+	<h3>Smart TDM</h3>
 	<div align="center">
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta1/SmartTDM_x64_7.1.0_Setup.msi" class="next button__outline">Download Smart TDM</a>
 	</div>
