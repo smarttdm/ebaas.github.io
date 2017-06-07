@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to install the Smart TDM"
+title:  "How to install Smart TDM (out-of-the-box version)"
 date:   2017-6-1
 ---
 
