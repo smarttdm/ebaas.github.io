@@ -10,7 +10,7 @@ title: Download Page
 	<div align="center">
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta1/SmartTDM_x64_7.1.0_Setup.msi" class="next button__outline">Download Smart TDM</a>
 	</div>
-	<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Installation Help</a></h3>
+	<h3><a class="post-link" href="https://ebaas.github.io/blog/InstallSmartTDM/">Installation Help</a></h3>
 	<h3>ML Studio</h3>
 	<p>ML Studio (Machine Learning Studio) is a GUI tool that provides a modeling environment for deep learning. Click the button below to start downloading the tool.</p>
 	<div align="center">
