@@ -18,7 +18,7 @@ First of all, please make sure your computer meets the following requirements.
 
 ## CNTK Setup
 
-ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep learning framework. You should first install the CNTK on your computer. There are several approaches for setting up CNTK on your computer, I recommend the script-driven installation approach, which is easier.
+ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep learning framework. You should first install the CNTK on your computer. There are several approaches for setting up CNTK on your computer, I recommend the script-driven installation approach, which is simpler.
 
 The instruction of using the script-driven installation is <a class="post-link" href="https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-binary-script">here</a>. It will walk you through the process of installing the Microsoft Cognitive Toolkit (CNTK) for Windows based on a binary distribution.
 
