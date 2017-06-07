@@ -16,7 +16,7 @@ title: About Yong Zhang
   		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges</li>
 		<li>A business-minded techie with a breath of skills in business, technology, and user experiences</li>
   	</ul>
-	<h2>Programming Skills</h2>
+	<h2>Programming skills</h2>
 	<ul>
 		<li>Machine Learning: CNTK, Python, BrainScript</li>
   		<li>Object-oriented Development: In-depth knowledge and expertise in OO design and programming</li>
