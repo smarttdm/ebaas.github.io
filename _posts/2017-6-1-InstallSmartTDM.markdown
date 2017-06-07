@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to install Smart TDM"
+title:  "How to install the Smart TDM"
 date:   2017-6-1
 ---
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+<p class="intro"><span class="dropcap">I</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. </p>
 
 ## Definition List
 
