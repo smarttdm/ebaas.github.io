@@ -19,7 +19,7 @@ title: Download Page
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.1.0.0-beta1/MLStudio_x64_1.0.0_Setup.msi" class="next button__outline">Download ML Studio</a>
 	</p>
 	<p>
-		<a class="post-link" href="https://ebaas.github.io/blog/InstallSmartTDM/">Installation Help of ML Studio</a>
+		<a class="post-link" href="https://ebaas.github.io/blog/InstallMLStudio/">Installation Help of ML Studio</a>
 	</p>
 	<p><b>Note: the downloaded file is a Windows Installer file which should have ".msi" as an extension. Some browsers, like IE, might change the extension of the downloaded file to ".doc". You must rename the extension from ".doc" to ".msi" to install the software.</b></p>
 </div>
