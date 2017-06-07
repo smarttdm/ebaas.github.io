@@ -5,13 +5,13 @@ title: Download Page
 
 <div class="post">
 	<h1 class="pageTitle">Download Software</h1>
-	<h3>Smart TDM</h3>
-	<p>Smart TDM is an enterprise application for Test Data Management (TDM). Click the button below to start downloading Smart TDM (Out-of-the-box version) software.</p>
+	<h3>Ebaas</h3>
+	<p>Ebaas is an enterprise application for Testing Data Management (TDM). Click the button below to start downloading Ebaas (Out-of-the-box version) software.</p>
 	<p>
-	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta1/SmartTDM_x64_7.1.0_Setup.msi" class="next button__outline">Download Smart TDM</a>
+	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta1/SmartTDM_x64_7.1.0_Setup.msi" class="next button__outline">Download Ebaas</a>
 	</p>
 	<p>
-	<a class="post-link" href="https://ebaas.github.io/blog/InstallSmartTDM/">Installation Help of Smart TDM</a>
+	<a class="post-link" href="https://ebaas.github.io/blog/InstallSmartTDM/">Installation Help of Ebaas</a>
 	</p>
 	<h3>ML Studio</h3>
 	<p>ML Studio (Machine Learning Studio) is a GUI tool that provides a modeling environment for deep learning. Click the button below to start downloading the tool.</p>
