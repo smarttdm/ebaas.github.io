@@ -30,7 +30,7 @@ Figure1. - Application Server Window
 
 ## Getting Started
 
-To get started, open one of the recommended web browsers to connect to the application server at <code>http: // localhost: 8080</code>.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and explore the features of Ebaas.
+To get started, open one of the recommended web browsers to connect to the application server at <code>http://localhost:8080</code>.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and explore the features of Ebaas.
 
 | User ID | Password | User Role |
 |-------|--------|---------|
