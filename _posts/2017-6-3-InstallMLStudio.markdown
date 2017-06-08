@@ -32,4 +32,7 @@ Download ML Studio setup from <a class="post-link" href="https://ebaas.github.io
 
 ## Examples
 
+The best way to experiment the ML Studio is to open one of examples located at <code>{installation directory}\Examples</code>.
 
+<img src="{{'/assets/img/2017-06-06-Fig5.png' | prepend: site.baseurl }}" alt="">
+Figure1. - ML Studio Tool loaded with an example
