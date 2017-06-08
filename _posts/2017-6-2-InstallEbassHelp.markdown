@@ -40,4 +40,4 @@ To get started, open one of the recommended web browsers to connect to the appli
 
 <img src="{{'/assets/img/2017-06-01-Fig2.png' | prepend: site.baseurl }}" alt="">
 
-Figure2. - Log in page
+Figure2. - Login page
