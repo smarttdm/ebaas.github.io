@@ -14,7 +14,6 @@ First of all, please make sure your computer meets the following requirements.
 
 * Your computer is running Windows 10 (64 bit)
 * Your computer has installed Microsoft.Net Framework 4.5.2
-* Your computer has one of the web browsers, such as Google Chrome, Windows Edge, or IE 11
 
 ## CNTK Setup
 
@@ -30,9 +29,9 @@ ML Studio utilizes the Google Tensorboard for visualizing the result of training
 
 Download ML Studio setup from <a class="post-link" href="https://ebaas.github.io/download/">here</a>, run the downloaded ML Studio setup, follow the steps until the installation is complete. Then, launch the ML Studio by clicking the ML Studio icon on your desktop.
 
-## Examples
+## Getting Started
 
-The best way to experiment the ML Studio is to open one of examples located at <code>C:\Program Files\Ebaas\MLStudio\Examples</code>, assuming you installed the software on the default path.
+The best way to get started with the ML Studio is to open one of examples located at <code>C:\Program Files\Ebaas\MLStudio\Examples</code>, assuming you installed the software on the default path.
 
 <img src="{{'/assets/img/2017-06-06-Fig5.png' | prepend: site.baseurl }}" alt="">
 Figure1. - ML Studio Tool loaded with an example
