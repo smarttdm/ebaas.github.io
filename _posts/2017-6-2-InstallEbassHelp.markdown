@@ -28,9 +28,9 @@ Find the command at Start->Ebaas->StartServer and click on the command to launch
 
 Figure1. - Application Server Window
 
-## Login to Ebaas
+## Getting Started
 
-Use a recommended web browser to connect to the application at <code>http: // localhost: 8080</code>.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and explore the features of Ebaas.
+To get started, open one of the recommended web browsers to connect to the application server at <code>http: // localhost: 8080</code>.  The login page should appear shown in Figure 2.  You can use any of the following demo user accounts to log in and explore the features of Ebaas.
 
 | User ID | Password | User Role |
 |-------|--------|---------|
