@@ -31,7 +31,7 @@ Download ML Studio setup from <a class="post-link" href="https://ebaas.github.io
 
 ## Getting Started
 
-The best way to get started with the ML Studio is to open one of examples located at <code>C:\Program Files\Ebaas\MLStudio\Examples</code>, assuming you installed the software on the default path.
+The best way to get started with the ML Studio is to open one of examples located at <code>C:\Program Files\Ebaas\MLStudio\Examples</code>, assuming you installed the software on the default path, and click the "Initial Run" command on the toolbar. If the setup is done correctly, you should see the running result in the output window at the bottom.
 
 <img src="{{'/assets/img/2017-06-06-Fig5.png' | prepend: site.baseurl }}" alt="">
 Figure1. - ML Studio Tool loaded with an example
