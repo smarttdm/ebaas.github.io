@@ -19,7 +19,7 @@ title: About Yong Zhang
 	<h2>Programming skills</h2>
 	<ul>
 		<li>Machine Learning: CNTK, Python, BrainScript</li>
-  		<li>Object-oriented Development: In-depth knowledge and expertise in OO design and programming</li>
+  		<li>Metadata driven and Object-oriented Development: In-depth knowledge and expertise in metadata driven architecture, object-oriented design and programming</li>
   		<li>SPA (Single Page Application) Development: JavaScript, AngularJS, Html 5 for front-end development; ASP.Net Web API, Net framework, C# for backend development</li>
 		<li>Tool Development: Windows Form, C#</li>
 		<li>Databases: SQL Server, Oracle</li>
