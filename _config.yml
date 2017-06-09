@@ -1,7 +1,7 @@
 title: Yong Zhang Personal Site
 description: Ebaas, an enterprise application for test data management. ML Studio, a development tool for Machine Learning
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://ebaas.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -22,9 +22,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
+   github: ebaas
+   twitter: johnzhang3400
+   facebook: yongzhang
    email: yongz@yahoo.com.com
 
 google_analytics: "UA-58263416-1"
