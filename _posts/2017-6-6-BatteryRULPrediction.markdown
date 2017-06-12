@@ -2,6 +2,7 @@
 layout: post
 title:  "Implementation of Li-ion Battery RUL Prediction using LSTM"
 date:   2017-6-6
+visible: 1
 ---
 
 <p class="intro"><span class="dropcap">D</span>eep learning is the study of artificial neural networks and related machine learning algorithms that contain more than one hidden layer. Deep learning networks, such as deep feed forward network(DFF), convolution neural network(CNN), recurrent neural network(RNN), long-short term memory (LSTM), and sequence to sequence (Seq2Seq) have been applied to computer vision, speech recognition, natural language processing,  and audio recognition  fields, etc. and have achieved excellent results.</p>
