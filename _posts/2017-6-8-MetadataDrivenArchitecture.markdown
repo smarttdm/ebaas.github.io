@@ -19,7 +19,7 @@ Having models as metadata is only one aspect of Ebaas, it has a variety of engin
 There are two different designs in MDDA, the code generation and the model interpretation. Ebaas is based model interpretation design. Model interpretation has the following advantages in comparison to code generation:
 
 * There is a single code base which is easy to maintain and deploy. Applications are defined by models, not code.
-* 	It enables changes in runtime: Ebaas allows to change the model without stopping applications.
+* It enables changes in runtime: Ebaas allows to change the model without stopping applications.
 
 Using Ebaas as a platform, efficiencies in application development, as well as custom modifications per customer, will become a reality. 
 
