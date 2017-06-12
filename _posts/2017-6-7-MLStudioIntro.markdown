@@ -45,3 +45,7 @@ ML Studio currently uses the Microsoft Cognitive Toolkit (CNTK 2.0) as its deep 
 CNTK, developed by Microsoft, is one of the major open source deep learning frameworks. As of this writing, it’s current release is 2.0 rc3. CNTK supports many types of deep learning networks, including multi-layered Neural Network, CNN, RNN, LSTM and Seq2Seq. CNTK allows defining neural network models using Python language and a configuration script, called BrainScript. CNTK’s BrainScript is relatively easy to use for beginners or those who are not familiar with Python programming.
 
 ML Studio, together with Ebaas platform, provides a complete environment where you can get a head start on applying machine learning technology to your business.
+
+Figure 4 shows an use scenario of Ebaas and ML Studio in a business environment.
+<img src="{{'/assets/img/2017-06-06-Fig9.png' | prepend: site.baseurl }}" alt="">
+Figure4. - Use Scenario
