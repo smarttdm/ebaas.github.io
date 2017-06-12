@@ -4,7 +4,7 @@ title:  "Metadata-driven Architecture"
 date:   2017-6-8
 ---
 
-<p class="intro"><span class="dropcap">E</span>baas is a light-weighted and high-productivity application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to build single page applications for the enterprise rapidly</p>
+<p class="intro"><span class="dropcap">E</span>baas is a light-weighted and high-productivity application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to rapidly build single page applications for business data managements</p>
 
 Some of the challenges found in developing enterprise applications are the ability to deliver a customized solution that meets complex and specific requirements for each customer under a time and budget constraints and adapting to business changes without big efforts.
 
@@ -21,6 +21,6 @@ There are two different designs in MDDA, the code generation and the model inter
 * There is a single code base which is easy to maintain and deploy. Applications are defined by models, not code.
 * It enables changes in runtime: Ebaas allows to change the model without stopping applications.
 
-Using Ebaas as a platform, efficiencies in application development, as well as custom modifications per customer, will become a reality. 
+Using Ebaas as a platform, efficiencies in application development, as well as custom modifications per customer, will become a reality.
 
 Ebaas has been successfully used to build solutions for some large manufacturers, including Automobile, Machinery, Renewal Energy, and Auto Parts manufacturing industries in China, in the areas of test and measurement data management, task planning and tracking, and product quality control.
