@@ -164,7 +164,3 @@ The working environment for this post consists of following software and tools:
 * Ebaas 7.1.0
 * ML Studio 1.0.0
 * Microsoft SQL Server Compact Edition (Embedded in Ebaas)
-
-Figure 9 shows the role that each piece of software plays in a whole picture.
-<img src="{{'/assets/img/2017-06-06-Fig9.png' | prepend: site.baseurl }}" alt="">
-Figure9. - Use Scenario
