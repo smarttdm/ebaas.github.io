@@ -2,6 +2,7 @@
 layout: post
 title:  "Introduction to ML Studio"
 date:   2017-6-7
+visible: 1
 ---
 
 <p class="intro"><span class="dropcap">M</span>L Studio is an interactive, GUI-based tool you can use to build, test, and deploy deep learning models from your data. ML Studio publishes models as web services on Ebaas platform that can easily be consumed by a custom application built on Ebaas.</p>
