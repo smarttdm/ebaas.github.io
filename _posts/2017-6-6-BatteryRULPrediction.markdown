@@ -107,14 +107,14 @@ Not only it takes multiple steps, but it also has many files involved in the pro
 
 In a complex business environment, we are talking about the possibility of developing hundreds of models by users in different business units. It will become tremendous challenging and error-prone task without a tool.
 
-To simplify the process of developing models, I developed a tool, called ML Studio (Machine Learning Studio). ML Studio is a GUI tool that provides a modeling environment for deep learning. It allows users to focus on aspects of specifying and optimizing models without doing all the tedious jobs. Here are some of the features that ML Studio offers:
+To simplify the process of developing models, I developed a tool, called ML Studio (Machine Learning Studio). ML Studio is a visual tool that provides a productive modeling environment for deep learning. It allows users to focus on aspects of specifying and optimizing models without doing all the tedious jobs. Here are some of the features that ML Studio offers:
 
 * Create or open modeling process templates: a template contains steps of a modeling process, including data pre-processing, model definition, learning parameter setting, and data post-processing;
 * Create or modify a template by drag and drop components, and setting component’s parameters. Then save the template as a local file;
 * Execute actions of pre-processing, training, testing, validating model, and post-processing;
 * Compare models with different definition or learning parameters using Tensorboard;
 * Manage and view data files and scripts associated with the model;
-* Deploy a trained model to Smart TDM server as a service;
+* Deploy a trained model to Ebaas server as a web service;
 
 As demonstrated in Figure 5, it is the main screen of the ML Studio, in which a process template is in the middle, the components of templates are to the left, and the settings of a selected component in the template are to the right.
 
