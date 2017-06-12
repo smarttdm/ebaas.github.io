@@ -14,13 +14,17 @@ Ebaas is designed and built from the ground up based on a metadata-driven archit
 
 For example, you can use the object model to define data structure of your application (classes, relationships, and attributes) as well as access control policy, methods, events and actions to events. All parts of the data model are defined as metadata. Ebaas uses a relational database to store all metadata and all application data. To optimize application performance, Ebaas keeps all application metadata in memory.
 
-Having models as metadata is only one aspect of Ebaas, it has a variety of engines that interprets metadata to render an entire application and provides an ability to define or modify the metadata via GUI tools.
+To make meta-driven application feasible, Ebaas has implemented multiple engines that interpret metadata to render an entire application and provides an ability to define or modify the metadata via GUI tools. 
 
-There are two different designs in MDDA, the code generation and the model interpretation. Ebaas is based model interpretation design. Model interpretation has the following advantages in comparison to code generation:
+Ebaas has the following differences in comparison to other application platforms on the market:
 
-* There is a single code base which is easy to maintain and deploy. Applications are defined by models, not code.
-* It enables changes in runtime: Ebaas allows to change the model without stopping applications.
+* It is free: It provides a free version that comes with an embedded database. You can use it out-of-the-box after installation.
+* No code development: It provides tools to create and modify models for building an entire application. It is possible to build a working enterprise application within a few days.
+* Single Page Application: It is a platform for building web-based enterprise applications with a SPA architecture in which there is a clear separation of front-end and back-end.
+* Multi-tenancy: Since an application is defined by model instead of code, one Ebaas installation can support applications for multiple customers, sharing the same application server and database.
+* Object-oriented model: It supports object-oriented modeling which simplifies business data models.
+* Model interpretation: There are two different designs in MDDA, the code generation and the model interpretation. Ebaas is based model interpretation design, which is easy to maintain and deploy and enables changes in runtime without stopping applications.
 
 Using Ebaas as a platform, efficiencies in application development, as well as custom modifications per customer, will become a reality.
 
-Ebaas has been successfully used to build solutions for some large manufacturers, including Automobile, Machinery, Renewal Energy, and Auto Parts manufacturing industries in China, in the areas of test and measurement data management, task planning and tracking, and product quality control.
+Ebaas has been successfully used to build solutions for some large manufacturers, including Automobile, Machinery, Renewal Energy, and Auto Parts manufacturing industries in China, in the areas of test and measurement data management, master data management, etc.
