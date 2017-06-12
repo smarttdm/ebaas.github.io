@@ -2,6 +2,7 @@
 layout: post
 title:  "Metadata-driven Architecture"
 date:   2017-6-8
+visible: 1
 ---
 
 <p class="intro"><span class="dropcap">E</span>baas is a light-weighted and high-productivity application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to rapidly build single page applications for business data managements</p>
