@@ -6,7 +6,7 @@ title: Download Page
 <div class="post">
 	<h1 class="pageTitle">Download Software</h1>
 	<h3>Ebaas</h3>
-	<p>Ebaas is an enterprise application for Testing Data Management (TDM). Click the button below to start downloading Ebaas (Out-of-the-box version) software.</p>
+	<p>Ebaas is an application platform for Testing Data Management (TDM). Click the button below to start downloading Ebaas (Out-of-the-box version) software.</p>
 	<p>
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta2/Ebaas_x64_7.1.0_beta2_Setup.msi" class="next button__outline">Download Ebaas</a>
 	</p>
