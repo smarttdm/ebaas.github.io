@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction To ML Studio"
+title:  "Introduction to ML Studio"
 date:   2017-6-7
 ---
 
