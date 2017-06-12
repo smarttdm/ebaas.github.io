@@ -4,9 +4,7 @@ title:  "Installation of Ebaas"
 date:   2017-6-2
 ---
 
-<p class="intro"><span class="dropcap">E</span>baas is an enterprise application for Testing Data Management (TDM). Testing Data Management software in product testing fields can shorten the product test cycle, lower test costs, accelerate market-to-market. </p>
-
-<p>In this post, you will find the instructions for installing the Ebaas (out-of-the-box version), launching the application server, and log in using one of the demo accounts. If you ran into problems, please refer to "Troubleshooting" page for possible solutions.</p>
+<p class="intro"><span class="dropcap">I</span>n this post, you will find the instructions for installing the Ebaas (out-of-the-box version), launching the application server, and log in using one of the demo accounts. If you ran into problems, please refer to "Troubleshooting" page for possible solutions.</p>
 
 ## Installation Requirements
 
