@@ -233,11 +233,14 @@ Fig. 19: Settings of the “Issue Tracking” menu item
 
 Table 2: Settings of the “Issue Tracking” menu item
 
-| User Name | Password | User Role |
+| Setting Name | Setting Value | Description |
 |-------|--------|---------|
-| demo1 | 888 | Administrator |
-| demo2 | 888 | Lab manager |
-| demo3 | 888 | Lab operator |
+| Name | Issue Tracking | A unique name of a menu item |
+| Title | Issue Tracking | The display text of a menu item |
+| Navigation URL | app.smarttables.datagrid | The url of the “datagrid” component |
+| Database | TDM 1.0 | The name of a data model |
+| Class | Issue Tracking | The display text of a menu item |
+| Icon Name | fa fa-fw fa-bug | A definition of an icon in Font Awesome icon sets |
 
 Step 3: Save the sitemap model
 
