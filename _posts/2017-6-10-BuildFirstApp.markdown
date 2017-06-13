@@ -7,7 +7,7 @@ visible: 1
 
 <p class="intro"><span class="dropcap">T</span>his tutorial describes how to build a simple application that tracks the assignment, status, and progress of issues related to a project. This tutorial walks you through all the steps necessary to build a functional issue tracking application. After completing this tutorial, you will be able to understand the fundamentals of how to use Ebaas through hands-on experience. </p>
 
-## Set up the Ebaas
+## Set up Ebaas
 
 To walk through the tutorial, you need to install Ebaas on your computer. The system requirements are following:
 
@@ -16,6 +16,7 @@ To walk through the tutorial, you need to install Ebaas on your computer. The sy
 *	Google Chrome, Windows Edge, or IE 11
 
 Step 1:	Download Ebaas software from <a class="post-link" href="https://ebaas.github.io/download/">here</a>.
+
 Step 2:	Install the downloaded software following the <a class="post-link" href="https://ebaas.github.io/blog/InstallEbassHelp/">steps</a>.
 
 ## Issue class details
@@ -42,8 +43,10 @@ The data model is the foundation of an application. Usually, a data model for a 
 
 Ebaas provides a WinForms based tool, called Design Studio, to create or modify data models. We will walk you through the steps of creating a class for issues.
 First, make sure the Ebaas server is started.
-Step 1: Then, open the DesignStudio tool (Start->Ebaas->DesignStudio).
-Step 2: Open an existing data model
+
+### Step 1: Then, open the DesignStudio tool (Start->Ebaas->DesignStudio).
+
+### Step 2: Open an existing data model
 
 Before you create a class, you need to create a data model for the application from scratch. To save your time, you can open an existing data model, called TDM, add the Issue class to the data model.
 
@@ -53,7 +56,7 @@ The Fig. 1 shows the steps of opening the TDM data model as the admin user. The 
 
 Fig. 1 Open an existing data model
 
-Step 3: Create the Issue class
+### Step 3: Create the Issue class
 
 The tree on the left of Design Studio represents the data model. The nodes under "Classes" node are definitions of data classes. To create a new class, select "Add…" menu item in the popup window by right-clicking on the "Classes" node (See Fig. 2).
 
