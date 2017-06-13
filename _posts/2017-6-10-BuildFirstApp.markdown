@@ -24,11 +24,11 @@ The Issue class is similar to a table in the database terminology. Since a data 
 
 Table 1: Attributes of the Issue class
 
-| User Name | Password | User Role |
-|-------|--------|---------|
-| demo1 | 888 | Administrator |
-| demo2 | 888 | Lab manager |
-| demo3 | 888 | Lab operator |
+| Attribute Name | Type | Is Required | Constraint | Description |
+|-------|--------|---------|---------|---------|
+| ID | Integer | Yes | Primary Key | A unique numeric ID that identifies an issue; Created by the application automatically |
+| Subject | String | Yes | None | A summary of the issue |
+| Description | String | No | None | A detailed description of the issue |
 
 ## Create Issue Class in Design Studio
 
