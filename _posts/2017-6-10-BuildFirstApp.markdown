@@ -44,9 +44,9 @@ The data model is the foundation of an application. Usually, a data model for a 
 Ebaas provides a WinForms based tool, called Design Studio, to create or modify data models. We will walk you through the steps of creating a class for issues.
 First, make sure the Ebaas server is started.
 
-Step 1: Then, open the DesignStudio tool (Start->Ebaas->DesignStudio).
+#### Step 1: Then, open the DesignStudio tool (Start->Ebaas->DesignStudio).
 
-Step 2: Open an existing data model
+#### Step 2: Open an existing data model
 
 Before you create a class, you need to create a data model for the application from scratch. To save your time, you can open an existing data model, called TDM, add the Issue class to the data model.
 
