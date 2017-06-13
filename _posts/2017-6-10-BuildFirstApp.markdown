@@ -29,6 +29,12 @@ Table 1: Attributes of the Issue class
 | ID | Integer | Yes | Primary Key | A unique numeric ID that identifies an issue; Created by the application automatically |
 | Subject | String | Yes | None | A summary of the issue |
 | Description | String | No | None | A detailed description of the issue |
+| SubmitBy | String | Yes | User List | The user who created the record |
+| SubmitDate | Date | Yes | None | Date the record was created |
+| Status | String | Yes | Enumeration | The issue status. Automatically set to Open when new record is created |
+| Progress | Integer | No | None | The progress of the issue, from 0 to 100 |
+| CloseDate | Date | No | None | Date the issue was closed |
+| Owner | String | Yes | User List | The person who owns this issue |
 
 ## Create Issue Class in Design Studio
 
