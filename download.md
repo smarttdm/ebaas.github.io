@@ -8,7 +8,7 @@ title: Download Page
 	<h3>Ebaas</h3>
 	<p>Ebaas is an application platform that enables rapid development of enterprise applications. Click the button below to start downloading Ebaas (Out-of-the-box version) software.</p>
 	<p>
-	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta2/Ebaas_x64_7.1.0_beta3_Setup.msi" class="next button__outline">Download Ebaas</a>
+	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta3/Ebaas_x64_7.1.0_beta3_Setup.msi" class="next button__outline">Download Ebaas</a>
 	</p>
 	<p>
 	<a class="post-link" href="https://ebaas.github.io/blog/InstallEbassHelp/">Setting up Ebaas and getting started</a>
