@@ -55,8 +55,8 @@ Before you create a class, you need to create a data model for the application f
 The Fig. 1 shows the steps of opening the TDM data model as the admin user. The username for the admin user is "admin" and the default password is "admin" too. 
 
 <img src="{{'/assets/img/2017-06-10-Fig1.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 1 Open an existing data model
+
 #### Step 3: Create the Issue class
 
 The tree on the left of Design Studio represents the data model. The nodes under "Classes" node are definitions of data classes. To create a new class, select "Add…" menu item in the popup window by right-clicking on the "Classes" node (See Fig. 2).
@@ -91,7 +91,7 @@ Fig. 5. Settings of “ID” attribute
 
 #### Step 5: Create “Subject” attribute
 
-Creating “Subject” attribute is similar to that of “ID” attribute, except that the settings are little different. The data type is “String” and “Is Required” is True (See Fig. 5). When an attribute is required, it gets validated at submitting a form.
+Creating “Subject” attribute is similar to that of “ID” attribute, except that the settings are little different. The data type is “String” and “Is Required” is True (See Fig. 6). When an attribute is required, it gets validated at submitting a form.
 
 <img src="{{'/assets/img/2017-06-10-Fig6.png' | prepend: site.baseurl }}" alt="">
 
@@ -99,7 +99,7 @@ Fig. 6, Settings of “Subject” attribute
 
 #### Step 6: Create “Description” attribute
 
-Some of the attribute settings are related to appearances of an attribute in a form. You may want the “Description” attribute to appear as a text area element in a form. The setting for it is to set “Is Multiple-Lined” to True (See Fig. 6).
+Some of the attribute settings are related to appearances of an attribute in a form. You may want the “Description” attribute to appear as a text area element in a form. The setting for it is to set “Is Multiple-Lined” to True (See Fig. 7).
 
 <img src="{{'/assets/img/2017-06-10-Fig7.png' | prepend: site.baseurl }}" alt="">
 
@@ -144,15 +144,11 @@ Fig.11: Add an Enum constraint
 
 Then, select the newly added “IssueStatus” constraint, click the “Values” setting to launch a dialog window, and define the values in the enumeration (see Fig. 12). Note that it is recommended to use integers as Enum values and type the return key in the text box after changing the display text.
 
-<img src="{{'/assets/img/2017-06-10-Fig12.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-06-10-Fig13.png' | prepend: site.baseurl }}" alt="">
 
 Fig. 12: Define Enum values for “IssueStatus” constraint
 
 Next, you can create the “Status” attribute in the Issues class, select “IssueStatus” as its constraint (see Fig. 13).
-
-<img src="{{'/assets/img/2017-06-10-Fig13.png' | prepend: site.baseurl }}" alt="">
-
-Fig. 13: Set the List constraint to “SubmitBy” attribute
 
 #### Step 10: Create “Progress” attribute
 
