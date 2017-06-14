@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Build a Customized Form with Ebaas"
+title:  "Build a customized form with Ebaas"
 date:   2017-5-1
 visible: 1
 ---
@@ -9,11 +9,11 @@ visible: 1
 
 ### Introdcution of Form Designer
 
-The Form Designer is a web-based tool in Ebaas. It enables you to create or modify an HTML-based form template which is used to render a form. 
+The Form Designer is a web-based tool in Ebaas. It enables you to create or modify an HTML-based form template which is used by a server-side form engine to render a form. 
 
 Unlike other form designers on the market, the Form Designer in Ebaas focuses on layouts of forms, leaving other aspects of form settings to the data model, such as field types, field appearances, validation rules, access controls, options in drop-down lists, etc. Therefore, the process of creating a form template is straightforward.
 
-The Form Designer supports Bootstrap style based layout to design Responsive forms that can be displayed on mobile devices. 
+The Form Designer supports Bootstrap style based layout to design Responsive forms that can be displayed on mobile devices. The implementaion of the Form Designer is using CKEDITOR.
 
 ## Tutorial of building a form
 
