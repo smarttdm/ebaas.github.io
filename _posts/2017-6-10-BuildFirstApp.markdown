@@ -62,7 +62,6 @@ Fig. 1 Open an existing data model
 The tree on the left of Design Studio represents the data model. The nodes under "Classes" node are definitions of data classes. To create a new class, select "Add…" menu item in the popup window by right-clicking on the "Classes" node (See Fig. 2).
 
 <img src="{{'/assets/img/2017-06-10-Fig2.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 2 Adding a class
 
 Then, enter "Issues" for both class name and caption, and click "OK" button. Notice that an icon called "Issues" appears under the "Classes" node which represents the new class.
@@ -74,19 +73,16 @@ After the class is created, you will create attributes of the class according to
 First, select “Add…” menu item from the popup by clicking “Issues” node on the data model tree (See Fig. 3)
 
 <img src="{{'/assets/img/2017-06-10-Fig3.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 3. Add an attribute
 
 Next, select “Simple Attribute” type in the “Add New Item Dialog”, enter “ID” as a name and caption of the attribute, and click “OK” button. Notice that the newly created attribute appears under the node representing the Issue class.
 
 <img src="{{'/assets/img/2017-06-10-Fig4.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 4. Add simple attribute
 
 Then, select the “ID” attribute node, the settings appear on the lower right of the window where you can define parameters for the selected attribute. Here, you need to select “Integer” as data type and set “Is AutoIncrement” to “True” (See Fig. 4), meaning that the value of "ID" attribute is an integer and is created automatically.
 
 <img src="{{'/assets/img/2017-06-10-Fig5.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 5. Settings of “ID” attribute
 
 #### Step 5: Create “Subject” attribute
@@ -94,7 +90,6 @@ Fig. 5. Settings of “ID” attribute
 Creating “Subject” attribute is similar to that of “ID” attribute, except that the settings are little different. The data type is “String” and “Is Required” is True (See Fig. 6). When an attribute is required, it gets validated at submitting a form.
 
 <img src="{{'/assets/img/2017-06-10-Fig6.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 6, Settings of “Subject” attribute
 
 #### Step 6: Create “Description” attribute
@@ -102,7 +97,6 @@ Fig. 6, Settings of “Subject” attribute
 Some of the attribute settings are related to appearances of an attribute in a form. You may want the “Description” attribute to appear as a text area element in a form. The setting for it is to set “Is Multiple-Lined” to True (See Fig. 7).
 
 <img src="{{'/assets/img/2017-06-10-Fig7.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 7: Setting of “Description” attribute
 
 #### Step 7: Create “SubmitBy” attribute
@@ -113,19 +107,16 @@ Unlike an Enum constraint which has a fixed set of values, a List constraint can
 The way to create a List constraint is to add a List constraint with a name “IssueSubmitter” to the “Constraints” node in the tree (See Fig. 8).
 
 <img src="{{'/assets/img/2017-06-10-Fig8.png' | prepend: site.baseurl }}" alt="">
-
 Fig.8: Add a List constraint
 
 The settings of the List constraint is shown in Fig. 9, where the “Newtera.Common.MetaData.UsersListHandler,Newtera.Common” is the definition for a predefined list handler that generates registered users.
 
 <img src="{{'/assets/img/2017-06-10-Fig9.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 9: Settings of the List constraint for “SubmitBy” attribute
 
 Once you have created the List constraint, you can create the “SubmitBy” attribute in the Issues class, select “IssueSubmitter” as its constraint (see Fig. 10).
 
 <img src="{{'/assets/img/2017-06-10-Fig10.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 10: Set the List constraint to “SubmitBy” attribute
 
 #### Step 8: Create “SubmitDate” attribute
@@ -139,13 +130,11 @@ The value of “Status” attribute is one of Enum values representing the statu
 An Enum constraint is a constraint with a fixed set of values. To define an Enum constraint for the “Status” attribute, you can add an Enumeration constraint with a name “IssueStatus” to the “Constraints” node (See Fig. 11).
 
 <img src="{{'/assets/img/2017-06-10-Fig11.png' | prepend: site.baseurl }}" alt="">
-
 Fig.11: Add an Enum constraint
 
 Then, select the newly added “IssueStatus” constraint, click the “Values” setting to launch a dialog window, and define the values in the enumeration (see Fig. 12). Note that it is recommended to use integers as Enum values and type the return key in the text box after changing the display text.
 
 <img src="{{'/assets/img/2017-06-10-Fig13.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 12: Define Enum values for “IssueStatus” constraint
 
 Next, you can create the “Status” attribute in the Issues class, select “IssueStatus” as its constraint.
@@ -165,7 +154,6 @@ Like the “SubmitBy” attribute, the value of “Owner” attribute is one of 
 You need to create a List constraint called “IssueOwner” under “Constraints” node. The settings of the List constraint is the same as that of the “IssueSubmitter” constraint (see Fig. 14)
 
 <img src="{{'/assets/img/2017-06-10-Fig14.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 14: Settings of the List constraint for “IssueOwner” attribute
 
 Then, you can create the “Owner” attribute, select “IssueOwner” as its constraint.
@@ -177,7 +165,6 @@ By now, you have created all attributes of the “Issues” class. Before you sa
 Just select the "Issues" class node, click the "Primary Keys" setting (See Fig. 15), select the “ID” attribute as a primary key, and then click “OK” button.
 
 <img src="{{'/assets/img/2017-06-10-Fig15.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 15: Select “ID” as a primary key of the “Issues” class
 
 #### Step 14: Save the data model
@@ -187,7 +174,6 @@ So far, all the changes you have made are still in the DesignStudio. Now it is t
 Click the icon on the toolbar (see Fig 16) to save the model. The Design Studio validates the model before saving a data model to the server. If there are validating errors, it aborts the saving and shows the errors.
 
 <img src="{{'/assets/img/2017-06-10-Fig16.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 16: Saving the data model to the database
 
 Saving a data model can take some time. Please wait until it is done. 
@@ -211,7 +197,6 @@ First, make sure the Ebaas server is running, Then open the tool from Start->Eba
 The Fig. 17 shows the steps of opening the SiteMapStudio as the admin user. The username for the admin user is "admin" and the default password is "admin" too. 
 
 <img src="{{'/assets/img/2017-06-10-Fig17.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 17 Open the SiteMapStudio
 
 #### Step 2: Editing an existing sitemap model
@@ -221,7 +206,6 @@ As an experiment, you can add a UI component for the Issues class to the main me
 Fig. 18 shows the way to create a menu item under the “Main Menu” node of the site map.
 
 <img src="{{'/assets/img/2017-06-10-Fig18.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 18: Create a menu item
 
 You enter “Issue Tracking” as a name of the menu item in the popup dialog and click “OK” button. A new node with name “Issue Tracking” should appear at the bottom of the tree.
@@ -231,7 +215,6 @@ You enter “Issue Tracking” as a name of the menu item in the popup dialog an
 Click on the “Issue Tracking” item you just created, next step is to define the settings of the item (Fig. 19). The table 2 below gives you the settings you should enter:
 
 <img src="{{'/assets/img/2017-06-10-Fig19.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 19: Settings of the “Issue Tracking” menu item
 
 Table 2: Settings of the “Issue Tracking” menu item
@@ -264,7 +247,6 @@ Use a recommended web browser to connect to the application at http: // localhos
 Once you have logged in, you should be able to see the “Issue Tracking” menu item at the bottom of the "Home" page (Fig. 20), click the menu item to get to the “datagrid” page for issues.
 
 <img src="{{'/assets/img/2017-06-10-Fig20.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 20: Home Page
 
 #### Step 3: Add, update and delete an issue
@@ -274,13 +256,11 @@ The grid is empty at the first time. You can add an instance by clicking the gre
 Enter some values in the form, submit it to the server to create an issue instance in the class. When you close the form, you will be able to see instance(s) displayed in the grid.
 
 <img src="{{'/assets/img/2017-06-10-Fig21.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 21: The Issue Form 
 
 If you want to modify or delete an instance, just click on the instance to make the commands appear under the row (See Fig. 21).
 
 <img src="{{'/assets/img/2017-06-10-Fig22.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 22: The datagrid page 
 
 #### Step 4: Filtering & sorting
@@ -293,7 +273,7 @@ That’s it. You have just built a simple issue tracking application without wri
 
 ## Related Topics:
 
-1.	Build a customized form
+1.	<a class="post-link" href="https://ebaas.github.io/blog/BuildCustomizedForm/">Build a customized form</a>
 2.	Form Initialization and autofill
 3.	Setup data access control rules
 4.  Import and export data
