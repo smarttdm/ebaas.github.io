@@ -287,11 +287,11 @@ Fig. 22: The datagrid page
 
 You can filter the instances in the grid by entering, selecting filter values in the header rows, and also sort the instances by clicking on a column.
 
-The datagrid and form are two of very powerful UI components. I will explain their advanced features in the advanced topics.
+The datagrid and form are two of very powerful UI components. I will explain their advanced features in the related topics.
 
 That’s it. You have just built a simple issue tracking application without writing a single line of code. With the meta-data driven architecture of Ebaas, you can pretty much build a sophisticated application by building the models that describes the business requirements.
 
-## Advanced Topics:
+## Related Topics:
 
 1.	Build a customized form
 2.	Form Initialization and autofill
