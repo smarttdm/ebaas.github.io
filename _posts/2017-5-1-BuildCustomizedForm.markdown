@@ -33,7 +33,6 @@ Since the Form Designer is web-based, you need to use a web browser to connect t
 Once logged in, you will find “Form Designer” menu item (see Fig. 2). Click the menu item to open the Form Designer.
 
 <img src="{{'/assets/img/2017-5-1-Fig2.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 2: “Form Designer” menu item
 
 #### Step 2: Create a form template
@@ -41,7 +40,6 @@ Fig. 2: “Form Designer” menu item
 To create a new form for the “Issues” class, follow the steps as illustrated in Fig. 3.
 
 <img src="{{'/assets/img/2017-5-1-Fig3.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 3: Open a new form
 
 Note: The form with name “default” is used to replace the auto-generated form. Forms with names other than "default" are used by custom commands that will be covered in another related topic.
@@ -51,7 +49,6 @@ Note: The form with name “default” is used to replace the auto-generated for
 To create a form title, type “Issue Form” in the area and format the text with the formatting commands in the toolbar (See Fig. 4). 
 
 <img src="{{'/assets/img/2017-5-1-Fig4.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 4: Insert Form Title
 
 #### Step 4: Insert Bootstrap grid
@@ -61,13 +58,11 @@ Here you want to use Bootstrap grid as form layout, which makes the form respons
 To insert a Bootstrap grid, click “Insert Grid" icon in the toolbar (See Fig. 5), specify the number of rows and columns of the grid to be inserted in a dialog, and click "OK". A grid will be placed at the cursor position in the form.
 
 <img src="{{'/assets/img/2017-5-1-Fig5.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 5: Insert a grid in form
 
 For the form for an issue, you can create a layout like that in Fig. 6 or your own design.
 
 <img src="{{'/assets/img/2017-5-1-Fig6.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 6: An Issue form layout
 
 #### Step 5: Insert form fields
@@ -75,7 +70,6 @@ Fig. 6: An Issue form layout
 Now, you can insert attributes of the “Issues” class one by one into cells of the form. Fig. 7 shows the steps of inserting the “ID” attribute into a cell.
 
 <img src="{{'/assets/img/2017-5-1-Fig7.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 7: Insert “ID” attribute into form
 
 #### Step 6: Save form
@@ -83,7 +77,6 @@ Fig. 7: Insert “ID” attribute into form
 When you fill up all cells in the form with the attributes, you need to save the form by clicking the “Save” icon on the toolbar (See Fig. 8).
 
 <img src="{{'/assets/img/2017-5-1-Fig8.png' | prepend: site.baseurl }}" alt="">
-
 Fig. 8: Save the form
 
 #### Step 6: Preview form
@@ -100,7 +93,6 @@ By now, you have created a customized form that will replace the auto-generated 
 Now, if you go back to the Issue Tracking page from the “Home” page, click the “+Add” button or the “Edit” button of any issue instances, you will see the customized form you just built popping up (See Fig. 10)
 
 <img src="{{'/assets/img/2017-5-1-Fig10.png' | prepend: site.baseurl }}" alt="">
-
 Fig 10. The customized Issue form
 
 
