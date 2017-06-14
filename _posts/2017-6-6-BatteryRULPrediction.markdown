@@ -14,7 +14,7 @@ Deep learning can be solutions to many of problems in enterprises. Like any new 
 * Shortage of Machine learning talents. Hiring data scientists is hard, and hiring data scientists with business domain knowledge is even more difficult. 
 * Lack of necessary products and tools. Although there are many open source deep learning frameworks, for example, Tensorflow, Caffe, CNTK and Keras, etc., but the learning curve is high. Most of the frameworks focus on building deep learning models and do not provide a solution as to how to deploy and use of models. It is still up to enterprises to develop what is lacking, making the development, deployment and use of deep learning a long cycle.
 
-In this post, I will address the above issues by introducing some of the work I have done in past years and recently. Here, I am using Li-ion battery RUL prediction as an example to demonstrate the software that I have developed. 
+In this post, I will address the above issues by introducing some of the work I have done in past years and recently. I am using Li-ion battery RUL prediction as an example to demonstrate an implemention. 
 
 There are many research on Li-ion battery RUL prediction using various techniques and algorithms. But the focus here is not on the accuracy of predicting model, but rather on design and implementation of a software system that makes it easy for businesses to apply deep learning to test data from the experiments.
 
@@ -43,14 +43,14 @@ Deep learning has shown very promising results in many fields, but the use of op
 
 The solution that I have been working on consists of the following approaches:
 
-First of all, I considered Li-ion battery RUL prediction as a time series problem. Unlike regression predictive modeling, time series also adds the complexity of a sequence dependence among the input variables. A type of neural network designed to handle sequence dependence is called LSTM (Long Short-Term Memory).
+First, I treat Li-ion battery RUL prediction as a time series problem. Unlike regression predictive modeling, time series also adds the complexity of a sequence dependence among the input variables. A type of neural network designed to handle sequence dependence is called LSTM (Long Short-Term Memory).
 
-In my solution, I choose to develop LSTM networks using the CNTK framework, an open source deep learning framework developed by Microsoft. 
+In my implementation, I choose to develop LSTM networks using the CNTK framework, an open source deep learning framework developed by Microsoft. 
 
 Secondly, among battery cycle life data I have, I used the capacity/cycle data sequence as time series to train and test the LSTM model.
 Then, the trained model is deployed to an application server, and prediction of battery RUL can be performed on a web-based production environment.
 
-To facilitate the process of collecting data, preprocessing data, developing an optimized model, deploying the model, and use of the model, I have developed a software platform and tools as an integrated environment to make the process as smooth as possible.
+To facilitate the process of collecting data, preprocessing data, developing an optimized model, deploying the model, and use of the model, I have used the Ebaas plaform and ML Studio tool as an integrated environment to make the process as smooth as possible.
 Although I am using battery RUL prediction as an example to demonstrate this environment, it can be used to accomplish other types of tasks involving machine learning.
 
 Following, I will introduce the solution in detail based on the process, generally divided into the following sections:
@@ -77,9 +77,9 @@ Test data may come in with a variety of file formats, such as CSV, Excel, or oth
 
 To deal with the problem, one of the primary features in the Ebaas is to automate data processing process that can deal with discrepancies of test data in their original formats. I will describe the implementation of the data processing automation in other posts. The main idea is to enable users to upload test data files using a web browser and let the system do the dirty work of processing data, without any manual intervention.
 
-Ebaas is a SPA (Single Page Application) application that I have developed. Its front-end is implemented with HTML5, JavaScript, AngularJS, and Bootstrap. Its back-end is an application server implemented with .net framework. The application server provides Restful API as services to the front-end or other clients. Ebaas can work with different relational databases, such as SQL Server Compact Edition, SQL Server and Oracle. Ebaas is designed to be a software platform for Data Management Applications. It has a wealth of features that I will introduce in follow-up posts.
+Ebaas is a model-driven application platform that I have developed. Its front-end is implemented with HTML5, JavaScript, AngularJS, and Bootstrap. Its back-end is an application server implemented with .net framework. The application server provides Restful API as services to the front-end or other clients. Ebaas can work with different relational databases, such as SQL Server Compact Edition, SQL Server and Oracle.
 
-For our battery RUL prediction example, we first need to create a test item instance, called Li-ion battery cycle life test, in Ebaas and then upload the four battery test files as a test result to the server as shown in Figure 2.
+For our battery RUL prediction example, we first need to create a test item instance, called Li-ion battery cycle life test, in the database and then upload the four battery test files as a test result to the server as shown in Figure 2.
 
 <img src="{{'/assets/img/2017-06-06-Fig2.png' | prepend: site.baseurl }}" alt="">
 Figure2. - Upload the Li-ion battery test data files
@@ -108,7 +108,7 @@ Not only it takes multiple steps, but it also has many files involved in the pro
 
 In a complex business environment, we are talking about the possibility of developing hundreds of models by users in different business units. It will become tremendous challenging and error-prone task without a tool.
 
-To simplify the process of developing models, I developed a tool, called ML Studio (Machine Learning Studio). ML Studio is a visual tool that provides a productive modeling environment for deep learning. It allows users to focus on aspects of specifying and optimizing models without doing all the tedious jobs. Here are some of the features that ML Studio offers:
+To simplify the process of developing models, I developed the ML Studio (Machine Learning Studio). ML Studio is a visual tool that provides a productive modeling environment for deep learning. It allows users to focus on aspects of specifying and optimizing models without doing all the tedious jobs. Here are some of the features that ML Studio offers:
 
 * Create or open modeling process templates: a template contains steps of a modeling process, including data pre-processing, model definition, learning parameter setting, and data post-processing;
 * Create or modify a template by drag and drop components, and setting component’s parameters. Then save the template as a local file;
@@ -148,13 +148,11 @@ Since Ebaas may have many models deployed, you may wonder how it knows which mod
 
 ## Summary
 
-So far, I have demonstrated the whole process of developing and applying an LSTM model to the problem of Li-ion battery RUL prediction, using Ebaas software and ML Studio tool that I developed. Lots of details are omitted to keep the post short. I plan to write posts to offer more information. 
+So far, I have demonstrated the whole process of developing and applying an LSTM model to the problem of Li-ion battery RUL prediction, using the Ebaas and ML Studio. Lots of details are omitted to keep the post short. 
 
 Although machine learning can be used in many fields in businesses, my focus has been applying machine learning technology in solving the problems in product testing or experiment area. Machine learning can potentially apply to various fields, including product reliability evaluations, predicting testing results, preventing repeat test tasks, etc. The battery RUL prediction is just an example of the many applications.
 
 In short, applications of machine learning technology in product test field can shorten the product test cycle, reduce test costs, accelerate market-to-market.
-
-If you are interested in trying out the software I demonstrated in this post, you can download the free version of Ebaas and ML Studio from the “Download” page. 
 
 The working environment for this post consists of following software and tools:
 
