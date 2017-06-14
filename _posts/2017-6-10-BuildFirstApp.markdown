@@ -295,6 +295,7 @@ That’s it. You have just built a simple issue tracking application without wri
 
 1.	Build a customized form
 2.	Form Initialization and autofill
-3.	Setup data access control rules 
-4.	Create a form-driven workflow
-5.	Enhance user interface with custom commands
+3.	Setup data access control rules
+4.  Import and export data
+5.	Create a form-driven workflow
+6.	Enhance user interface with custom commands
