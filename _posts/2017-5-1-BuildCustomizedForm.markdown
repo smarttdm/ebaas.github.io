@@ -90,7 +90,7 @@ By now, you have created a customized form that will replace the auto-generated 
 
 ## Try it out
 
-Now, if you go back to the Issue Tracking page from the “Home” page, click the “+Add” button or the “Edit” button of any issue instances, you will see the customized form you just built popping up (See Fig. 10)
+Now, if you go back to the "Issue Tracking" page from the “Home” page, click the “+Add” button or the “Edit” button of any issue instances, you will see the customized form you just built popping up (See Fig. 10)
 
 <img src="{{'/assets/img/2017-5-1-Fig10.png' | prepend: site.baseurl }}" alt="">
 Fig 10. The customized Issue form
