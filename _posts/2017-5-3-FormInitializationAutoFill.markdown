@@ -33,10 +33,13 @@ Fig. 1: Set up initialization logic for Issues
 
 The code editor allows you to write initialization logic in C# code. It is not supposed to write a complex logic with lots of code in this place. For the issue form, you can enter the following lines of code in the editor, and click “OK” to compile and close.
 
+{% highlight ruby %}
 this.Instance.SetValue("Status", "Open");
 this.Instance.SetValue("SubmitDate", CurrentDate); 
 this.Instance.SetValue("SubmitBy", CurrentUser); 
 this.Instance.SetValue("Progress", 0);
+{% endhighlight %}
+
 where:
 
 this.Instance.SetValue(attributeName, attributeValue)
