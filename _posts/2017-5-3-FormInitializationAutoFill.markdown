@@ -40,11 +40,11 @@ this.Instance.SetValue("SubmitBy", CurrentUser);
 this.Instance.SetValue("Progress", 0);
 {% endhighlight %}
 
-where:
-
+where the code
+{% highlight ruby %}
 this.Instance.SetValue(attributeName, attributeValue)
-
-The line above is a way of setting a value to an attribute of an instance currently loaded in a form.
+{% endhighlight %}
+is a way of setting a value to an attribute of an instance currently loaded in a form.
 The CurrentDate is a built-in function for getting Today’s date, and CurrentUser for getting the user who opens the form. Fig. 2 shows the editor containing the code.
 
 <img src="{{'/assets/img/2017-05-03-Fig2.png' | prepend: site.baseurl }}" alt="">
@@ -85,6 +85,7 @@ Click the "Callback Function Code" setting to open the code editor, write the fo
 <img src="{{'/assets/img/2017-05-03-Fig5.png' | prepend: site.baseurl }}" alt="">
 Fig. 5: Callback code
 
+{% highlight ruby %}
 if (this.Property == "Status")
 {
  string status = this.Instance.GetString("Status");
@@ -93,8 +94,13 @@ if (this.Property == "Status")
       this.Instance.SetValue("Progress", 100);
   }
 }
+{% endhighlight %}
 
-Where the code if (this.Property == “Status”) makes sure that this block of code is executed if the callback is invoked by the event of a value change of the “Status” attribute.
+Where the code 
+{% highlight ruby %}
+if (this.Property == “Status”) 
+{% endhighlight %}
+makes sure that this block of code is executed if the callback is invoked by the event of a value change of the “Status” attribute.
 
 #### Step 2: Enable callback on “Status” attribute
 
