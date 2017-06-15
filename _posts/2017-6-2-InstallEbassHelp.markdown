@@ -23,7 +23,7 @@ Download the Ebaas setup from <a class="post-link" href="https://ebaas.github.io
 Find the command at Start->Ebaas->StartServer and click on the command to launch the application server. Please run the command as the administrator on Windows 7 or Windows 10, and You will see the command windows shown in Figure 1 if the application server started successfully. To stop the application server, just close the command window.
 
 <img src="{{'/assets/img/2017-06-01-Fig1.png' | prepend: site.baseurl }}" alt="">
-Figure1. - Application Server Window
+Fig. 1: Application Server Window
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ To get started, open one of the recommended web browsers to connect to the appli
 | demo3 | 888 | Lab operator |
 
 <img src="{{'/assets/img/2017-06-01-Fig2.png' | prepend: site.baseurl }}" alt="">
-Figure2. - Login page
+Fig. 2: Login page
 
 ## What's next
 
