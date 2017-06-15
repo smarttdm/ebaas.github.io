@@ -6,7 +6,7 @@ title: Download Page
 <div class="post">
 	<h1 class="pageTitle">Download Software</h1>
 	<h3>Ebaas</h3>
-	<p>baas is a light-weighted and high-productivity enterprise application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to rapidly build single page applications for business data managements. <a class="post-link" href="https://ebaas.github.io/blog/MetadataDrivenArchitecture/">Read more</a></p> 
+	<p>Ebaas is a light-weighted and high-productivity enterprise application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to rapidly build single page applications for business data managements. <a class="post-link" href="https://ebaas.github.io/blog/MetadataDrivenArchitecture/">Read more</a></p> 
 	
 	<p>
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.7.1.0-beta3/Ebaas_x64_7.1.0_beta3_Setup.msi" class="next button__outline">Download Ebaas (Out-of-the-box version)</a>
