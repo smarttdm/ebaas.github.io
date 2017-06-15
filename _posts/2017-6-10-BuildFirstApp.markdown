@@ -275,7 +275,7 @@ That’s it. You have just built a simple issue tracking application without wri
 
 1.	<a class="post-link" href="https://ebaas.github.io/blog/BuildCustomizedForm/">Build a customized form</a>
 2.	<a class="post-link" href="https://ebaas.github.io/blog/FormInitializationAutoFill/">Form initialization and autofill</a>
-3.	Setup role-based access controls
+3.	Enable role-based access control
 4.  Import and export data
 5.	Create a form-driven workflow
 6.	Enhance user interface with custom commands
