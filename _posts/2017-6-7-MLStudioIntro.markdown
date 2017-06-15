@@ -5,7 +5,7 @@ date:   2017-6-7
 visible: 1
 ---
 
-<p class="intro"><span class="dropcap">M</span>L Studio is an interactive, GUI-based tool you can use to build, test, and deploy deep learning models from your data. ML Studio publishes models as web services on Ebaas platform that can easily be consumed by a custom application built on Ebaas.</p>
+<p class="intro"><span class="dropcap">M</span>L Studio (Machine Learning Studio) is an interactive, GUI-based tool you can use to build, test, and deploy deep learning models from your data. ML Studio publishes models as web services on Ebaas platform that can easily be consumed by a custom application built on Ebaas.</p>
 
 To develop a deep learning model for predictive analysis, you typically have data from the sources like database or applications, you need to have a preprocess module that transforms that data through various data manipulation and statistical functions, and generate a set of data for training, testing, and validation. Then you build a deep learning model, modify the various functions and their parameters, train the model until you are satisfied that you have an effective model. You probably need to have a post-process module that transforms output of the model to a high-level representation. Developing a model like this is an iterative process which is illustrated by the following flowchart:
 
