@@ -274,7 +274,7 @@ That’s it. You have just built a simple issue tracking application without wri
 ## Related Topics:
 
 1.	<a class="post-link" href="https://ebaas.github.io/blog/BuildCustomizedForm/">Build a customized form</a>
-2.	Form Initialization and autofill
+2.	<a class="post-link" href="https://ebaas.github.io/blog/FormInitializationAutoFill/">Form initialization and autofill</a>
 3.	Setup data access control rules
 4.  Import and export data
 5.	Create a form-driven workflow
