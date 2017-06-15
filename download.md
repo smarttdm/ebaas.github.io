@@ -15,7 +15,7 @@ title: Download Page
 	<a class="post-link" href="https://ebaas.github.io/blog/InstallEbassHelp/">Setting up Ebaas and getting started</a>
 	</p>
 	<h3>ML Studio</h3>
-	<p>ML Studio (Machine Learning Studio) is a GUI-based tool that provides a productive development environment for deep learning.</p>
+	<p>ML Studio is an interactive, GUI-based tool you can use to build, test, and deploy deep learning models from your data. ML Studio publishes models as web services on Ebaas platform that can easily be consumed by a custom application built on Ebaas. <a class="post-link" href="https://ebaas.github.io/blog/MLStudioIntro/">Read more</a></p>
 	<p>
 	<a href="https://github.com/ebaas/ebaas.github.io/releases/download/v.1.0.0-beta1/MLStudio_x64_1.0.0_Setup.msi" class="next button__outline">Download ML Studio</a>
 	</p>
