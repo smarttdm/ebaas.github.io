@@ -66,8 +66,11 @@ Fig. 4: ACL rule for Administrator
 #### Step 4: Create Rule #2
 
 To give the users in the “LabA” department the rights to read, update, and create issues, you can create a rule for the “LabA” role with the read, update, create permissions. 
+
 But the rule #2 has a condition stating that the rule is valid when an issue’s status is not “Closed”. In other words, if an issue’s status is "Closed", it becomes read-only.
-This is an example of creating an ACL rule with a condition.
+
+This is an example of creating an ACL rule with a condition. In other words, the record-based access control.
+
 For the rule #2, you can create a rule shown in Fig. 5:
 
 <img src="{{'/assets/img/2017-5-5-Fig5.png' | prepend: site.baseurl }}" alt="">
