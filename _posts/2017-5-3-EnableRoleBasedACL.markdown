@@ -95,18 +95,21 @@ Open the "Issue Tracking" page, open the edit form for an issue, change its stat
 <img src="{{'/assets/img/2017-5-5-Fig6.png' | prepend: site.baseurl }}" alt="">
 Fig. 6: Change an issue’s status to “Closed”
 
-With the “Closed” status, demo1 is still able to update and delete the instance. So, the Rule #1 works.
+With the “Closed” status, demo1 is still able to update and delete the instance (See Fig. 7). So, the Rule #1 works.
+
+<img src="{{'/assets/img/2017-5-5-Fig7.png' | prepend: site.baseurl }}" alt="">
+Fig. 7: Allowing update or delete on the closed issues for Administrator
 
 Then, let's check the Rule #2. Sign out the "demo1", Log in as "demo2", who has the "LabA” role. The password for “demo2” is “888”.
 
-Open the “Issue Tracking” page, click on the issue whose status is “Closed”. There is no “Edit” or “Delete” command in the command bar (See Fig. 7), which is expected.
-
-<img src="{{'/assets/img/2017-5-5-Fig7.png' | prepend: site.baseurl }}" alt="">
-Fig. 7: No update or delete on the closed issues
-
-Now, click on an issue whose status is not “Closed". There is an “Edit” command in the command bar (See Fig. 8), which is expected too.
+Open the “Issue Tracking” page, click on the issue whose status is “Closed”. There is no “Edit” or “Delete” command in the command bar (See Fig. 8), which is expected.
 
 <img src="{{'/assets/img/2017-5-5-Fig8.png' | prepend: site.baseurl }}" alt="">
-Fig. 8: Allowing update on the issue not closed yet
+Fig. 7: No update or delete on the closed issues for the "LabA" users
+
+Now, click on an issue whose status is not “Closed". There is an “Edit” command in the command bar (See Fig. 9), which is expected too.
+
+<img src="{{'/assets/img/2017-5-5-Fig9.png' | prepend: site.baseurl }}" alt="">
+Fig. 9: Allowing update on the issue not closed yet
 
 I have briefly introduced how access controls work in Ebaas. More advanced topics, such as rule conflict resolution, access controls on attributes, etc., which will be described in future posts.
