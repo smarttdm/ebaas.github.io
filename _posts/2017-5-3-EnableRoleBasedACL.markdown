@@ -22,6 +22,7 @@ Supposed that you want to create access control policy to enforce the following 
 
 * Rule #1: Users with Administrator role can create, update, or delete instances in “Issues” class.
 * Rule #2: Only users in the “LabA” department can create or update, but delete, an instance in “Issues” class, with the condition that the instance’s status is not “Closed”. 
+
 Here are the steps describing how you implement these requirements. Make sure the Ebaas server is running.
 
 #### Step 1: Open the DesignStudio
