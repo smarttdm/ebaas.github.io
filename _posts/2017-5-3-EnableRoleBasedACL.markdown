@@ -36,7 +36,7 @@ Select the “TDM” data model which contains the “Issues” class, log in as
 
 Select the “Issues” class node under “Classes” node in the tree, and click on the “Access Control” tab on the right (See Fig. 1). 
 
-<img src="{{'/assets/img/2017-5-3-Fig1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig1.png' | prepend: site.baseurl }}" alt="">
 Fig.1: Default access control rule of the “Issues” class
 
 Notice that there is a default rule that grants all permissions to every user (every user has a role of Everyone). This rule is defined at the data model level (Click root node to view it) and is inherited by all classes including the “Issues” class. Being able to define rules at a data model level is like defining global rules, which simplifies the work of setting up access control policy. 
@@ -45,12 +45,12 @@ Since the inherited rule doesn't meet our need, you can create a local rule to o
 
 What you want to do is to create a local rule that only allows read access to the "Issues" class by following the steps shown in the Fig. 2.. Make sure to click “Yes” for the confirmation.
 
-<img src="{{'/assets/img/2017-5-3-Fig2.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig2.png' | prepend: site.baseurl }}" alt="">
 Fig.2: Create an overriding rule
 
 You add a local rule that replaces the inherited rule. Then set read and download permissions as "Grant", rest of permissions as "Deny" (See Fig. 3). 
 
-<img src="{{'/assets/img/2017-5-3-Fig3.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig3.png' | prepend: site.baseurl }}" alt="">
 Fig.3: Set permissions of the local rule
 
 You have created a base rule that only allows read and download access to the class. You will add rules to the class to give other permissions to the dedicated roles. 
@@ -59,7 +59,7 @@ You have created a base rule that only allows read and download access to the cl
 
 Rule #1 is easy to create, just add a rule for the Administrator role, give it all permissions (See Fig. 4)., which gives the users with Administrator role all permissions to issues.
 
-<img src="{{'/assets/img/2017-5-3-Fig4.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig4.png' | prepend: site.baseurl }}" alt="">
 Fig. 4: ACL rule for Administrator
 
 #### Step 4: Create Rule #2
@@ -69,7 +69,7 @@ But the rule #2 has a condition stating that the rule is valid when an issue’s
 This is an example of creating an ACL rule with a condition.
 For the rule #2, you can create a rule shown in Fig. 5:
 
-<img src="{{'/assets/img/2017-5-3-Fig5.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig5.png' | prepend: site.baseurl }}" alt="">
 Fig. 5: The ACL rule for Rule #2
 
 Where the condition:
@@ -90,7 +90,7 @@ Log in as “demo1”, who has the Administrator role. The password for “demo1
 
 Open the "Issue Tracking" page, open the edit form for an issue, change its status to "Closed", and submit the form. (See Fig. 5).
 
-<img src="{{'/assets/img/2017-5-3-Fig6.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig6.png' | prepend: site.baseurl }}" alt="">
 Fig. 6: Change an issue’s status to “Closed”
 
 With the “Closed” status, demo1 is still able to update and delete the instance. So, the Rule #1 works.
@@ -99,12 +99,12 @@ Then, let's check the Rule #2. Sign out the "demo1", Log in as "demo2", who has 
 
 Open the “Issue Tracking” page, click on the issue whose status is “Closed”. There is no “Edit” or “Delete” command in the command bar (See Fig. 7), which is expected.
 
-<img src="{{'/assets/img/2017-5-3-Fig7.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig7.png' | prepend: site.baseurl }}" alt="">
 Fig. 7: No update or delete on the closed issues
 
 Now, click on an issue whose status is not “Closed". There is an “Edit” command in the command bar (See Fig. 8), which is expected too.
 
-<img src="{{'/assets/img/2017-5-3-Fig8.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-5-5-Fig8.png' | prepend: site.baseurl }}" alt="">
 Fig. 8: Allowing update on the issue not closed yet
 
 I have briefly introduced how access controls work in Ebaas. More advanced topics, such as rule conflict resolution, access controls on attributes, etc., which will be described in future posts.
