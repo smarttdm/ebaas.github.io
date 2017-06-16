@@ -69,7 +69,7 @@ To give the users in the “LabA” department the rights to read, update, and c
 
 But the rule #2 has a condition stating that the rule is valid when an issue’s status is not “Closed”. In other words, if an issue’s status is "Closed", it becomes read-only.
 
-This is an example of creating an ACL rule with a condition. In other words, the record-based access control.
+This is an example of creating an ACL rule with a condition. which is also known as the instance-based access control.
 
 For the rule #2, you can create a rule shown in Fig. 5:
 
