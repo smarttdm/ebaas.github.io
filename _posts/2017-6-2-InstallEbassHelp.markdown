@@ -6,7 +6,7 @@ date:   2017-6-2
 
 <p class="intro"><span class="dropcap">I</span>n this post, you will find the instructions for installing the Ebaas (out-of-the-box version), launching the application server, and log in using one of the demo accounts. If you ran into problems, please refer to "Troubleshooting" page for possible solutions.</p>
 
-## Installation Requirements
+## System Requirements
 
 First of all, please make sure your installation environment meets the following requirements.
 
