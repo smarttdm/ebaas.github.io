@@ -14,7 +14,9 @@ In this tutorial, I describe the process of importing data from a file using ETL
 
 Supposed that you want to import a file that contains issue records into the “Issues” class. For your continence, I have included a sample file that you can use for the tutorial. You can find the file at the location:
 
+{% highlight ruby %}
 C:\Program Files\Ebaas\Example\ImportFiles\issues.csv
+{% endhighlight %}
 
 The file contains some fake issue records (See Fig.1 )
 
@@ -32,6 +34,7 @@ Then, open the import wizard by clicking the “Import Data…” menu item unde
 #### Step2: Select a file
 
 In the first step of the wizard (See Fig. 2), choose the “Text File” as the data source (CSV is text format), and then select the sample file.
+
 The wizard supports extracting data from various file formats, including text, Excel, binary files. 
 
 <img src="{{'/assets/img/2017-4-28-Fig1.png' | prepend: site.baseurl }}" alt="">
@@ -95,10 +98,9 @@ Open the SiteMapStudio tool at Start->Ebaas->SiteMapStudio, click on the “Open
 
 Click on the “Issue Tracking" menu item under the "Main Menu"  node, modify the setting of the “Navigation URL” as shown in Fig. 9. The new URL is:
 
+{% highlight ruby %}
 app.smarttables.datagrid({import:true, export:true})
-
-
-
+{% endhighlight %}
 
 <img src="{{'/assets/img/2017-4-28-Fig9.png' | prepend: site.baseurl }}" alt="">
 Fig. 9: Enable import and export
