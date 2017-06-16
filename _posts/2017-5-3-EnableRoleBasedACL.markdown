@@ -74,9 +74,11 @@ Fig. 5: The ACL rule for Rule #2
 
 Where the condition:
 
+{% highlight ruby %}
 $this/Status!="Closed"
+{% endhighlight %}
 
-Is used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
+is used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
 
 #### Step 5: Save the data model
 
