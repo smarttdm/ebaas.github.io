@@ -72,13 +72,13 @@ For the rule #2, you can create a rule shown in Fig. 5:
 <img src="{{'/assets/img/2017-5-5-Fig5.png' | prepend: site.baseurl }}" alt="">
 Fig. 5: The ACL rule for Rule #2
 
-Where the condition:
+Where the condition
 
 {% highlight ruby %}
 $this/Status!="Closed"
 {% endhighlight %}
 
-is used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
+is an XQuery expression used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
 
 #### Step 5: Save the data model
 
