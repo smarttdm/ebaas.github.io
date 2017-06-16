@@ -38,6 +38,7 @@ In the first step of the wizard (See Fig. 2), choose the “Text File” as the 
 The wizard supports extracting data from various file formats, including text, Excel, binary files. 
 
 <img src="{{'/assets/img/2017-4-28-Fig2.png' | prepend: site.baseurl }}" alt="">
+
 Fig.2: Select file and its format
 
 #### Step2: Determine file format
@@ -45,6 +46,7 @@ Fig.2: Select file and its format
 The second step of the wizard is to determine how to parse the file correctly. For the sample file, you would pick the settings as shown in Fig.3. 
 
 <img src="{{'/assets/img/2017-4-28-Fig3.png' | prepend: site.baseurl }}" alt="">
+
 Fig.3: Determin the file format
  
 #### Step3: Preview the extracted data
@@ -52,6 +54,7 @@ Fig.3: Determin the file format
 The third step of the wizard is to preview the data extracted from the file using the settings (See Fig. 4). If the extracted data doesn’t look right, you can go back to the previous step to change the settings and try again. 
 
 <img src="{{'/assets/img/2017-4-28-Fig4.png' | prepend: site.baseurl }}" alt="">
+
 Fig. 4: Preview of the extracted data
 
 ### Transform data
@@ -61,6 +64,7 @@ Fig. 4: Preview of the extracted data
 The fourth step is to select the “Issues” class as the destination class (See Fig. 5).
 
 <img src="{{'/assets/img/2017-4-28-Fig5.png' | prepend: site.baseurl }}" alt="">
+
 Fig. 5: Select the destination
 
 Then, create mappings between the source (extracted data) to the destination by clicking “…” in the “Transform” column, a “Transform dialog” pops up.
@@ -73,6 +77,7 @@ Fig. 6: Transform data
 The fifth step of the wizard allows you to examine and validate the transformed data (see Fig. 7). If the data doesn't look right, you can go back to the previous step to correct it.
 
 <img src="{{'/assets/img/2017-4-28-Fig7.png' | prepend: site.baseurl }}" alt="">
+
 Fig. 7: Preview transform data
 
 ### Load data
