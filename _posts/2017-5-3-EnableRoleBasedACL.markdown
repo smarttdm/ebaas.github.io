@@ -78,7 +78,7 @@ Where the condition
 $this/Status!="Closed"
 {% endhighlight %}
 
-is an XQuery expression used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
+is a XQuery expression used by the engine to check if an instance meets the condition. If true, the rule applies. Otherwise, the engine doesn't use it.
 
 #### Step 5: Save the data model
 
