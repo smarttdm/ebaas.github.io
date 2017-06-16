@@ -37,7 +37,7 @@ In the first step of the wizard (See Fig. 2), choose the “Text File” as the 
 
 The wizard supports extracting data from various file formats, including text, Excel, binary files. 
 
-<img src="{{'/assets/img/2017-4-28-Fig1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-4-28-Fig2.png' | prepend: site.baseurl }}" alt="">
 Fig.2: Select file and its format
 
 #### Step2: Determine file format
