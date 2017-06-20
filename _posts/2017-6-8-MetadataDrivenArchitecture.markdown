@@ -28,4 +28,4 @@ Ebaas has the following differences in comparison to other application platforms
 
 Using Ebaas as a platform, efficiencies in application development, as well as custom modifications per customer, will become a reality.
 
-Ebaas has been successfully used to build solutions for some of large manufacturers of Automobile, Construction Machinery, Renewal Energy, and Auto Parts manufacturing industries in China, in the areas of test and measurement data management, master data management, etc.
+Ebaas has been successfully used to build solutions for some of large manufacturers of Automobile, Construction Machinery, Renewal Energy, and Auto Parts industries in China, in the areas of test and measurement data management, master data management, etc.
