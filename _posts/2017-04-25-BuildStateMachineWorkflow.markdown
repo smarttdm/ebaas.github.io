@@ -18,9 +18,10 @@ When you design a state machine workflow to model a process, your first task is 
 
 Suppose you determine the following steps are involved in tracking an issue:
 
-•	A team receives the issue, including all necessary information.
-•	The manager decides whether to process the issue. If so, the issue is assigned to an owner and process continues. If not, the issue is canceled, and the workflow ends. 
-•	The owner receives the issue. Wait until the owner resolves it, the workflow ends.
+*	A team receives the issue, including all necessary information.
+*	The manager decides whether to process the issue. If so, the issue is assigned to an owner and process continues. If not, the issue is canceled, and the workflow ends. 
+*	The owner receives the issue. Wait until the owner resolves it, the workflow ends.
+
 Normally, there is a step to check if the issue is fixed correctly. If so, the issue is closed. If not, the issue is back to the owner again. In an attempt to make this tutorial short, we skip the checking step.
 (TO-DO, IN-PROGRESS, DONE)
 
