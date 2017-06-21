@@ -23,7 +23,6 @@ Suppose you determine the following steps are involved in tracking an issue:
 *	The owner receives the issue. Wait until the owner resolves it, the workflow ends.
 
 Normally, there is a step to check if the issue is fixed correctly. If so, the issue is closed. If not, the issue is back to the owner again. In an attempt to make this tutorial short, we skip the checking step.
-(TO-DO, IN-PROGRESS, DONE)
 
 ### Basics of a State Machine Workflow
 
