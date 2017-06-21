@@ -36,7 +36,7 @@ The states in a workflow are where a process needs to make task assignment, paus
 
 ### Define events
 
-Before you create a workflow for the issue tracking, you need to define the events that drive the workflow first. Most common events are those resulting from creating or updating a data instance, which is called DB Events. DB Events are part of a data model. Therefore, you need using the DesignStudio to define the events for the workflow.
+Before you create a workflow for the issue tracking, you need to define the events that drive the workflow. Most common events are those resulting from creating or updating a data instance, which is called DB Events. DB Events are part of a data model. Therefore, you need using the DesignStudio to define the events for the workflow.
 
 1.	Open DesignStudio at Start->Ebaas->DesignStudio;
 2.	Open the existing “TDM” data model that contains the “Issue” class from the database; 
@@ -209,7 +209,7 @@ Fig.16: Use CloseTask activity to close a task
 
 #### Handle events of “Started” state
 
-As mentioned previously, the typical scenario for a state machine workflow it enters a state,  creates a task and waits for an action the user takes to raise an event. You handle external events using an EventDriven activity and a HandleNewteraEvent activity.
+As mentioned previously, the typical scenario for a state machine workflow is that it enters a state,  creates a task and waits for an action the user takes to raise an event. You handle external events using an EventDriven activity and a HandleNewteraEvent activity.
 The task created in the “Started” state has two actions which raise the “IssueAssigned” and “IssueRejected” events. You need to handle these two events in the state.
 
 Drag another EventDriven activity into the Started state activity, change its name to RejectedEventDriven. Then, drag a HandleNewteraEvent activity from the toolbox into RejectedEventDriven and change its name to “HandleIssueRejectedEvent”. Click HandleIssueRejectedEvent, switch to “Properties” tab, and select “IssueRejected” as the event to be handled (See Fig. 18). With the setting, the HandleIssueAssignedEvent activity is executed when the “IssueAssigned” event is raised.
@@ -303,16 +303,20 @@ Once you signed in, click on “My Space” page where you can see the task crea
 <img src="{{'/assets/img/2017-4-25-Fig24.png' | prepend: site.baseurl }}" alt="">
 Fig.24: Workflow task list
 
-Clicking on the task row brings up the issue form, select “Kevin Hart” as Owner, and then click on the “Assigned” button on the bottom. 
+Clicking on the task row brings up the issue form, select “Kevin Hart” as Owner, and then click on the “Assigned” button on the bottom (See Fig. 25). 
+
+<img src="{{'/assets/img/2017-4-25-Fig25.png' | prepend: site.baseurl }}" alt="">
+Fig.25: Task form for the issue owner
 
 Clicking on the “Assigned” button executes the action that sets the issue’s Status to “Assigned”, raising “IssueAssigned” event to the workflow instance. The workflow is then transitioned to Working state. The task should disappear from the task list for “demo2”.
 
 #### Fix the issue
 
-The workflow enters Working state which creates a task for the appointed user whose username is “demo3”. Sign in as the “demo2” with the password “888”. You should see the task appearing on the top of the task list (See Fig. 25).
+The workflow enters Working state which creates a task for the appointed user whose username is “demo3”. Sign in as the “demo2” with the password “888”. You should see the task appearing on the top of the task list (See Fig. 26).
 
-<img src="{{'/assets/img/2017-4-25-Fig25.png' | prepend: site.baseurl }}" alt="">
-Fig.25: Workflow task for the owner
+<img src="{{'/assets/img/2017-4-25-Fig26.png' | prepend: site.baseurl }}" alt="">
+Fig.26: Workflow task for the owner
+
 
 Clicking the task row takes you to the issue form, you can click on the “Fixed” button is supposed to end the process.
 
