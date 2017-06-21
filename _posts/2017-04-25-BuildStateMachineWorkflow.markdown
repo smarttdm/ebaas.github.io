@@ -183,11 +183,15 @@ Fig.14: Creating the “Assigned” action
 
 Where the action code is :
 
+{% highlight ruby %}
 this.Instance.SetValue("Status", "Assigned");
+{% endhighlight %}
 
 4.	You can create the “Rejected” action the same way, except that the action code is:
 
+{% highlight ruby %}
 this.Instance.SetValue("Status", "Rejected");
+{% endhighlight %}
 
 #### Close the task for the “Started” state
 
@@ -239,7 +243,9 @@ Fig.20: Define the action for the task of “Working” state
 
 Where the action code is :
 
+{% highlight ruby %}
 this.Instance.SetValue("Status", "Fixed");
+{% endhighlight %}
 
 #### Close the task for the “Working” state
 
