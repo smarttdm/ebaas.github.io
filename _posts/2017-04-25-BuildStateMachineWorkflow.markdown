@@ -38,7 +38,7 @@ The states in a workflow are where a process needs to make task assignment, paus
 
 Before you create a workflow for the issue tracking, you need to define the events that drive the workflow. Most common events are those resulting from creating or updating a data instance, which is called DB Events. DB Events are part of a data model. Therefore, you need using the DesignStudio to define the events for the workflow.
 
-1.	Open DesignStudio at Start->Ebaas->DesignStudio;
+1. Open DesignStudio at Start->Ebaas->DesignStudio;
 2.	Open the existing “TDM” data model that contains the “Issue” class from the database; 
 3.	Log in as the administrator with the username “admin” and the password “admin”;
 4.	Select the “Issue” class node, and switch to “Events” tab on the right (See Fig. 1).
@@ -69,7 +69,7 @@ The “IssueAssigned” event occurs when the status of an issue instance change
 <img src="{{'/assets/img/2017-4-25-Fig3.png' | prepend: site.baseurl }}" alt="">
 Fig.3: Condition of the “IssueAssigned” event
 
-5.	In addition to the condition above, you need to indicate that the event occurs only when the value of the “Status” attribute is updated (See Fig. 4);
+5. In addition to the condition above, you need to indicate that the event occurs only when the value of the “Status” attribute is updated (See Fig. 4);
 
 <img src="{{'/assets/img/2017-4-25-Fig4.png' | prepend: site.baseurl }}" alt="">
 Fig.4: Indicate the “Status” as the updated attribute
