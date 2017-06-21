@@ -229,14 +229,13 @@ Drag a StateInitialization activity into the Working activity, change its name t
 
 Drag a CreateTask activity into WorkingStateInitialization and change its name to “CreateFixTask”. Click CreateFixTask, switch to “Properties” tab to set up the activity.
 
-1.	Set a text describing the task to the “Subject” and “Task Description” properties.
-
-2.	Assign the task to the owner by clicking the “Users Binding Attribute” under “Dynamic Assignment”, select “Owner” attribute of the “Issues” class (See Fig. 19). This setting will assign the task to the user whose name appears in the “Owner” attribute.
+1. Set a text describing the task to the “Subject” and “Task Description” properties.
+2. Assign the task to the owner by clicking the “Users Binding Attribute” under “Dynamic Assignment”, select “Owner” attribute of the “Issues” class (See Fig. 19). This setting will assign the task to the user whose name appears in the “Owner” attribute.
 
 <img src="{{'/assets/img/2017-4-25-Fig19.png' | prepend: site.baseurl }}" alt="">
 Fig.19: Assign the task dynamically to an user
 
-3.	You need to create one action with a name “Fixed” for this task (See Fig. 20). When the “fixed” button is clicked, it sets the issue’s “Status” to “Fixed",  which raises the "IssueFixed” event. 
+3. You need to create one action with a name “Fixed” for this task (See Fig. 20). When the “fixed” button is clicked, it sets the issue’s “Status” to “Fixed",  which raises the "IssueFixed” event. 
 
 <img src="{{'/assets/img/2017-4-25-Fig20.png' | prepend: site.baseurl }}" alt="">
 Fig.20: Define the action for the task of “Working” state
