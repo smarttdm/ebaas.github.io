@@ -79,7 +79,7 @@ Fig.4: Indicate the “Status” as the updated attribute
 The “IssueRejected" event occurs when the status of an issue instance changes to the "Rejected", which will move a workflow instance to the final state.
 
 1.	Click on the “Add” button
-2.	, change the event's name to “IssueRejected”;
+2.	Change the event's name to “IssueRejected”;
 3.	Select the event type as “Update”; 
 4.	Define a condition for this event as “Status=Rejected”;
 5.	Select the “Status” attribute as the “Attributes Updated”;
