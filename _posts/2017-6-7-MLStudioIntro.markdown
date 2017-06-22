@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ML Studio: Machine Learning Made Easy"
+title:  "MLStudio: Machine Learning Made Easy"
 date:   2017-6-7
 visible: 1
 ---
