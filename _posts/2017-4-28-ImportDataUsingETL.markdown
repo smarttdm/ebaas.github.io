@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Import data using ETL"
+title:  "Import Data Using ETL"
 date:   2017-4-28
 visible: 1
 ---
