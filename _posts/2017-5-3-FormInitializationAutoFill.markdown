@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Form initialization and autofill"
+title:  "Form Initialization and Autofill"
 date:   2017-5-3
 visible: 1
 ---
