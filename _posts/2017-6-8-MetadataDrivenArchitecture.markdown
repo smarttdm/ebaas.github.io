@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Metadata-driven Architecture"
+title:  "Ebaas: Metadata-driven Architecture"
 date:   2017-6-8
 visible: 1
 ---
