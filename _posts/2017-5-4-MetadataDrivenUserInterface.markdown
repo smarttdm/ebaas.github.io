@@ -111,7 +111,7 @@ Fig.5: Specifying a customized data view for DataGrid
 
 ### Adding Custom Commands
 
-In addition to the standard commands and features mentioned above, you can add special actions as customized commands to the DataGrid. For example, open a customized form, write comments, manage related files or view the associated data records. You can also develop a UI module and invoke it from a customized command.
+In addition to the standard commands and features mentioned above, you can add special actions as custom commands to the DataGrid. For example, open a customized form, write comments, manage related files or view the associated data records. You can also develop a UI module and invoke it from a customized command.
 
 You can add custom commands to a DataGrid using the SiteMapStudio tool. For example, you first create a custom command group for the “Issues” class in the data model “TDM” (See Fig. 6).
 
