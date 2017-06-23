@@ -5,7 +5,7 @@ date:   2017-6-8
 visible: 1
 ---
 
-<p class="intro"><span class="dropcap">E</span>baas is a high-productivity enterprise application platform. It supports a no-code and metadata-driven development method that enables professional and nonprofessional developers to rapidly build single page applications for business data managements</p>
+<p class="intro"><span class="dropcap">E</span>baas is a high-productivity enterprise application platform. It supports a no-code and metadata-driven development method that enables nonprofessional developers to rapidly build single page applications for business data managements</p>
 
 Some of the challenges found in developing enterprise applications are the ability to deliver a customized solution that meets complex and specific requirements for each customer under a time and budget constraints and adapting to business changes without big efforts.
 
