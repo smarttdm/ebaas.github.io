@@ -27,7 +27,7 @@ Ebaas DataGrid is a UI component implemented using JavaScript, HTML5, and Angula
 <img src="{{'/assets/img/2017-5-4-Fig1.png' | prepend: site.baseurl }}" alt="">
 Fig.1: The DataGrid
 
-To start using DataGrid, the first step is to create a business entity (Class) in a data model with the DesignStudio. In the tutorial of “Building Your First Application with Ebaas”, it guides you through the process of creating a class representing “Issues”. The class has definitions for its attributes (such as Subject, Description, Submit By, Submit Date, Status, Owner, etc.) 
+To start using DataGrid, the first step is to create a business entity (Class) in a data model with the DesignStudio. In the tutorial of <a class="post-link" href="https://ebaas.github.io/blog/BuildFirstApp/">"Build your first application with Ebaas"</a>, it guides you through the process of creating a class representing “Issues”. The class has definitions for its attributes (such as Subject, Description, Submit By, Submit Date, Status, Owner, etc.) 
 
 Once you have completed creating a class in a data model, you can quickly add a DataGrid component to the UI for interacting the class.
 
@@ -55,7 +55,7 @@ In this post, I will explain more advanced settings of the DataGrid.
 
 #### Hide standard commands
 
-By default, the DataGrid displays the standard commands, like Add, Edit and Delete. You can hide the commands for an individual user by setting up access control rules (see this tutorial).
+By default, the DataGrid displays the standard commands, like Add, Edit and Delete. You can hide the commands for an individual user by setting up access control rules (<a class="post-link" href="https://ebaas.github.io/blog/EnableRoleBasedACL/">see this tutorial</a>).
 You can also hide these standard commands for all users by adding parameters to the “Navigation URL” of the DataGrid. For example:
 
 {% highlight ruby %}
