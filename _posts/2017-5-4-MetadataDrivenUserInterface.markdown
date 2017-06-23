@@ -40,13 +40,14 @@ Fig.2: The SiteMapStudio tool
 
 An example of the basic settings for a DataGrid is shown in Table 1, where the binding between the UI component and a data class is specified by the “Database” and “Class” settings. 
 
-Setting Name	Setting Value	Description
-Name	IssueTracking	A unique name of a menu item
-Title	Issue Tracking	The display text of a menu item
-Navigation URL	app.smarttables.datagrid	The URL of the “DataGrid” component
-Database	TDM 1.0	The name of a data model
-Class	Issues	The name of a class in the data model
-Icon Name	fa fa-fw fa-bug	A definition of an icon in Font Awesome icon sets
+| Setting Name | Setting Value | Description |
+|-------|--------|---------|
+| Name | IssueTracking | A unique name of a menu item |
+| Title	| Issue Tracking	| The display text of a menu item |
+| Navigation URL |	app.smarttables.datagrid |	The URL of the “DataGrid” component |
+| Database |	TDM 1.0 |	The name of a data model |
+| Class |	Issues |	The name of a class in the data model |
+| Icon Name |	fa fa-fw fa-bug	| A definition of an icon in Font Awesome icon sets |
 
 Table 1: Settings of the “Issue Tracking” menu item
 
@@ -134,9 +135,10 @@ Fig.8: Specify the parameters of the custom command
 
 The parameters are described in the table below.
 
-Parameter Name	Parameter Value	Description
-template	default.htm	Indicate which form template to use
-readonly	true	Indicate whether it is read-only
+| Setting Name | Setting Value | Description |
+|-------|--------|---------|
+| template |	default.htm |	Indicate which form template to use |
+| readonly |	true |	Indicate whether it is read-only |
 
 After you add the custom command, you can see it appears in the command bar of the DataGrid with blue background color (See Fig. 9).
 
