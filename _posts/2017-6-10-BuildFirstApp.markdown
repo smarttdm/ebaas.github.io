@@ -278,4 +278,4 @@ That’s it. You have just built a simple issue tracking application without wri
 3.	<a class="post-link" href="https://ebaas.github.io/blog/EnableRoleBasedACL/">Enable role-based access control</a>
 4.  <a class="post-link" href="https://ebaas.github.io/blog/ImportDataUsingETL/">Import data using ETL</a>
 5.	<a class="post-link" href="https://ebaas.github.io/blog/BuildStateMachineWorkflow/">Build a State Machine Workflow</a>
-6.	Enhance user interface with custom commands
+6.	<a class="post-link" href="https://ebaas.github.io/blog/MetadataDrivenUserInterface/">Build a metadata-driven user interface</a>
