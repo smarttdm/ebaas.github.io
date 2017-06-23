@@ -125,7 +125,9 @@ Fig.7: Add a “Open Form” custom command
 
 The Navigation URL:
 
+{% highlight ruby %}
 .modalform
+{% endhighlight %}
 
 which is the URL of one of the custom commands provided by Ebaas front-end, which display the data records in a modal form.
 In addition to defining the URL, you also need to specify two parameters to this custom command (See Fig. 8). 
