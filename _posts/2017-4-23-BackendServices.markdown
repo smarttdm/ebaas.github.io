@@ -94,6 +94,7 @@ where
 
 Most operations need an authorization using a token which is returned from the authentication API. You need to include the token in the header of each request you send.
 Examples:
+
 http://host:port/api/accounts/user/demo1
 http://host:port/api/data/TDM/Issues
 http://host:port/api/data/TDM/Issues/29302911
