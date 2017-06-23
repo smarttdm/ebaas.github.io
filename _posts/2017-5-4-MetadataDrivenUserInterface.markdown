@@ -57,7 +57,9 @@ In this post, I will explain more advanced settings of the DataGrid.
 By default, the DataGrid displays the standard commands, like Add, Edit and Delete. You can hide the commands for an individual user by setting up access control rules (see this tutorial).
 You can also hide these standard commands for all users by adding parameters to the “Navigation URL” of the DataGrid. For example:
 
+{% highlight ruby %}
 app.smarttables.datagrid ({add: false, edit: false, delete: false, attachments: false})
+{% endhighlight %}
 
 This definition hides all four standard commands from the DataGrid.
 
@@ -65,7 +67,9 @@ This definition hides all four standard commands from the DataGrid.
 
 You can enable the import and export features on the DataGrid by defining the URL as:
 
+{% highlight ruby %}
 app.smarttables.datagrid ({import: true, export: true})
+{% endhighlight %}
 
 You will notice that the "Import" and "Export" buttons are displaying on the title bar of the DataGrid. To complete the import feature, you need to set up an import package (See this tutorial). 
 
@@ -73,7 +77,9 @@ You will notice that the "Import" and "Export" buttons are displaying on the tit
 
 If you want to get notified of changes to the data records in the grid, you can enable the “Track” features by defining the URL as:
 
+{% highlight ruby %}
 app.smarttables.datagrid ({track: true})
+{% endhighlight %}
 
 With this parameter, a switch shows in the command row for each instance to turn on or off tracking (See Fig. 3).
 
@@ -84,7 +90,9 @@ Fig.3: Track the changes
 
 By default, DataGrid enables users to filter the records in the grid by entering or selecting a filter value under each column name. You can enable the full-text search capability by defining the URL as:
 
+{% highlight ruby %}
 app.smarttables.datagrid ({seacrh: true})
+{% endhighlight %}
 
 With the search enabled, the DataGrid looks like one in Fig 4. You also need to set up the index for the full-text search on the data model using DesignStudio, which is described in another post.
 
