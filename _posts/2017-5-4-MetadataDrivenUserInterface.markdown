@@ -18,11 +18,11 @@ To be specific, this post describes the DataGrid which is one of the metadata-dr
 
 ### The DataGrid
 
-The data grid is one of the most commonly used UI in business applications. A data grid presents a set of data records in a two-dimension table, allows users to filter, add, update and delete records (CRUD operations) and more. In a typical business application, there are dozens or even hundreds of business entities, such as Customers, Products, Orders, Suppliers, employee, etc. Almost every entity requires a development of a data grid UI along with the business logic. Therefore, it takes a huge amount effort in developing the data grids for these entities. 
+The data grid is one of the most commonly used UI in business applications. A data grid presents a set of data records in a two-dimension table, allows users to filter, add, update and delete records (CRUD operations) and more. In a typical business application, there are dozens or even hundreds of business entities, such as Customers, Products, Orders, Suppliers, Employee, etc. Almost every entity requires a development of a data grid UI along with the business logic. Therefore, it takes a huge amount effort in developing the data grids for these entities. 
 
 To decrease the effort needed to develop the data grids, Ebaas provide a metadata-driven data grid (Ebaas DataGrid) that provides a flexible and no-code alternative for implementing data grids. 
 
-Ebaas DataGrid is a UI component implemented using JavaScript, HTML5, and Angular.  It can be bound to a business entity in a data model and provides the GRUD commands, attachments and access control logic automatically. It can be extended to have customized commands beyond the CRUD operations and full-text search (See Fig. 1). 
+Ebaas DataGrid is a UI component implemented using JavaScript, HTML5, and Angular.  It can be bound to a business entity in a data model and provides the GRUD commands, attachments and access control logic automatically. It can be extended to have custom commands beyond the CRUD operations and full-text search (See Fig. 1). 
 
 <img src="{{'/assets/img/2017-5-4-Fig1.png' | prepend: site.baseurl }}" alt="">
 Fig.1: The DataGrid
@@ -111,7 +111,7 @@ Fig.5: Specifying a customized data view for DataGrid
 
 ### Adding Custom Commands
 
-In addition to the standard commands and features mentioned above, you can add special actions as custom commands to the DataGrid. For example, open a customized form, write comments, manage related files or view the associated data records. You can also develop a UI module and invoke it from a custom command.
+In addition to the standard commands and features mentioned above, you can add special actions as customized commands to the DataGrid. For example, open a customized form, write comments, manage related files or view the associated data records. You can also develop a UI module and invoke it from a customized command.
 
 You can add custom commands to a DataGrid using the SiteMapStudio tool. For example, you first create a custom command group for the “Issues” class in the data model “TDM” (See Fig. 6).
 
