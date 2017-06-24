@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Form Initialization and Autofill"
+title:  "Form Initialization, Autofill and Cascading Select Fields"
 date:   2017-5-3
 visible: 1
 ---
@@ -118,4 +118,15 @@ Now, go back to the “Issue Tracking” page, open the edit form for an existin
 <img src="{{'/assets/img/2017-05-03-Fig7.png' | prepend: site.baseurl }}" alt="">
 Fig. 7: Form autofill
 
-I have briefly described how to implement form initialization and autofill. There are more advanced features, such as sequence number generation, cascade attributes, and more, which will be described in other topics.
+## Cascading Select Fields
+
+The technique of the form initialization of autofill has made your form much easier to use, but you can further enhance it with the cascading select fields.
+
+A cascading select field is a field with two or more levels of select lists. What you see in the second select list depends on what you chose in the first select list. This is obviously much better than having hundreds of options appear in a single select list.
+
+With your Issue Form, you have made the “Owner” field a dropdown list which gives you a list of the registered users. If there is a large number of the registered users in your application, it can be hard to locate a user from the dropdown list. 
+
+In an organization, users of the application belong to different units that form an organization hierarchy. It is a good idea to use the levels of an organization as the cascading select fields in a form.
+
+
+I have briefly described how to implement form initialization, autofill and cascading select fields. There are more advanced features, such as sequence number generation, embedded tables, and more, which will be described in other topics.
