@@ -145,16 +145,16 @@ Fig.8: The List constraint for getting labs.
 
 where the settings are described in the table below:
 
-Setting Name	Setting Value	Description
-Name	Labs	A unique name of the constraint
-DataType	String	Data type of the constraint values
-List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
-Newtera.Common	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model 
-List Style	Static	Indicate the list options don’t depend on the selection of other fields
-Unconditional Query	document("db://UserInfo.xml")//Role[RType="Unit" and @parentRole=>Role/Name = "Lab Center"]	The XQuery returns a list of items from the “Role” class whose RType is “Unit” and whose parent has a name of “Lab Center”. The data model is called “UserInfo”.
-Text Field	Text	Indicate the attribute of the Role class whose value is for the display text of a list item
-Value Field	Name	Indicate the attribute of the Role class whose value is the value of a list item
-
+| Setting Name | Setting Value | Description |
+|-------|--------|---------|
+| Name |	Labs |	A unique name of the constraint |
+| DataType |	String | Data type of the constraint values |
+| List Handler |	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common |	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model | 
+| List Style |	Static |	Indicate the list options don’t depend on the selection of other fields |
+| Unconditional Query |	document("db://UserInfo.xml")//Role[RType="Unit" and @parentRole=>Role/Name = "Lab Center"] |	The XQuery returns a list of items from the “Role” class whose RType is “Unit” and whose parent has a name of “Lab Center”. The data model is called “UserInfo”. |
+| Text Field |	Text | Indicate the attribute of the Role class whose value is for the display text of a list item |
+| Value Field | Name |	Indicate the attribute of the Role class whose value is the value of a list item |
 
 The second List constraint you create returns a list of groups under the selected Lab in the first field. Since it is for the second level field, it depends on the selection of the first level field. The constraint you create likes one in Fig. 9.
 
@@ -163,18 +163,17 @@ Fig.9: The List constraint for getting groups in a Lab
 
 where the settings are described in the table below:
 
-Setting Name	Setting Value	Description
-Name	Groups	A unique name of the constraint
-DataType	String	Data type of the constraint values
-List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
-Newtera.Common	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model 
-List Style	Conditional	Indicate the list options depend on the selection of other fields
-Unconditional Query	document("db://UserInfo.xml")//Role[RType="Unit" ]	The XQuery that returns a list of items from the “Role” class whose RType is “Unit”. This query returns all possible options
-Conditional Query	document("db://UserInfo.xml")//Role[RType="Unit" and Text = "?"]/@subRoles=>Role	The XQuery returns a list of items depending on the selected parent item
-Text Field	Text	Indicate the attribute of the Role class whose value is for the display text of a list item
-Value Field	Name	Indicate the attribute of the Role class whose value is the value of a list item 
-
-
+| Setting Name | Setting Value | Description |
+|-------|--------|---------|
+| Name |	Labs |	A unique name of the constraint |
+| DataType |	String | Data type of the constraint values |
+| List Handler |	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common |	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model |  
+| List Style |	Conditional |	Indicate the list options depend on the selection of other fields |
+| Unconditional Query |	document("db://UserInfo.xml")//Role[RType="Unit" ] | The XQuery that returns a list of items from the “Role” class whose RType is “Unit”. This query returns all possible options |
+| Conditional Query |	document("db://UserInfo.xml")//Role[RType="Unit" and Text = "?"]/@subRoles=>Role |	The XQuery returns a list of items depending on the selected parent item |
+| Text Field |	Text |	Indicate the attribute of the Role class whose value is for the display text of a list item |
+| Value Field | Name | Indicate the attribute of the Role class whose value is the value of a list item | 
 
 The third List constraint you create returns a list of users belong to the selected group in the second field. The constraint you create likes one in Fig. 10.
 
@@ -184,19 +183,17 @@ Fig.10: The List constraint for getting users in a group
 where the settings are described in the table below:
 
 
-Setting Name	Setting Value	Description
-Name	Testers	A unique name of the constraint
-DataType	String	Data type of the constraint values
-List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
-Newtera.Common	The program generates the list options. The program uses an XQuery to get instances from a class in a data model 
-
-List Style	Conditional	Indicate the list options depend on the selection of other fields
-Unconditional Query	document("db://UserInfo.xml")//User	The XQuery that returns a list of items from the “User." This query returns all possible options
-
-Conditional Query	for $u in document("db://UserInfo.xml")//Role[RType="Unit" and Text="?"]/@users=>UserRole/@user=>User return $u	The XQuery returns a list of items depending on the selected group item
-Text Field	Display Text	Indicate the attribute of the User class whose value is for the display text of a list item
-Value Field	ID	Indicate the attribute of the User class whose value is the value of a list item
-
+| Setting Name | Setting Value | Description |
+|-------|--------|---------|
+| Name |	Labs |	A unique name of the constraint |
+| DataType |	String | Data type of the constraint values |
+| List Handler |	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common |	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model |  
+| List Style |	Conditional |	Indicate the list options depend on the selection of other fields |
+| Unconditional Query |	document("db://UserInfo.xml")//User	The XQuery that returns a list of items from the “User." | This query returns all possible options |
+| Conditional Query |	for $u in document("db://UserInfo.xml")//Role[RType="Unit" and Text="?"]/@users=>UserRole/@user=>User return $u | The XQuery returns a list of items depending on the selected group item |
+| Text Field |	Display Text |	Indicate the attribute of the User class whose value is for the display text of a list item |
+| Value Field |	ID |	Indicate the attribute of the User class whose value is the value of a list item |
 
 #### Step 2:  Create Cascading Attributes
 
