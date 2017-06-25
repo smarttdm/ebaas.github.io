@@ -140,7 +140,7 @@ In the "Build Your First Application" tutorial, you have learned to bind a List 
 
 The first List constraint you create returns a list of Labs under the test center. Since it is for the first level field, it doesn’t depend on any conditions. You can use the DesignStudio to create the constraint like one in Fig. 8.
 
-<img src="{{'/assets/img/2017-5-3-Fig8.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig8.png' | prepend: site.baseurl }}" alt="">
 Fig.8: The List constraint for getting labs.
 
 where the settings are described in the table below:
@@ -158,7 +158,7 @@ Newtera.Common |	The program that generates the list options. The program uses a
 
 The second List constraint you create returns a list of groups under the selected Lab in the first field. Since it is for the second level field, it depends on the selection of the first level field. The constraint you create likes one in Fig. 9.
 
-<img src="{{'/assets/img/2017-5-3-Fig9.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig9.png' | prepend: site.baseurl }}" alt="">
 Fig.9: The List constraint for getting groups in a Lab
 
 where the settings are described in the table below:
@@ -177,7 +177,7 @@ Newtera.Common |	The program that generates the list options. The program uses a
 
 The third List constraint you create returns a list of users belong to the selected group in the second field. The constraint you create likes one in Fig. 10.
 
-<img src="{{'/assets/img/2017-5-3-Fig10.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig10.png' | prepend: site.baseurl }}" alt="">
 Fig.10: The List constraint for getting users in a group
 
 where the settings are described in the table below:
@@ -201,14 +201,14 @@ Next, you can create three attributes in the "Issue" class, which is "Assigned L
 
 You create the “Assigned Owner” attribute as the one in Fig. 11.
 
-<img src="{{'/assets/img/2017-5-3-Fig11.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig11.png' | prepend: site.baseurl }}" alt="">
 Fig.11: The “Assigned Owner” attribute
 
 where the “Assigned Owner” is bound to the “Testers” constraint.
 
 Then, create the “Assigned Group” attribute as one in Fig. 12.
 
-<img src="{{'/assets/img/2017-5-3-Fig12.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig12.png' | prepend: site.baseurl }}" alt="">
 Fig.12: The “Assigned Group” attribute
 
 where the “Assigned Group” is bound to the “Groups” constraint. 
@@ -217,7 +217,7 @@ You need to select the "Assigned Owner" attribute as one of its "Cascaded Attrib
 
 Then, create the “Assigned Lab” attribute as one in Fig. 13.
 
-<img src="{{'/assets/img/2017-5-3-Fig13.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig13.png' | prepend: site.baseurl }}" alt="">
 Fig.13: The “Assigned Lab” attribute
 
 where the “Assigned Lab” is bound to the “Labs” constraint. Select the “Assigned Group” attribute as one of its “Cascaded Attributes”.
@@ -228,12 +228,12 @@ Finally, Save the model to the database.
 
 Use a browser to open the default form that was built in “Build Customized Form” tutorial, add the "Assigned Lab," "Assigned Group" and "Assigned Owner" fields to the form as shown in Fig. 14.
 
-<img src="{{'/assets/img/2017-5-3-Fig14.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig14.png' | prepend: site.baseurl }}" alt="">
 Fig.14: Adding Cascading List Fields to the form
 
 After saving the form, you can preview the form to check if the cascading list fields work (See Fig. 15).
 
-<img src="{{'/assets/img/2017-5-3-Fig15.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2017-05-03-Fig15.png' | prepend: site.baseurl }}" alt="">
 Fig.15: Testing the cascading effect
 
 The example mentioned above shows how you can use the conditional list constraints to set up cascading fields. You can apply this method to implement other use cases.
