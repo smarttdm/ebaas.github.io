@@ -124,9 +124,123 @@ The technique of the form initialization of autofill has made your form much eas
 
 A cascading select field is a field with two or more levels of select lists. What you see in the second select list depends on what you chose in the first select list. This is obviously much better than having hundreds of options appear in a single select list.
 
-With your Issue Form, you have made the “Owner” field a dropdown list which gives you a list of the registered users. If there is a large number of the registered users in your application, it can be hard to locate a user from the dropdown list. 
+With your Issue Form, you have made the “Owner” field a dropdown list which gives you a list of the registered users. If there is a significant number of the registered users in your application, it can be hard to locate a user from the drop-down list.
 
-In an organization, users of the application belong to different units that form an organization hierarchy. It is a good idea to use the levels of an organization as the cascading select fields in a form.
+In an organization, users of the application belong to different units that form a hierarchy. It is a good idea to use the levels of an organization as the cascading select fields in a form.
 
+Implementing Cascading select fields with programming is a very complicated task. But it is easy to set up the cascading fields using DesignStudio. This post guides you through the process.
+
+Supposed that your organization structure is a three-level hierarchy. The root represents a testing center, there are several labs under it, and each lab has multiple groups. A registered user belongs to one of the groups.
+
+In the form, you want to have three cascading select fields, the first one for choosing a lab, the second one for choosing a group, and the third one to choose a person as the owner of an issue. The options of the second field depend on the selection of the first one, and that of the third field depends on the selection of the second field. 
+
+#### Step 1:  Create List constraints
+
+In the "Build Your First Application" tutorial, you have learned to bind a List constraint to a field to show the list options dynamically generated. It is correct that you think of using List constraints for the cascading list fields. The difference this time is that you will set up the constraints with conditional queries. You need to create three List constraints, one for each cascading field.
+
+The first List constraint you create returns a list of Labs under the test center. Since it is for the first level field, it doesn’t depend on any conditions. You can use the DesignStudio to create the constraint like one in Fig. 8.
+
+<img src="{{'/assets/img/2017-5-3-Fig8.png' | prepend: site.baseurl }}" alt="">
+Fig.8: The List constraint for getting labs.
+
+where the settings are described in the table below:
+
+Setting Name	Setting Value	Description
+Name	Labs	A unique name of the constraint
+DataType	String	Data type of the constraint values
+List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model 
+List Style	Static	Indicate the list options don’t depend on the selection of other fields
+Unconditional Query	document("db://UserInfo.xml")//Role[RType="Unit" and @parentRole=>Role/Name = "Lab Center"]	The XQuery returns a list of items from the “Role” class whose RType is “Unit” and whose parent has a name of “Lab Center”. The data model is called “UserInfo”.
+Text Field	Text	Indicate the attribute of the Role class whose value is for the display text of a list item
+Value Field	Name	Indicate the attribute of the Role class whose value is the value of a list item
+
+
+The second List constraint you create returns a list of groups under the selected Lab in the first field. Since it is for the second level field, it depends on the selection of the first level field. The constraint you create likes one in Fig. 9.
+
+<img src="{{'/assets/img/2017-5-3-Fig9.png' | prepend: site.baseurl }}" alt="">
+Fig.9: The List constraint for getting groups in a Lab
+
+where the settings are described in the table below:
+
+Setting Name	Setting Value	Description
+Name	Groups	A unique name of the constraint
+DataType	String	Data type of the constraint values
+List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common	The program that generates the list options. The program uses an XQuery to get instances from a class in a data model 
+List Style	Conditional	Indicate the list options depend on the selection of other fields
+Unconditional Query	document("db://UserInfo.xml")//Role[RType="Unit" ]	The XQuery that returns a list of items from the “Role” class whose RType is “Unit”. This query returns all possible options
+Conditional Query	document("db://UserInfo.xml")//Role[RType="Unit" and Text = "?"]/@subRoles=>Role	The XQuery returns a list of items depending on the selected parent item
+Text Field	Text	Indicate the attribute of the Role class whose value is for the display text of a list item
+Value Field	Name	Indicate the attribute of the Role class whose value is the value of a list item 
+
+
+
+The third List constraint you create returns a list of users belong to the selected group in the second field. The constraint you create likes one in Fig. 10.
+
+<img src="{{'/assets/img/2017-5-3-Fig10.png' | prepend: site.baseurl }}" alt="">
+Fig.10: The List constraint for getting users in a group
+
+where the settings are described in the table below:
+
+
+Setting Name	Setting Value	Description
+Name	Testers	A unique name of the constraint
+DataType	String	Data type of the constraint values
+List Handler	Newtera.Common.MetaData.XmlDataSourceListHandler,
+Newtera.Common	The program generates the list options. The program uses an XQuery to get instances from a class in a data model 
+
+List Style	Conditional	Indicate the list options depend on the selection of other fields
+Unconditional Query	document("db://UserInfo.xml")//User	The XQuery that returns a list of items from the “User." This query returns all possible options
+
+Conditional Query	for $u in document("db://UserInfo.xml")//Role[RType="Unit" and Text="?"]/@users=>UserRole/@user=>User return $u	The XQuery returns a list of items depending on the selected group item
+Text Field	Display Text	Indicate the attribute of the User class whose value is for the display text of a list item
+Value Field	ID	Indicate the attribute of the User class whose value is the value of a list item
+
+
+#### Step 2:  Create Cascading Attributes
+
+Next, you can create three attributes in the "Issue" class, which is "Assigned Lab", "Assigned Group" and "Assigned Owner" respectively.
+
+You create the “Assigned Owner” attribute as the one in Fig. 11.
+
+<img src="{{'/assets/img/2017-5-3-Fig11.png' | prepend: site.baseurl }}" alt="">
+Fig.11: The “Assigned Owner” attribute
+
+where the “Assigned Owner” is bound to the “Testers” constraint.
+
+Then, create the “Assigned Group” attribute as one in Fig. 12.
+
+<img src="{{'/assets/img/2017-5-3-Fig12.png' | prepend: site.baseurl }}" alt="">
+Fig.12: The “Assigned Group” attribute
+
+where the “Assigned Group” is bound to the “Groups” constraint. 
+
+You need to select the "Assigned Owner" attribute as one of its "Cascaded Attributes."
+
+Then, create the “Assigned Lab” attribute as one in Fig. 13.
+
+<img src="{{'/assets/img/2017-5-3-Fig13.png' | prepend: site.baseurl }}" alt="">
+Fig.13: The “Assigned Lab” attribute
+
+where the “Assigned Lab” is bound to the “Labs” constraint. Select the “Assigned Group” attribute as one of its “Cascaded Attributes”.
+
+Finally, Save the model to the database.
+
+#### Step 3: Modify the form
+
+Use a browser to open the default form that was built in “Build Customized Form” tutorial, add the "Assigned Lab," "Assigned Group" and "Assigned Owner" fields to the form as shown in Fig. 14.
+
+<img src="{{'/assets/img/2017-5-3-Fig14.png' | prepend: site.baseurl }}" alt="">
+Fig.14: Adding Cascading List Fields to the form
+
+After saving the form, you can preview the form to check if the cascading list fields work (See Fig. 15).
+
+<img src="{{'/assets/img/2017-5-3-Fig15.png' | prepend: site.baseurl }}" alt="">
+Fig.15: Testing the cascading effect
+
+The example mentioned above shows how you can use the conditional list constraints to set up cascading fields. You can apply this method to implement other use cases.
+
+## Conclusion
 
 I have briefly described how to implement form initialization, autofill and cascading select fields. There are more advanced features, such as sequence number generation, embedded tables, and more, which will be described in other topics.
