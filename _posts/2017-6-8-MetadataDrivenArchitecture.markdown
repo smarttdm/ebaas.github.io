@@ -13,7 +13,7 @@ Software companies have come to realize that it isn’t a good practice to devel
 
 Ebaas is designed and built from the ground up based on a metadata-driven architecture (MDDA) in which all areas of data management applications are defined by models, including data model, workflow, business logic, security policy, user interface, ETL, and report.
 
-For example, you can use the object model to define data structure of your application (classes, relationships, and attributes) as well as access control policy, methods, events and actions to events. All parts of the data model are defined as metadata. Ebaas uses a relational database to store all metadata and all application data. To optimize application performance, Ebaas keeps all application metadata in memory.
+For example, you can use the object-oriented model to define data structure of your application (classes, relationships, and attributes) as well as access control policy, methods, events and actions to events. All parts of the data model are defined as metadata. Ebaas uses a relational database to store all metadata and all application data. To optimize application performance, Ebaas keeps all application metadata in memory.
 
 To make meta-driven application feasible, Ebaas has implemented multiple engines that interpret metadata to render an entire application and provides an ability to define or modify the metadata via GUI tools. 
 
