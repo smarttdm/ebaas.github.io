@@ -22,7 +22,7 @@ title: About Yong Zhang
 		<li>In-depth knowledge and expertise in metadata-driven architecture, Object-Oriented design/programming.</li>
   		<li>Passionate about software development and learning new technology</li>
   		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges</li>
-		<li>A business-minded techie who understands business needs and deliver high-quality work.</li>
+		<li>A business-minded techie who understands business needs and delivers high-quality work.</li>
   	</ul>
 	<h2>Programming skills</h2>
 	<ul>
