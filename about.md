@@ -20,8 +20,8 @@ title: About Yong Zhang
 		<li>Designed and developed a model-driven Enterprise Application Platform with more than 200,000 lines of code that provides key features or capabilities including data management, workflow management, form generation, reporting, ETL, messaging, security, responsive UI and machine learning.</li>
 		<li>A full stack developer with hands-on experience in front-end and backend development using .Net framework, C#, Workflow Foundation, RESTFul API, JavaScript, Angular, HTML5, Bootstrap, and Relational Databases.</li>
 		<li>In-depth knowledge and expertise in metadata-driven architecture, Object-Oriented design/programming.</li>
-  		<li>Passionate about software development and learning new technology</li>
-  		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges</li>
+  		<li>Passionate about software development and stay current in the state of the art technologies.</li>
+  		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges.</li>
 		<li>A business-minded techie who understands business needs and delivers high-quality work.</li>
   	</ul>
 	<h2>Programming skills</h2>
