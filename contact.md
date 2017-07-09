@@ -8,7 +8,7 @@ title: Contact Yong Zhang
   <div class="contactContent">
     <p class="intro">If you have any questions about my posts or using the downloaded software, please feel free to contact me using the contact form.
     </p>
-    <p class="intro">If you are interested in using the software in your business and need my service, please feel free to <a href="mailto:yongz@yahoo.com">email me</a>, thank you very much!</p>
+    <p class="intro">If you are interested in using the software in your business and need my service, please feel free to <a href="mailto:yongz@yahoo.com">email me</a>.</p>
   </div>
   <form action="https://formspree.io/yongz@yahoo.com" method="POST">
     <label for="name">Name</label>
