@@ -18,6 +18,8 @@ First of all, please make sure your installation environment meets the following
 
 Download the Ebaas setup from <a class="post-link" href="https://ebaas.github.io/download/">here</a>, run the downloaded setup file as the Administrator, follow the steps until the installation is complete. The out-of-the-box version has an embedded SQL Server Compact database, therefore, you don't need to install a database.
 
+The enterprise version of Ebaas can work with relational databases such as Oracle, SQL Server, or MySQL.
+
 ## Launch Application Server
 
 Find the command at Start->Ebaas->StartServer and click on the command to launch the application server. Please run the command as the administrator on Windows 7 or Windows 10, and You will see the command windows shown in Figure 1 if the application server started successfully. To stop the application server, just close the command window.
