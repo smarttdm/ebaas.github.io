@@ -22,7 +22,7 @@ Ebaas has the following differences in comparison to other application platforms
 * It is free: It provides a free version that comes with an embedded database. You can use it out-of-the-box after installation.
 * No code development: It provides tools to create and modify models for building an entire application. It is possible to build a working enterprise application within a few days.
 * Single Page Application: It is a platform for building web-based enterprise applications with a SPA architecture in which there is a clear separation of front-end and back-end.
-* Object-relational Mapping: It supports mapping of object-oriented data model to relational databases, such as Oracle, SQL Server or MySQL.
+* Object-relational Mapping: It supports mapping of an object-oriented data model to relational databases, such as Oracle, SQL Server or MySQL.
 * Model interpretation: There are two different designs in MDDA, the code generation and the model interpretation. Ebaas is based model interpretation design, which is easy to maintain and deploy and enables changes in runtime without stopping applications.
 * Multi-tenancy: Since an application is defined by model instead of code, one Ebaas installation can support applications for multiple customers, sharing the same application server and database.
 
