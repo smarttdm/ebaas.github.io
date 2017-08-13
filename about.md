@@ -21,6 +21,13 @@ enterprise application platform, enabling businesses to build applications quick
   		<li>A quick problem solver with a highly logical mind and a history of solving programming challenges.</li>
 		<li>A business-minded techie who understands business needs and delivers high-quality work.</li>
   	</ul>
+	<h2>Accomplishments</h2>
+	<ul>
+		<li>Designed and developed a model-driven Enterprise Application Platform (Ebaas) with more than 200,000 lines of code, enabling businesses to rapidly build applications with features or capabilities including data management, process management, form generation, reporting, ETL, messaging, security, and responsive UI.</li>
+  		<li>Design and developed a Machine Learning Studio that makes it easy for businesses to use Deep Learning technologies to solve their business problems.</li>
+		<li>In charge of development of a web-based supply chain management platform at Aspect Development, helping the company to be acquired by i2 Technologies for $9.3 billion in 2000.</li>
+		<li>Developed a web-based e-catalog software which allows businesses to create and publish product catalog on the web easily. The software was bought by Aspect Development in 1997.</li>
+  	</ul>
 	<h2>Programming skills</h2>
 	<ul>
 		<li>Machine Learning: CNTK, Python, Time Series Prediction</li>
