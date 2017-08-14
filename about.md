@@ -23,7 +23,7 @@ enterprise application platform, enabling businesses to build applications quick
   	</ul>
 	<h2>Accomplishments</h2>
 	<ul>
-		<li>•	Designed and developed a model-driven Enterprise Application Platform (Ebaas) with more than 200,000 lines of code, enabling businesses to build applications with features or capabilities including data management, process management, form generation, reporting, ETL, messaging, security, responsive UI and Rest API for application integrations.</li>
+		<li>Designed and developed a model-driven Enterprise Application Platform (Ebaas) with more than 200,000 lines of code, enabling businesses to build applications with features or capabilities including data management, process management, form generation, reporting, ETL, messaging, security, responsive UI and Rest API for application integrations.</li>
   		<li>Design and developed a Machine Learning Studio that makes it easy for businesses to use Deep Learning technologies to solve their business problems.</li>
 		<li>In charge of development of a web-based supply chain sourcing application at Aspect Development, which contributed to the company’s acquisition by i2 for $9.3 billion in 2000.</li>
 		<li>Developed a web-based e-catalog software which allows businesses to create and publish product catalog on the web easily. The software was bought by Aspect Development in 1997.</li>
