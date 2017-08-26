@@ -5,7 +5,7 @@ date:   2017-6-10
 visible: 1
 ---
 
-<p class="intro"><span class="dropcap">T</span>his tutorial walks you through steps to create a simple Single Page Application that tracks the issues related to a project. The process will take you less than 10 minutes to build a web application for performing CRUD operations without writing code. After completing this tutorial, you will be able to understand the fundamentals of how to build your business applications quickly using the Ebaas platform.</p>
+<p class="intro"><span class="dropcap">T</span>his tutorial walks you through steps to create a Single Page Application that tracks the issues related to a project. The process will take you less than 10 minutes to build a web application for performing CRUD operations without writing code. After completing this tutorial, you will be able to understand the fundamentals of how to build your business applications quickly using the Ebaas platform.</p>
 
 ## Set up Ebaas
 
