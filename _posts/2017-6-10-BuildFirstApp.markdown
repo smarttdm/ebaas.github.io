@@ -5,7 +5,7 @@ date:   2017-6-10
 visible: 1
 ---
 
-<p class="intro"><span class="dropcap">T</span>his tutorial describes how to build a simple single page application that tracks the assignment, status, and progress of issues related to a project. This tutorial walks you through all the steps necessary to build a functional issue tracking application. After completing this tutorial, you will be able to understand the fundamentals of how to use Ebaas through hands-on experience. </p>
+<p class="intro"><span class="dropcap">T</span>his tutorial describes how to build a web-based application that tracks the assignment, status, and progress of issues related to a project. This tutorial walks you through all the steps necessary to build a simple Single Page Application without writing code. After completing this tutorial, you will be able to understand the fundamentals of how to use Ebaas through hands-on experience. </p>
 
 ## Set up Ebaas
 
