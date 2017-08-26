@@ -5,11 +5,11 @@ date:   2017-6-10
 visible: 1
 ---
 
-<p class="intro"><span class="dropcap">T</span>his tutorial describes how to build a web-based application that tracks the assignment, status, and progress of issues related to a project. This tutorial walks you through all the steps necessary to build a Single Page Application without writing code. After completing this tutorial, you will be able to understand the fundamentals of how to use Ebaas through hands-on experience. </p>
+<p class="intro"><span class="dropcap">T</span>his tutorial walks you through steps to create a simple Single Page Application that tracks the assignment, status, and progress of issues related to a project. The process will take you less than 10 minutes to build a web application for performing CRUD operations without writing code. After completing this tutorial, you will be able to understand the fundamentals of how to build your business applications quickly using the Ebaas platform.</p>
 
 ## Set up Ebaas
 
-To walk through the tutorial, you need to install Ebaas on your computer. The system requirements are following:
+To start with the tutorial, you need to install Ebaas on your computer. The system requirements are following:
 
 *	Windows 10 (64bit)
 *	Microsoft.Net Framework 4.5.2
