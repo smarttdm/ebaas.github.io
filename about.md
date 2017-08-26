@@ -10,7 +10,7 @@ title: About Yong Zhang
 	</div>
 	<p>Yong Zhang is a proven software professional with a consistent track record of
 	creating successful enterprise applications. He is the creator of no-code
-enterprise application platform, enabling businesses to build applications quickly without coding.
+enterprise application platform, enabling businesses to build Single Page Applications quickly without coding.
 </p>
 	<h2>Facts about me</h2>
 	<ul>
