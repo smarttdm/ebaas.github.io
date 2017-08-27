@@ -13,5 +13,4 @@ title: Ebaas App Demo
   	  <img src="{{'/assets/img/2017-06-01-Fig2.png' | prepend: site.baseurl }}" alt="">
 	<a target="_blank" href="http://ec2-54-91-101-44.compute-1.amazonaws.com:8080/#/login" class="next button__outline">Click here to see the demo</a>
 	</div>
-	</p>
 </div>
