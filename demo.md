@@ -3,9 +3,8 @@ layout: default
 title: Ebaas App Demo
 ---
 
-<div id="contact">
+<div class="post">
   <h1 class="pageTitle">Demo</h1>
-  
   <h3>App Demo</h3>
 	<p>Ebaas is a high-productivity enterprise application platform. It supports a no-code and metadata-driven development method that enables professional and nonprofessional developers to rapidly build single page applications for business data managements.</p> 	
 	<p>
