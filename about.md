@@ -30,9 +30,10 @@ enterprise application platform, enabling businesses to build Single Page Applic
   	</ul>
 	<h2>Programming skills</h2>
 	<ul>
-		<li>Machine Learning: CNTK, Python, Time Series Prediction</li>
-  		<li>SPA (Single Page Application) Development: JavaScript, AngularJS, Html 5 for front-end development; ASP.Net Web API, Net framework, C# for backend development</li>
-		<li>Tool Development: Windows Form, C#</li>
-		<li>Databases: SQL Server, Oracle, MySQL</li>
+		<li>C#, JavaScript, HTML5, JSON, SQL, Java, Python</li>
+  		<li>.Net 4.5, Angular 1.5, RESTFul API, Bootstrap</li>
+		<li>Enterprise Application Development, Software Architecture, Object-oriented Design/Programming, Distributed Computing, SOA</li>
+		<li>Oracle, SQL Server, My SQL, Elasticsearch</li>
+		<li>Deep Learning, Time Series Prediction, Microsoft CNTK</li>
   	</ul>
 </div>
