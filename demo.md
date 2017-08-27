@@ -10,7 +10,7 @@ title: Ebaas App Demo
 	You can access the demo using one of the web browsers, such as Google Chrome, Windows Edge, or IE 11. And login as the "demo1" user with the password "888".
 	</p>
 	<div style="text-align: center">
-  	  <img src="{{'/assets/img/2017-06-01-Fig2.png' | prepend: site.baseurl }}" alt="">
+  	  <img src="{{'/assets/img/demo-login.png' | prepend: site.baseurl }}" alt="">
 	<a target="_blank" href="http://ec2-54-91-101-44.compute-1.amazonaws.com:8080/#/login" class="next button__outline">Click here to see the demo</a>
 	</div>
 </div>
