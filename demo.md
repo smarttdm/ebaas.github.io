@@ -7,10 +7,12 @@ title: Ebaas App Demo
   <h1 class="pageTitle">Demo</h1>
 	<p>The demo is a Single Page Application built with Ebaas. This app is created for a hypothetical laboratory to track test orders and manage test result to streamline test order processes and improve quality of the tests.</p> 
 	<p>
-	You can access the demo using one of the web browsers, such as Google Chrome, Windows Edge, or IE 11. And login as the "demo1" user with the password "888".
+	You can access the demo using one of the web browsers, such as Google Chrome, Windows Edge, or IE 11. At the login page, please login as the "demo1" user with the password "888".
 	</p>
-	<div style="text-align: center">
+	<p>	
   	  <img src="{{'/assets/img/demo-login.png' | prepend: site.baseurl }}" alt="">
-	<a target="_blank" href="http://ec2-54-91-101-44.compute-1.amazonaws.com:8080/#/login" class="next button__outline">Click here to see the demo</a>
-	</div>
+	  </p>
+	  <p>
+	<a target="_blank" href="http://ec2-54-91-101-44.compute-1.amazonaws.com:8080/#/login" class="next button__outline">Click here to view the demo</a>
+	</p>
 </div>
