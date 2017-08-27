@@ -7,7 +7,7 @@ title: Ebaas App Demo
   <h1 class="pageTitle">Live Demo</h1>
 	<p>The demo is a Single Page Application built with Ebaas. This demo is created for a hypothetical laboratory to track test orders and manage test result, streamlining test order processes and shortening test cycles.</p> 
 	<p>
-	You can access the demo using one of the web browsers, such as Google Chrome, Windows Edge, or IE 11. On the login page, you can login as the "demo1" user with the password "888", or as "demo2" and "demo3" with the password "888". These three users have different roles.
+	You can access the demo using one of the web browsers, such as Google Chrome, Windows Edge, or IE 11. On the login page, you can log in as the "demo1" user with the password "888", or as "demo2" and "demo3" with the password "888". These three users have different roles.
 	</p>
 	<p>	
   	  <img src="{{'/assets/img/demo-login.png' | prepend: site.baseurl }}" alt="">
