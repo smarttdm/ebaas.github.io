@@ -152,7 +152,7 @@ So far, I have demonstrated the whole process of developing and applying an LSTM
 
 Although machine learning can be used in many fields in businesses, my focus has been applying machine learning technology in solving the problems in product testing or experiment area. Machine learning can potentially apply to various fields, including product reliability evaluations, predicting testing results, preventing repeat test tasks, etc. The battery RUL prediction is just an example of the many applications.
 
-In short, applications of machine learning technology in product test field can shorten the product test cycle, reduce test costs, accelerate market-to-market.
+In short, applications of machine learning technology in product test field can shorten the product test cycle, reduce test costs, accelerate time-to-market.
 
 The working environment for this post consists of following software and tools:
 
