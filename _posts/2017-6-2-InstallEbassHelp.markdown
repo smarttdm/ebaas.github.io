@@ -22,7 +22,7 @@ The enterprise version of Ebaas can work with relational databases such as Oracl
 
 ## Launch Application Server
 
-Find the command at Start->Ebaas->StartServer and click on the command to launch the application server. Please run the command as the administrator on Windows 7 or Windows 10, and You will see the command windows shown in Figure 1 if the application server started successfully. To stop the application server, just close the command window.
+Find the command at Start->Ebaas->StartServer and click on the command to launch the application server. <b>Please run the command as the administrator </b> on Windows 7 or Windows 10, and You will see the command windows shown in Figure 1 if the application server started successfully. To stop the application server, just close the command window.
 
 <img src="{{'/assets/img/2017-06-01-Fig1.png' | prepend: site.baseurl }}" alt="">
 Fig. 1: Application Server Window
