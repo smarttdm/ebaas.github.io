@@ -16,7 +16,7 @@ In Ebaas, an access control policy consists of role-based access control (ACL) r
 
 An access control policy is part of a data model and is saved with the data model in the database. During the runtime, an access control engine on the server side checks each request from clients against the policy and determines whether to grant or deny the request. The UI components are also driven by the policy to display or hide functionalities according to a user’s privilege.
 
-When you create a class in a data model, the access to the class is granted to everyone by default. If you want to have some access controls on the class, you need to create access control rules. It is easy to create the rules using the DesignStudio tool. This tutorial will walk you through the steps of creating ACL rules for the Issue Tracking application you built in the <a class="post-link" href="https://ebaas.github.io/blog/BuildFirstApp/">"Build your first application with Ebaas"</a> tutorial.
+When you create a class in a data model, the access to the class is granted to everyone by default. If you want to have some access controls on the class, you need to create access control rules. It is easy to create the rules using the DesignStudio tool. This tutorial will walk you through the steps of creating ACL rules for the Issue Tracking application you built in the <a class="post-link" href="https://smarttdm.github.io/blog/BuildFirstApp/">"Build your first application with Ebaas"</a> tutorial.
 
 Supposed that you want to create access control policy to enforce the following rules:
 
