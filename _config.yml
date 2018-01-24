@@ -14,14 +14,6 @@ paginate: 15
 navigation:
  - title: Home
    url: /index.html
- - title: Download
-   url: /download
- - title: Demo
-   url: /demo
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
 
 social:
    github: ebaas
