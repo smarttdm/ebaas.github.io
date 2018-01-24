@@ -1,7 +1,7 @@
-title: Yong Zhang
+title: Ebaas Platform
 description: Ebaas is an enterprise application platform. It supports a no-code and metadata-driven development approach that enables professional and nonprofessional developers to rapidly build single page applications 
 
-url: https://ebaas.github.io/
+url: https://smarttdm.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
