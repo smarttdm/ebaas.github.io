@@ -10,7 +10,7 @@ visible: 1
 
 Workflows model business processes., whether the process is the processing of orders, the customer service request, or a work task. The business process consists of steps that are carried out by persons with different roles in the organization. 
 
-The Issue Tracking Application you built in the tutorial of <a class="post-link" href="https://ebaas.github.io/blog/BuildFirstApp/">"Build your first application with Ebaas"</a> is a simple business application which you can enhance with a workflow to model the process of resolving an issue in an organization. You will build a simple state machine workflow using Ebaas WorkflowStudio to track the progress of the issues.
+The Issue Tracking Application you built in the tutorial of <a class="post-link" href="https://smarttdm.github.io/blog/BuildFirstApp/">"Build your first application with Ebaas"</a> is a simple business application which you can enhance with a workflow to model the process of resolving an issue in an organization. You will build a simple state machine workflow using Ebaas WorkflowStudio to track the progress of the issues.
 
 ### Issue Tracking Process
 
