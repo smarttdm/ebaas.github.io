@@ -270,12 +270,3 @@ You can filter the instances in the grid by entering, selecting filter values in
 The datagrid and form are two of very powerful UI components. I will explain their advanced features in the related topics.
 
 That’s it. You have just built a simple issue tracking application without writing a single line of code. With the meta-data driven architecture of Ebaas, you can pretty much build a sophisticated application by building the models that describes the business requirements.
-
-## Related Topics:
-
-1.	<a class="post-link" href="https://ebaas.github.io/blog/BuildCustomizedForm/">Build customized form</a>
-2.	<a class="post-link" href="https://ebaas.github.io/blog/FormInitializationAutoFill/">Form initialization and autofill</a>
-3.	<a class="post-link" href="https://ebaas.github.io/blog/EnableRoleBasedACL/">Enable role-based access control</a>
-4.  <a class="post-link" href="https://ebaas.github.io/blog/ImportDataUsingETL/">Import data using ETL</a>
-5.	<a class="post-link" href="https://ebaas.github.io/blog/BuildStateMachineWorkflow/">Build a State Machine Workflow</a>
-6.	<a class="post-link" href="https://ebaas.github.io/blog/MetadataDrivenUserInterface/">Build a metadata-driven user interface</a>
