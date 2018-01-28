@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ebaas：基于模型驱动的应用开发平台"
+title:  "Ebaas：基于模型驱动的应用配置平台"
 date:   2018-1-28
 visible: 1
 ---
