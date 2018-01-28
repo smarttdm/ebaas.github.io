@@ -2,7 +2,7 @@
 layout: post
 title:  "Ebaas：基于模型驱动的应用配置平台"
 date:   2018-1-28
-visible: 1
+visible: 0
 ---
 
 <p class="intro"><span class="dropcap">E</span>baas is a high-productivity enterprise application platform. It supports a no-code and metadata-driven development method that enables nonprofessional developers to rapidly build single page applications for business data managements</p>
