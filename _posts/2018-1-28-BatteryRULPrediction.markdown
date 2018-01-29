@@ -156,6 +156,6 @@ In short, applications of machine learning technology in product test field can 
 
 ML Studio, together with Ebaas platform, provides a complete environment where you can get a head start on applying machine learning technology to your business.
 
-Figure 4 shows an use scenario of Ebaas and ML Studio in a business environment.
+Figure 9 shows an use scenario of Ebaas and ML Studio in a business environment.
 <img src="{{'/assets/img/2017-06-06-Fig10.png' | prepend: site.baseurl }}" alt="">
-Figure4. - Use Scenario
+Figure9. - Use Scenario
