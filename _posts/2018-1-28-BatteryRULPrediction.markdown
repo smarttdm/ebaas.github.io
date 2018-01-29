@@ -154,11 +154,8 @@ Although machine learning can be used in many fields in businesses, the focus he
 
 In short, applications of machine learning technology in product test field can shorten the product test cycle, reduce test costs, accelerate time-to-market.
 
-The working environment for this post consists of following software and tools:
+ML Studio, together with Ebaas platform, provides a complete environment where you can get a head start on applying machine learning technology to your business.
 
-* Microsoft Windows 10
-* Microsoft.Net Framework 4.5.2
-* Microsoft CNTK 2.0 rc2
-* Ebaas 7.1.0
-* ML Studio 1.0.0
-* Microsoft SQL Server Compact Edition (Embedded in Ebaas)
+Figure 4 shows an use scenario of Ebaas and ML Studio in a business environment.
+<img src="{{'/assets/img/2017-06-06-Fig10.png' | prepend: site.baseurl }}" alt="">
+Figure4. - Use Scenario
