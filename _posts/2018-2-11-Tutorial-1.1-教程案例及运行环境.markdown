@@ -36,6 +36,7 @@ Issue类与数据库术语中的表类似。由于Ebaas中的数据模型是面�
 | CommentTime | 提交时间 | DateTime | 是 | 普通属性 | 意见提交时间 |
 | CommentBy | 提交人 | String | 是 | 条目属性 | 意见提交人 |
 | Content | 内容 | String | 是 | 普通属性 | 意见内容 |
+| ToIssue | 对应事务 | Integer | 是 | 关系属性 | 意见所对应的事务实例 |
 
 #### 运行环境
 
