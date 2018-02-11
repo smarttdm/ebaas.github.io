@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "教程使用的应用案例及运行环境"
+date:   2018-02-11
+visible: 1
+---
+
+为了让您的学习效果更好，本教程将采用一个应用案例作为主线贯穿教程的所有课程。该应用称为“问题跟踪管理系统”，简称ITS（Issue Tracking System）。事务跟踪管理系统是一个企业典型的应用，用于跟踪和管理与项目相关的问题。软件开发人员使用的故障跟踪系统就属于这个类型的应用。为了缩短学习教程所需的时间，我们先实现简单的ITS，您可以在教程的基础上完善这个系统。
+以下是系统的基本需求：
+
+
+#### Issue数据类的定义
+
+
+#### Issue数据类的定义
+
+Issue类与数据库术语中的表类似。由于Ebaas中的数据模型是面向对象的。我们将使用类，属性，实例等术语。根据应用需求，问题类可以有很多属性来描述问题的性质和状态。但是为了简单起见，我们将只在本教程中定义Issue类的以下属性（表1）。
+
+表 1: Attributes of the Issue class
+
+| Attribute Name | Type | Is Required | Constraint | Description |
+|-------|--------|---------|---------|---------|
+| ID | Integer | Yes | Primary Key | A unique numeric ID that identifies an issue; Created by the application automatically |
+| Subject | String | Yes | None | A summary of the issue |
+| Description | String | No | None | A detailed description of the issue |
+| SubmitBy | String | Yes | User List | The user who created the record |
+| SubmitDate | Date | Yes | None | Date the record was created |
+| Status | String | Yes | Enumeration | The issue status. Automatically set to Open when new record is created |
+| Progress | Integer | No | None | The progress of the issue, from 0 to 100 |
+| CloseDate | Date | No | None | Date the issue was closed |
+| Owner | String | Yes | User List | The person who owns this issue |
+
+#### 运行环境
+
+建立Ebaas
+要开始本教程，您需要在您的计算机上安装Ebaas。系统要求如下：
+
+. Windows 10（64位）
+. Microsoft.Net框架4.5.2
+. Google Chrome，Windows Edge或IE 11
+
+第1步：从这里下载Ebaas软件。
+
+
