@@ -42,9 +42,9 @@ Issue类与数据库术语中的表类似。由于Ebaas中的数据模型是面�
 
 在开始本教程之前，您需要在您的计算机上安装Ebaas平台。Ebaas平台可以从我公司官网下载安装。具体系统环境要求如下：
 
-. Ebaas 7.x （使用自带数据库）
-. 操作系统：Windows 7（x64）, Windows 10(x64)
-. 运行环境：Microsoft.Net Framework 4.5.2
-. 浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11
+*	Ebaas 7.x （使用自带数据库）
+*	操作系统：Windows 7（x64）, Windows 10(x64)
+*	.Net环境：Microsoft.Net Framework 4.5.2
+*	浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11
 
 
