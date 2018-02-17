@@ -22,4 +22,5 @@ visible: 1
 #### 打开DesignStudio工具
 
 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。
-运行Design Studio，在打开的界面中选择“文件”下拉菜单的“新建”命令(Ctrl+N)，也可以单击工具栏上的 按钮，如下图所示。
+运行Design Studio，在打开的界面中选择“文件”下拉菜单的“新建”命令(Ctrl+N)，也可以单击工具栏上的 按钮，如下图所示:
+<img src="{{'/assets/img/2018-2-17新建数据库1.png' | prepend: site.baseurl }}" alt="">
