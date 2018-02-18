@@ -1,1 +1,6 @@
-创建数据类主键
+---
+layout: post
+title:  "创建数据类主键"
+date:   2018-02-13
+visible: 1
+---
