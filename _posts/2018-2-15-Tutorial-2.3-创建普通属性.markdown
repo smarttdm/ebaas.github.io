@@ -17,12 +17,9 @@ visible: 1
 <img src="{{'/assets/img/2018-2-15 创建主题普通属性.png' | prepend: site.baseurl }}" alt="">
 并对其作如下参数设置：
 
-•	“数据类型”选择为“String”
-
+•	“数据类型”选择为“String”<br>
 •	“是否自增”选择为“true”– 表示该属性的值在每次添加记录时由系统生成自增值
-
 •	 “是否必要”选择为“true”
-
 •	其它设置采用默认值
 
 
