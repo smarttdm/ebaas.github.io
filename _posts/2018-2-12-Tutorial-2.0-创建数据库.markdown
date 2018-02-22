@@ -23,10 +23,15 @@ visible: 1
 
 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。
 运行Design Studio，在打开的界面中选择“文件”下拉菜单的“新建”命令(Ctrl+N)，如下图所示:
+
 <img src="{{'/assets/img/2018-2-17新建数据库1.png' | prepend: site.baseurl }}" alt="">
+
 系统将自动生成一个缺省的数据库模型框架如下图所示：
+
 <img src="{{'/assets/img/2018-2-22新建数据库2.png' | prepend: site.baseurl }}" alt="">
+
 在左视图栏里鼠标单击选择“NewSchema”，在右下视图栏“参数设置”里，把显示名栏目中的“NewSchema”改为“事物跟踪管理”，按回车键结束。结果如下图所示:
+
 <img src="{{'/assets/img/2018-2-22新建数据库3' | prepend: site.baseurl }}" alt="">
 
 #### 保存数据库
