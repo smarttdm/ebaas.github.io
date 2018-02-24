@@ -11,7 +11,7 @@ visible: 1
 
 在左边的树中选择“数据类”节点，从右键菜单中选择“创建...”菜单，如下图所示：
 
-<img src="{{'/assets/img/2018-2-13 创建数据类.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-13 创建事务数据类1.png' | prepend: site.baseurl }}" alt="">
 
 从弹出的“添加新客体”窗口中，选择“数据类”类型，并在输入数据类的名称和显示名，分别为“Issue”和“事务”（见下图）。
 
