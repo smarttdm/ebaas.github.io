@@ -35,29 +35,27 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-22保存数据库1.png' | prepend: site.baseurl }}" alt="">
 
-在弹出的“系统用户登陆”中，系统用户名输入“admin”，密码“admin”，点击“确定按钮”。见下图：
+在弹出的“系统用户登陆”中，系统管理员用户名输入“admin”，密码“admin”，点击“确定按钮”。见下图：
 
 <img src="{{'/assets/img/2018-2-12 另存为数据库1.png' | prepend: site.baseurl }}" alt="">
-
 在弹出的“保存数据库模型到数据库”中，模型名称输入“事务跟踪管理”，版本号默认“1.0”，完成后单击“确认”按钮,将数据模型保存到数据库。见下图：
 
 <img src="{{'/assets/img/2018-2-12 另存为数据库2.png' | prepend: site.baseurl }}" alt="">
 
+关闭DesignStudio。
+
 #### 打开数据库进行编辑
-运行Design Studio，在打开的界面中选择“文件”下拉菜单的“打开”→“数据库模型”，如下图所示:
+
+再次打开Design Studio，选择“文件”下拉菜单的“打开”→“数据库模型”，如下图所示:
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型1.png' | prepend: site.baseurl }}" alt="">
 
-在弹出的“系统用户登陆”中，选中”事务跟踪管理“数据库模型，系统用户名输入“admin”，密码“admin”，见下图：
+在弹出的“系统用户登陆”中，选中”事务跟踪管理“数据库模型，输入系统管理员用户名“admin”，密码“admin”，见下图：
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型2.png' | prepend: site.baseurl }}" alt="">
 
-点击“确定按钮”，结果见下图：
+点击“确定”，结果见下图：
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型3.png' | prepend: site.baseurl }}" alt="">
 
-
-
-
-
-
+接下来的教程将介绍创建数据类及属性。
