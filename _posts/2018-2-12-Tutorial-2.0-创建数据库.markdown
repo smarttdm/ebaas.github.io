@@ -30,10 +30,6 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-22新建数据库2.png' | prepend: site.baseurl }}" alt="">
 
-在左视图栏里鼠标单击选择“NewSchema”，在右下视图栏“参数设置”里，把显示名栏目中的“NewSchema”改为“事物跟踪管理”，按回车键结束。结果如下图所示:
-
-<img src="{{'/assets/img/2018-2-22新建数据库3.png' | prepend: site.baseurl }}" alt="">
-
 #### 保存数据库
 在Design Studio里，选择“文件”下拉菜单的“另存为数据库”，如下图所示：
 
@@ -41,11 +37,11 @@ visible: 1
 
 在弹出的“系统用户登陆”中，系统用户名输入“admin”，密码“admin”，点击“确定按钮”。见下图：
 
-<img src="{{'/assets/img/2018-2-22保存数据库2.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-12 另存为数据库1.png' | prepend: site.baseurl }}" alt="">
 
 在弹出的“保存数据库模型到数据库”中，模型名称输入“事务跟踪管理”，版本号默认“1.0”，完成后单击“确认”按钮,将数据模型保存到数据库。见下图：
 
-<img src="{{'/assets/img/2018-2-22保存数据库3.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-12 另存为数据库2.png' | prepend: site.baseurl }}" alt="">
 
 #### 打开数据库进行编辑
 
