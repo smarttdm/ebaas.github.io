@@ -5,7 +5,17 @@ date:   2018-02-20
 visible: 1
 ---
 
-表达式约束的属性是指该属性的值。
+与普通属性不同之处在于虚拟属性没有对应的数据库字段。虚拟属性的值是通过动态计算得出的。由于虚拟属性的值没有保存在数据库中，虚拟属性只能用于数据显示的用途，而不能像其它属性那样用于查询、修改、和排序等操作。
+
+虚拟属性常用于在同一数据实例现有属性值的基础上计算出新的值。例如，“事务”数据类的“已提交天数”属性就可以使用虚拟属性实现。“已提交天数”表示该事务从提交日期起到今天的天数。所以该虚拟属性的值是当前日期减去“提交日期”的说得到的天数。
 
 #### 创建“已提交天数”属性
+
+虚拟属性的代码（C#）如下：
+
+{% highlight ruby %}
+DateTime today = DateTime.Now;
+DateTime submitDate = instance.GetDateTime("SubmitDate"); // instance表示当前的数据实例
+return (today - submitDate).TotalDays.ToString();
+{% endhighlight %}
 
