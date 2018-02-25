@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "创建虚拟属性"
+date:   2018-02-20
+visible: 1
+---
+
+虚拟属性
