@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "创建范围约束的属性"
+date:   2018-02-17
+visible: 1
+---
+
+范围约束属性
