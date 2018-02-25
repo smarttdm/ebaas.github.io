@@ -46,9 +46,9 @@ Ebaas平台采用面向对象的数据模型，为了与关系数据库的术语
 | ID | 序号 | Integer | 是 | 主键 | 事务的序号，数据类的主键，由系统自动生成 |
 | Subject | 主题 | String | 是 | 普通属性 | 事务的主题 |
 | Description | 描述 | String | 否 | 普通属性 | 事务的描述信息 |
-| SubmitBy | 提交人 | String | 是 | 条目属性 | 事务的提交人 |
+| SubmitBy | 提交人 | String | 是 | 条目约束属性 | 事务的提交人 |
 | SubmitDate | 提交日期 | Date | 是 | 普通属性 | 事务的提交日期 |
-| Status | 状态 | String | 是 | 枚举属性 | 事务的当前状态。初始状态为“开始” |
+| Status | 状态 | String | 是 | 枚举约束属性 | 事务的当前状态。初始状态为“开始” |
 | Progress | 进度 | Integer | 否 | 数值范围属性 | 事务的进度, 值为0到100 |
 | ElapsedDays | 已提交天数 | Integer | 否 | 虚拟属性 | 显示事务已提交的天数 |
 | CloseDate | 关闭日期 |Date | 否 | 普通属性 | 事务关闭日期 |
