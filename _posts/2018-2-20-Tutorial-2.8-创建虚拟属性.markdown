@@ -14,8 +14,8 @@ visible: 1
 虚拟属性的代码（C#）如下：
 
 {% highlight ruby %}
-DateTime today = DateTime.Now;
-DateTime submitDate = instance.GetDateTime("SubmitDate"); // instance表示当前的数据实例
+DateTime today = DateTime.Now; // 今天的日期
+DateTime submitDate = instance.GetDateTime("SubmitDate"); // 获取提交日期
 return (today - submitDate).TotalDays.ToString();
 {% endhighlight %}
 
