@@ -21,13 +21,14 @@ visible: 1
 •	“是否自增”选择为“true”– 表示该属性的值在每次添加记录时由系统生成自增值<br>
 •	其它设置采用默认值<br>
 结果见下图：<br>
-<img src="{{'/assets/img/2018-2-13 创建普通属性3.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-13 创建普通属性3.png' | prepend: site.baseurl }}" alt=""><br>
 在左边的树中选择“事务”节点，从右下方面板中单击“主键 集合...”按钮，如下图所示：<br>
-<img src="{{'/assets/img/2018-2-14 创建数据类主键1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-14 创建数据类主键1.png' | prepend: site.baseurl }}" alt=""><br>
+弹出的“选择主键”窗口，（见下图）。<br>
+<img src="{{'/assets/img/2018-2-14 创建数据类主键2.png' | prepend: site.baseurl }}" alt=""><br>
 从弹出的“选择主键”窗口中，选择“序号”，单击“向右键头”按钮（见下图）。<br>
-<img src="{{'/assets/img/2018-2-14 创建数据类主键2.png' | prepend: site.baseurl }}" alt="">
-完成后，单击“确认”按钮（见下图）。<br>
-<img src="{{'/assets/img/2018-2-14 创建数据类主键3.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-14 创建数据类主键3.png' | prepend: site.baseurl }}" alt=""><br>
+完成后，单击“确认”按钮。<br>
 到此，“事务数据类主键”添加完毕。
 
 
