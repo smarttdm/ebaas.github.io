@@ -90,7 +90,8 @@ visible: 1
 #### 保存数据模型到数据库
 选择“文件”下拉菜单的“保存到数据库”命令，如下图所示:
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库1.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的确认对话框，当即“是（y）”按钮，见下图：
+在弹出的确认对话框，单击“是（y）”按钮，见下图：
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库2.png' | prepend: site.baseurl }}" alt=""><br>
 数据库模型保存成功后，会弹出信息框，单击“确认”按钮，见下图：
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库3.png' | prepend: site.baseurl }}" alt=""><br>
+到此，模型数据库保存完毕。
