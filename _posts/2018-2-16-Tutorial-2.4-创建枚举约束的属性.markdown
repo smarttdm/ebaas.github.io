@@ -50,4 +50,5 @@ visible: 1
 <img src="{{'/assets/img/2018-2-16 创建事务状态属性约束.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“选择数据约束条件”框中，选中左边的“事务状态”，点击“确认”按钮，如下图所示：
 <img src="{{'/assets/img/2018-2-16 选择事务状态属性约束.png' | prepend: site.baseurl }}" alt=""><br>
+到此，创建枚举约束完毕。
 
