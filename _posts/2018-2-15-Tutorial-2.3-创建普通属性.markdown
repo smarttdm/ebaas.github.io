@@ -39,7 +39,7 @@ visible: 1
 
 #### 创建“事务”数据类的“关闭日期”属性
 创建关闭日期普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：CloseDate，显示名：关闭日期，见下图：
-<img src="{{'/assets/img/2018-2-15 创建关闭日期普通属性A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-15 创建关闭日期普通属性B.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“Date”<br>
 •	“是否必要”选择为“false”<br>
