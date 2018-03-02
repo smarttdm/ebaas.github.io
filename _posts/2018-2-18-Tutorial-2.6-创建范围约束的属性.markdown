@@ -24,8 +24,15 @@ visible: 1
 
 接下来，在“事务”类中创建“进度”属性，并选择“事务进度”作为其约束。步骤如下：
 创建进度普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：Progress，显示名：进度，见下图：
-<img src="{{'/assets/img/2018-2-15 创建进度普通属性A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-18 创建事务进度普通属性1.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“Integer”<br>
 •	“是否必要”选择为“false”<br>
 •	其它设置采用默认值<br>
+属性约束设置步骤：
+”参数设置“栏中，点击”属性约束“最右边的”—“按钮，见下图：
+<img src="{{'/assets/img/2018-2-18 创建事务进度普通属性2.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的”选择数据约束条件“框中，选中”事务进度“，点击”确认“按钮完成，加下图：
+<img src="{{'/assets/img/2018-2-18 创建事务进度普通属性3.png' | prepend: site.baseurl }}" alt=""><br>
+最终结果见下图：
+<img src="{{'/assets/img/2018-2-18 创建事务进度普通属性4.png' | prepend: site.baseurl }}" alt=""><br>
