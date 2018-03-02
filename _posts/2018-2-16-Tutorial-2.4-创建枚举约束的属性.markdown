@@ -33,7 +33,9 @@ visible: 1
 <img src="{{'/assets/img/2018-2-16 添加枚举条目待处理2.png' | prepend: site.baseurl }}" alt=""><br>
 
 在创建枚举值时建议使用整数作为枚举值，显示名使用中文。枚举值一旦创建就不能修改，但是显示名可以修改而不会造成影响。
-注意在输入显示名后，需要在文本框中键入返回键。<br>
+
+注意在输入显示名后，需要在文本框中键入返回键。
+
 其余的添加枚举条目类推，完成后，点击“确认”按钮。最终结果见下图：
 <img src="{{'/assets/img/2018-2-16 添加枚举条目2.png' | prepend: site.baseurl }}" alt=""><br>
 
@@ -50,5 +52,4 @@ visible: 1
 <img src="{{'/assets/img/2018-2-16 创建事务状态属性约束.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“选择数据约束条件”框中，选中左边的“事务状态”，点击“确认”按钮，如下图所示：
 <img src="{{'/assets/img/2018-2-16 选择事务状态属性约束.png' | prepend: site.baseurl }}" alt=""><br>
-到此，创建枚举约束完毕。
-
+到此，创建枚举约束的属性步骤结束。
