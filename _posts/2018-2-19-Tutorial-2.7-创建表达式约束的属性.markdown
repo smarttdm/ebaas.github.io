@@ -22,10 +22,10 @@ visible: 1
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为：“string”<br>
 •	“错误信息”输入：“电子邮箱地址格式有误！”<br>
-•	“表达式”输入：“{% highlight ruby %}^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)${% endhighlight %}”<br>
+•	“表达式”输入：“^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$<br>
 •	其它设置采用默认值<br>
 如下图所示：
-<img src="{{'/assets/img/2018-2-19 创建表达式约束的属性2.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-19 创建表达式约束的属性A2.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“邮箱”属性
 
