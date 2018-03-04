@@ -90,7 +90,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库1.png' | prepend: site.baseurl }}" alt="">
 
-在弹出的确认对话框，单击“是（y）”按钮，见下图：
+DesignStudio会对数据模型进行校验。如果模型正确，会弹出下图的确认对话框，单击“是（y）”按钮：
 
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库2.png' | prepend: site.baseurl }}" alt="">
 
