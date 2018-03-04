@@ -39,7 +39,6 @@ visible: 1
 ）。如下图所示：
 
 <img src="{{'/assets/img/2018-2-16 添加枚举条目待处理2.png' | prepend: site.baseurl }}" alt=""><br>
-
 其余的添加枚举条目类推，完成后，点击“确认”按钮。最终结果见下图：
 
 <img src="{{'/assets/img/2018-2-16 添加枚举条目2.png' | prepend: site.baseurl }}" alt=""><br>
