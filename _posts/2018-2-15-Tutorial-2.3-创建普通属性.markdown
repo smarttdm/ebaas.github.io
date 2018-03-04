@@ -16,8 +16,7 @@ visible: 1
 
 创建主题普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：Subject，显示名：主题，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建主题普通属性A.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建主题普通属性A.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“String”<br>
 •	“是否必要”选择为“true”，表示该属性的值为必填。<br>
@@ -34,8 +33,7 @@ visible: 1
 #### 创建“事务”数据类的“提交日期”属性
 创建提交日期普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：SubmitDate，显示名：提交日期，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建提交日期普通属性A.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建提交日期普通属性A.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“Date”<br>
 •	“是否必要”选择为“true”<br>
@@ -44,8 +42,7 @@ visible: 1
 #### 创建“事务”数据类的“关闭日期”属性
 创建关闭日期普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：CloseDate，显示名：关闭日期，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建关闭日期普通属性B.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建关闭日期普通属性B.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“Date”<br>
 •	其它设置采用默认值<br>
@@ -53,8 +50,7 @@ visible: 1
 #### 创建“意见”数据类的“提交时间”属性
 创建意见提交时间期普通属性步骤：右键单击“意见”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：CommentTime，显示名：提交时间，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建意见提交时间普通属性.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建意见提交时间普通属性.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“DateTime”<br>
 •	“是否必要”选择为“true”<br>
@@ -63,8 +59,7 @@ visible: 1
 #### 创建“意见”数据类的“提交人”属性
 创建意见提交人普通属性步骤：右键单击“意见”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：CommentBy，显示名：提交人，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建意见提交人普通属性.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建意见提交人普通属性.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“String”<br>
 •	“是否必要”选择为“true”<br>
@@ -73,8 +68,7 @@ visible: 1
 #### 创建“意见”数据类的“内容”属性
 创建意见内容普通属性步骤：右键单击“意见”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：Content，显示名：内容，见下图：
 
-<img src="{{'/assets/img/2018-2-15 创建意见内容普通属性.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 创建意见内容普通属性.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
 •	“数据类型”选择为“String”<br>
 •	“是否必要”选择为“true”<br>
@@ -88,14 +82,11 @@ visible: 1
 
 选择“文件”下拉菜单的“保存到数据库”命令，如下图所示:
 
-<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库1.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库1.png' | prepend: site.baseurl }}" alt=""><br>
 DesignStudio会对数据模型进行校验。如果模型正确，会弹出下图的确认对话框，单击“是（y）”按钮：
 
-<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库2.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库2.png' | prepend: site.baseurl }}" alt=""><br>
 数据库模型保存成功后，会弹出信息框，单击“确认”按钮，见下图：
 
-<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库3.png' | prepend: site.baseurl }}" alt="">
-
+<img src="{{'/assets/img/2018-2-15 保存数据模型到数据库3.png' | prepend: site.baseurl }}" alt=""><br>
 数据模型保存数据库会在数据库自动生成表和字段。
