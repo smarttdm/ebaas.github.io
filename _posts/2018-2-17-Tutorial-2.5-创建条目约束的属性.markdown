@@ -36,7 +36,7 @@ Newtera.Common.MetaData.UsersListHandler，Newtera.Common
 •	“数据类型”在选择约束条件时会自动设置为约束条件的数据类型。<br>
 •	“是否必要”选择为“true”<br>
 •	其它设置采用默认值<br>
-•	属性约束设置为：事务用户（List）。”参数设置“栏中，点击”属性约束“最右边的”---“按钮，见下图：
+•	属性约束设置为：事务用户（List）。”参数设置“栏中，点击”属性约束“最右边的“...”按钮，见下图：
 
 <img src="{{'/assets/img/2018-2-17 创建事务提交人属性约束1.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的”选择数据约束条件“框中，选中”事务用户“，点击”确认“按钮完成，加下图：
@@ -53,17 +53,18 @@ Newtera.Common.MetaData.UsersListHandler，Newtera.Common
 创建事务处理人普通属性步骤：右键单击“事务”数据类→选择“创建”，从“添加新客体”选择“普通属性”，输入名称：Owner，显示名：处理人，见下图：
 <img src="{{'/assets/img/2018-2-17 创建事务处理人条属性1.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，并对其作如下参数设置：<br>
-•	属性约束设置为：事务用户（List）<br>
-•	“数据类型”选择为“String”<br>
+
+•	“数据类型”在选择约束条件时会自动设置为约束条件的数据类型。<br>
 •	“是否必要”选择为“true”<br>
 •	其它设置采用默认值<br>
+•	属性约束设置为：事务用户（List）。“参数设置”栏中，点击”属性约束“最右边的“...”按钮，见下图：
 
-属性约束设置步骤：<br>
-”参数设置“栏中，点击”属性约束“最右边的”---“按钮，见下图：<br>
 <img src="{{'/assets/img/2018-2-17 创建事务处理人属性约束1.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的”选择数据约束条件“框中，选中”事务用户“，点击”确认“按钮完成，加下图：<br>
+
 <img src="{{'/assets/img/2018-2-17 创建事务提交人属性约束2.png' | prepend: site.baseurl }}" alt=""><br>
-最终结果见下图：<br>
+最终结果见下图：
+
 <img src="{{'/assets/img/2018-2-17 创建事务处理人属性约束3.png' | prepend: site.baseurl }}" alt=""><br>
 到此，我们创建了“事务提交人”和“事务处理人”两个基于条目约束的属性。
 
