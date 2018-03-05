@@ -12,12 +12,12 @@ visible: 1
 #### 创建关系属性
 
 创建多对一关系属性步骤：右键单击“意见务”数据类→选择“创建”，从“添加新客体”选择“关系属性”，输入名称：ToIssue，显示名：到事务，见下图：
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性1.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-21-创建关系属性1.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确认”按钮，在弹出的“定义关系属性”面板中，“正向关系属性”卡，选择“关系类型”：ManyToOne，在“关联数据类”选择“事务”数据类，见下图：<br>
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性2.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-21-创建关系属性2.png' | prepend: site.baseurl }}" alt=""><br>
 点击“下一步”按钮，在“逆向关系属性”卡中，输入“属性名”：ToComment，“显示名”：到意见；，见下图：
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性3.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-21-创建关系属性3.png' | prepend: site.baseurl }}" alt=""><br>
 完成后点击“确认”按钮，，见下图：
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性4.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-21-创建关系属性4.png' | prepend: site.baseurl }}" alt=""><br>
 
 多对多的关系可通过建立一个中间数据类以及两个一对多关系属性来完成。我们将在后面的教程中介绍。
