@@ -7,13 +7,17 @@ visible: 1
 
 关联数据类
 
-Table 2: Settings of the “Issue Tracking” menu item
+表1: “意见”定制命令菜单项的设置
 
-| Setting Name | Setting Value | Description |
+| 设置参数名 | 设置参数值 | 描述 |
 |-------|--------|---------|
-| Name | Issue Tracking | A unique name of a menu item |
-| Title | Issue Tracking | The display text of a menu item |
-| Navigation URL | app.smarttables.datagrid | The url of the “datagrid” component |
-| Database | TDM 1.0 | The name of a data model |
-| Class | Issue Tracking | The display text of a menu item |
-| Icon Name | fa fa-fw fa-bug | A definition of an icon in Font Awesome icon sets |
+| 名称 | Comments | 定制命令的名称，必须是唯一的 |
+| 显示名 | 意见 | 定制命令在用户界面显示的名称 |
+| 模块URL | .related | 定制命令使用的界面模块，该模块是二维表格模块 |
+| 模块参数 | 配置见表2 | .related界面模块所需的配置参数 |
+
+表2: “related”界面模块的参数
+
+| 设置参数名 | 设置参数值 | 描述 |
+|-------|--------|---------|
+| relatedclass | Comment | 指定关联数据类的名称 |
