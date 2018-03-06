@@ -33,7 +33,12 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“事务”菜单项
-
+创建“事务”菜单项步骤如下：
+展开“事务跟踪管理”节点，右键单击“菜单栏”，如下图所示:
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项1.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“添加新向”框，“名称”输入：IssueTracking，如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项2.png' | prepend: site.baseurl }}" alt=""><br>
+在右边“设置”面板里做如下参数设置：<br>
 表1: “事务”菜单项的设置值
 
 | 设置参数名 | 设置参数值 | 描述 |
@@ -44,8 +49,21 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 | 数据库 | 事务跟踪管理 1.0 | 该菜单指向的数据库 |
 | 数据类 | 事务 | 该菜单指向的数据类 |
 | 图标名称 | fa fa-fw fa-bug | 指定菜单的图标，可选项 |
+数据库设置，单击“数据库”栏右边的“箭头”按钮，从下拉框里选择“事务跟踪管理1.0”，如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项3.png' | prepend: site.baseurl }}" alt=""><br>
+数据类设置，单击“数据类”栏右边的“---”按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项4.png' | prepend: site.baseurl }}" alt=""><br>
+从弹出“已存在的类”框里选择“事务”数据类，如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项5.png' | prepend: site.baseurl }}" alt=""><br>
+最终结果如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 保存界面模型
+选择“文件”下拉菜单的“保存”命令，如下图所示:
+<img src="{{'/assets/img/2018-2-23-保存界面模型1.png' | prepend: site.baseurl }}" alt=""><br>
+从弹出“Confirm dialog”框里,选择“是（y）”按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-23-保存界面模型2.png' | prepend: site.baseurl }}" alt=""><br>
+到此，“事务菜单”模型保存完毕。
 
 #### 重启Ebaas服务器
 
