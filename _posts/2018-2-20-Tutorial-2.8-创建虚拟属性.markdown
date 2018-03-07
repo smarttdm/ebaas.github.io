@@ -21,7 +21,7 @@ visible: 1
 • “数据类型”选择为：“String”
 •	设置虚拟属性的“程序”的方法为在参数设置中点击“程序”栏右边的“...”按钮，如下图所示：
 
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性2.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性2A.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“虚拟属性程序窗口”，复制粘贴下面的代码（C#）到下图的红框显示部分：
 {% highlight ruby %}
 DateTime today = DateTime.Now; // 今天的日期
@@ -34,6 +34,6 @@ return (today - submitDate).TotalDays.ToString();
 
 编译代码确认代码无误后，单击“确定”按钮，见下图：
 
-<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性4.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性4A.png' | prepend: site.baseurl }}" alt=""><br>
 属性的其它设置采用默认值。完成了“已提交天数”的虚拟属性的定义。
 
