@@ -11,14 +11,6 @@ visible: 1
 
 #### 创建“已提交天数”属性
 
-虚拟属性的代码（C#）如下：
-
-{% highlight ruby %}
-DateTime today = DateTime.Now; // 今天的日期
-DateTime submitDate = instance.GetDateTime("SubmitDate"); // 获取提交日期
-return (today - submitDate).TotalDays.ToString();
-{% endhighlight %}
-
 创建"已提交天数"的步骤如下：
 
 鼠标右键选择DesignStudio左边的“事务”数据类→在弹出条目拦单击“创建”→弹出“添加新客体”输入框，选中“虚拟属性”，输入名称：ElapsedDays；显示名：已提交天数。如下图所示：
@@ -28,10 +20,20 @@ return (today - submitDate).TotalDays.ToString();
 •	“程序”输入：“虚拟属性的代码（C#）”
 •	其它设置采用默认值<br>
 添加程序代码步骤：在参数设置中点击“程序”栏右边的“---”按钮如下图所示：
+
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性2.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“虚拟属性程序窗口”，输入虚拟属性的代码（C#），见下图：
+在弹出的“虚拟属性程序窗口”，复制粘贴下面的代码（C#）到下图的红框显示部分，见下图：
+
+{% highlight ruby %}
+DateTime today = DateTime.Now; // 今天的日期
+DateTime submitDate = instance.GetDateTime("SubmitDate"); // 获取提交日期
+return (today - submitDate).TotalDays.ToString();
+{% endhighlight %}
+
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性3.png' | prepend: site.baseurl }}" alt=""><br>
+注意：不要修改
 编译通过后，单击“确定”按钮，见下图：
+
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性4.png' | prepend: site.baseurl }}" alt=""><br>
 
 
