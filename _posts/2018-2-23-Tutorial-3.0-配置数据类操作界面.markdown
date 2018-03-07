@@ -21,15 +21,15 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 
 #### 打开界面模型
 从“开始”- > Ebaas-> SiteMapStudio打开SiteMapStudio工具。
-在打开的SiteMapStudio界面中选择“文件”下拉菜单的“打开”命令，如下图所示:
+在打开的SiteMapStudio界面中选择“文件”下拉菜单的“打开”命令，如下图所示:<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面1.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“管理员登录”框中，“管理员名称”输入：admin；“管理员密码”输入：admin，如下图所示:
+在弹出的“管理员登录”框中，“管理员名称”输入：admin,“管理员密码”输入：admin，如下图所示:<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面2.png' | prepend: site.baseurl }}" alt=""><br>
-进入后，选中左边“网站地图集”右键单击，在弹出的菜单选择“添加”，如下图所示：
+进入后，选中左边“网站地图集”右键单击，在弹出的菜单选择“添加”，如下图所示：<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面3.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“添加新向”框，“名称”输入：事务跟踪管理，如下图所示：
+在弹出的“添加新向”框，“名称”输入：事务跟踪管理，如下图所示：<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面4.png' | prepend: site.baseurl }}" alt=""><br>
-点击“确认”按钮，结果见下图所示:
+点击“确认”按钮，结果见下图所示:<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“事务”菜单项
@@ -38,7 +38,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 <img src="{{'/assets/img/2018-2-23-创建事务菜单项1.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“添加新向”框，“名称”输入：IssueTracking，如下图所示：
 <img src="{{'/assets/img/2018-2-23-创建事务菜单项2.png' | prepend: site.baseurl }}" alt=""><br>
-在右边“设置”面板里做如下参数设置：<br>
+在右边“设置”面板里做如下参数设置,见表1：<br>
 表1: “事务”菜单项的设置值
 
 | 设置参数名 | 设置参数值 | 描述 |
