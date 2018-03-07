@@ -68,10 +68,12 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 
 #### 重启Ebaas服务器
 重启前，先终止Ebaaas服务，方法如下：<br>
-1。如果是手动启动Ebaas，终止方法：按“Ctl+C”，见下图：
+1。如果是手动启动Ebaas，终止方法：按“Ctl+C”，见下图：<br>
 <img src="{{'/assets/img/2018-2-23-重启Ebaas服务器1.png' | prepend: site.baseurl }}" alt=""><br>
-2。如果是系统自动启动Ebaas服务，终止方法：Windows任务管理器，选项卡里选中“EbaasServer.exe”进程，单击“结束进程（E）”按钮，见下图：
-<img src="{{'/assets/img/2018-2-23-重启Ebaas服务器1.png' | prepend: site.baseurl }}" alt=""><br>
+2。如果是系统自动启动Ebaas服务，终止方法：Windows任务管理器，选项卡里选中“EbaasServer.exe”进程，单击“结束进程（E）”按钮，见下图：<br>
+<img src="{{'/assets/img/2018-2-23-重启Ebaas服务器2.png' | prepend: site.baseurl }}" alt=""><br>
+完成上述步骤后，再启动Ebaas服务，从“开始”- > Ebaas-> StartServer。，见下图：<br>
+<img src="{{'/assets/img/2018-2-23-重启Ebaas服务器3.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 登录Web客户端
 
