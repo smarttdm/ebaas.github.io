@@ -18,7 +18,7 @@ visible: 1
 
 •	将生成器设置为如下生成器，其中Newtera.Common.MetaData.UsersListHandler为生成器的类名，Newtera.Common为包含该生成器的DLL名称。该生成器是系统自带的生成器，返回系统的所有用户名。
 {% highlight ruby %}
-Newtera.Common.MetaData.UsersListHandler，Newtera.Common
+Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 {% endhighlight %}
 •	数据类型选择为：String<br>
 如下图所示：
