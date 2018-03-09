@@ -19,7 +19,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 
 在本教程中，您将使用SiteMapStudio和一个称为“datagrid”模块来为“事务”数据类配置一个二维表格的操作界面。下面介绍具体步骤：
 
-#### 打开界面模型
+#### 创建网站模型
 从“开始”- > Ebaas-> SiteMapStudio打开SiteMapStudio工具。
 在打开的SiteMapStudio界面中选择“文件”下拉菜单的“打开”命令，如下图所示:<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面1.png' | prepend: site.baseurl }}" alt=""><br>
@@ -27,9 +27,9 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面2.png' | prepend: site.baseurl }}" alt=""><br>
 进入后，选中左边“网站地图集”右键单击，在弹出的菜单选择“添加”，如下图所示：<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面3.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“添加新向”框，“名称”输入：事务跟踪管理，如下图所示：<br>
+在弹出的“添加新项”对话框中，“名称”输入：事务跟踪管理，如下图所示：<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面4.png' | prepend: site.baseurl }}" alt=""><br>
-点击“确认”按钮，结果见下图所示:<br>
+点击“确认”按钮便创建了一个新的网站模型框架，结果见下图所示:<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“事务”菜单项
