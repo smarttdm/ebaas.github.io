@@ -17,7 +17,9 @@ visible: 1
 点击“确定”按钮，创建了一个“事务用户”条目约束，“事务用户”参数设置栏中做如下设置：
 
 •	数据类型选择为：String<br>
-• 将下面的条目生成器代码复制粘贴到“生成器名”的文本框中，其中Newtera.Common.MetaData.UsersListHandler为生成器的类名，Newtera.Common为包含该生成器的DLL名称。该生成器是系统提供的条目生成器，它返回系统的所有用户名。
+• 将下面的条目生成器代码复制粘贴到“生成器名”的文本框中。该生成器是系统提供的条目生成器，它返回系统的所有用户名。
+
+说明：生成器代码中，Newtera.Common.MetaData.UsersListHandler定义生成器的C#类名，Newtera.Common为包含该生成器的DLL名称。。
 {% highlight ruby %}
 Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 {% endhighlight %}
