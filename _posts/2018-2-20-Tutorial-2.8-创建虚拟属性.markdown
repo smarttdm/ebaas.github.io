@@ -37,3 +37,4 @@ return (today - submitDate).TotalDays.ToString();
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性4A.png' | prepend: site.baseurl }}" alt=""><br>
 属性的其它设置采用默认值。完成了“已提交天数”的虚拟属性的定义。
 
+请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。如果要暂停学习下一个教程，请注意保存数据模型到数据库。
