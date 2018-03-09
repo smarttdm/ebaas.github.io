@@ -71,19 +71,20 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 单击“确认”按钮，结果见下图：
 <img src="{{'/assets/img/2018-2-23-权限控制2.png' | prepend: site.baseurl }}" alt="">
 
-#### 保存界面模型
+#### 保存网站模型
 选择“文件”下拉菜单的“保存”命令，如下图所示:
 <img src="{{'/assets/img/2018-2-23-保存界面模型1.png' | prepend: site.baseurl }}" alt=""><br>
 从弹出“Confirm dialog”框里,选择“是（y）”按钮，如下图所示：
 <img src="{{'/assets/img/2018-2-23-保存界面模型2.png' | prepend: site.baseurl }}" alt=""><br>
-到此，“事务菜单”模型保存完毕。
+<strong>注意</strong>: 创建或修改网站模型并保存后，需要重启Ebaas服务器才能使修改生效。
 
 #### 重启Ebaas服务器
-重启前，先终止Ebaaas服务，方法如下：<br>
-终止Ebaas服务方法：可以按“Ctl+C”或点击窗口右上方的“x”按键，见下图：<br>
+首先需要终止Ebaaas服务器。 步骤如下：
+
+在Windows桌面显示Ebaas服务器的CMD窗口，可以按“Ctl+C”或点击窗口右上方的“x”按键关闭该窗口来终止服务器，见下图：<br>
 <img src="{{'/assets/img/2018-2-23-重启Ebaas服务器1.png' | prepend: site.baseurl }}" alt=""><br>
 
-完成上述步骤后，再启动Ebaas服务，从“开始”- > Ebaas-> StartServer。，见下图：<br>
+然后再重新启动Ebaas服务器，从“开始”- > Ebaas-> StartServer，见下图：<br>
 <img src="{{'/assets/img/2018-2-23-重启Ebaas服务器3.png' | prepend: site.baseurl }}" alt=""><br>
 
 以上操作完成了一个二维表格界面的配置，这个界面提供了对数据类的增删改查的各项操作。接下来的教程，我们介绍如何使用这个配置的界面对“事务”数据类进行增删改查的基本操作。
