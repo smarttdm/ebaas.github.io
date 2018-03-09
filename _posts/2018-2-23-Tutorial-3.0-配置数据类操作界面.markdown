@@ -78,7 +78,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 
 #### 重启Ebaas服务器
 重启前，先终止Ebaaas服务，方法如下：<br>
-终止Ebaas服务方法：按“Ctl+C”，见下图：<br>
+终止Ebaas服务方法：可以按“Ctl+C”或点击窗口右上方的“x”按键，见下图：<br>
 <img src="{{'/assets/img/2018-2-23-重启Ebaas服务器1.png' | prepend: site.baseurl }}" alt=""><br>
 
 完成上述步骤后，再启动Ebaas服务，从“开始”- > Ebaas-> StartServer。，见下图：<br>
