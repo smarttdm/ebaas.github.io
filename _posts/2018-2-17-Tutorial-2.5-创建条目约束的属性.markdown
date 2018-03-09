@@ -71,3 +71,4 @@ Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 <img src="{{'/assets/img/2018-2-17 创建事务处理人属性约束3.png' | prepend: site.baseurl }}" alt=""><br>
 到此，我们创建了“事务提交人”和“事务处理人”两个基于条目约束的属性。
 
+请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。如果要暂停学习下一个教程，请注意保存数据模型到数据库。
