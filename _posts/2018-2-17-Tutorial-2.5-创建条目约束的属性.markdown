@@ -16,12 +16,13 @@ visible: 1
 <img src="{{'/assets/img/2018-2-17 创建事务用户条目约束1.png' | prepend: site.baseurl }}" alt=""><br>
 点击“确定”按钮，创建了一个“事务用户”条目约束，“事务用户”参数设置栏中做如下设置：
 
-•	将生成器设置为如下生成器，其中Newtera.Common.MetaData.UsersListHandler为生成器的类名，Newtera.Common为包含该生成器的DLL名称。该生成器是系统自带的生成器，返回系统的所有用户名。
+•	数据类型选择为：String<br>
+• 将下面的条目生成器代码复制粘贴到“生成器名”的文本框中（其中Newtera.Common.MetaData.UsersListHandler为生成器的类名，Newtera.Common为包含该生成器的DLL名称）。该生成器是系统提供的条目生成器，它返回系统的所有用户名。
 {% highlight ruby %}
 Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 {% endhighlight %}
-•	数据类型选择为：String<br>
-如下图所示：
+
+最后设置结果如下图所示：
 
 <img src="{{'/assets/img/2018-2-17 创建事务用户条目约束2.png' | prepend: site.baseurl }}" alt=""><br>
 
