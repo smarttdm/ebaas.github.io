@@ -19,10 +19,10 @@ visible: 1
 •	数据类型选择为：String<br>
 • 将下面的条目生成器代码复制粘贴到“生成器名”的文本框中。该生成器是系统提供的条目生成器，它返回系统的所有用户名。
 
-说明：生成器代码中，Newtera.Common.MetaData.UsersListHandler定义生成器的C#类名，Newtera.Common为包含该生成器的DLL名称。。
 {% highlight ruby %}
 Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 {% endhighlight %}
+<strong>说明：生成器代码中，Newtera.Common.MetaData.UsersListHandler定义生成器的C#类名，Newtera.Common为包含该生成器的DLL名称。</strong>
 
 最后设置结果如下图所示：
 
