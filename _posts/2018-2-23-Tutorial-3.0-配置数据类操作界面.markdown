@@ -65,7 +65,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 <img src="{{'/assets/img/2018-2-23 选择网站设置1.png' | prepend: site.baseurl }}" alt="">
 最终结果如下图所示：
 <img src="{{'/assets/img/2018-2-23 选择网站设置2.png' | prepend: site.baseurl }}" alt="">
-给“事务跟踪管理”赋值“Everyone”读取权限：<br>
+给“事务跟踪管理”网站模型赋值“Everyone”读取权限，该权限会被网站模型中所有菜单项继承：<br>
 选中左边栏“事务跟踪管理”，选择右边“权限控制”卡，单击“添加”按钮，在弹出的“选择用户或角色”框，选择“角色”→“Everyone”，如下图所示：
 <img src="{{'/assets/img/2018-2-23-权限控制1.png' | prepend: site.baseurl }}" alt="">
 单击“确认”按钮，结果见下图：
