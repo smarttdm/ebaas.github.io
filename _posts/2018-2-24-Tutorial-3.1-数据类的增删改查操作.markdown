@@ -8,8 +8,19 @@ visible: 1
 上一个教程，您使用SiteMapStudio创建了一个界面模型和一个“事务”菜单项。这个教程介绍如何使用Web界面对“事务”数据类进行操作，包括添加，修改，删除和查询。
 
 #### 登录Web客户端
+打开谷歌浏览器，在地址栏输入：http://localhost:8080, 在出现的登录页面，“用户名”输入：demo1,“密码”输入：888,，如下图所示：
+<img src="{{'/assets/img/2018-2-24-登录Web客户端1.png' | prepend: site.baseurl }}" alt=""><br>
+单击“登陆”按钮。
 
 #### 添加“事务”数据实例
+进入首页后，单击“事务管理”图标，如下图所示:
+<img src="{{'/assets/img/2018-2-24-登录Web客户端2.png' | prepend: site.baseurl }}" alt=""><br>
+出现“事务管理”表单页面，单击右上角“+Add”按钮添加数据实例，如下图所示：
+<img src="{{'/assets/img/2018-2-24-登录Web客户端3.jpg' | prepend: site.baseurl }}" alt=""><br>
+弹出“事务实例”表单，填写事务相关数据，如下图所示：
+<img src="{{'/assets/img/2018-2-24-登录Web客户端4.png' | prepend: site.baseurl }}" alt=""><br>
+填写完毕，单击“提交”按钮，数据表单提交成功后，单击“关闭”按钮，结果如下图所示：
+<img src="{{'/assets/img/2018-2-24-登录Web客户端5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 修改“事务”数据实例
 
