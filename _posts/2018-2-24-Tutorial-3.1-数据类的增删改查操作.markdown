@@ -31,6 +31,10 @@ visible: 1
 <img src="{{'/assets/img/2018-2-24-修改事务数据实例2.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 查询“事务”数据实例
+在“事务”数据表格页面查询“主题”数据实例，在搜索框填入要查询的主题关键字，如下图所示：
+<img src="{{'/assets/img/2018-2-24-查询事务数据实例1.png' | prepend: site.baseurl }}" alt=""><br>
+例如：“电池”，输入完成后按“回车”，就会搜索出包含电池的所有数据实例，如下图所示：
+<img src="{{'/assets/img/2018-2-24-查询事务数据实例2.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 删除“事务”数据实例
 
