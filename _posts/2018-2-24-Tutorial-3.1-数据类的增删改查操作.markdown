@@ -18,11 +18,11 @@ visible: 1
 出现“事务管理”表单页面，单击右上角“+Add”按钮添加数据实例，如下图所示：
 <img src="{{'/assets/img/2018-2-24-登录Web客户端3A.png' | prepend: site.baseurl }}" alt=""><br>
 弹出“事务实例”表单，填写事务相关数据，填写完毕，单击“提交”按钮如下图所示：
-<img src="{{'/assets/img/2018-2-24-登录Web客户端4.Apng' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-24-登录Web客户端4A.png' | prepend: site.baseurl }}" alt=""><br>
 系统会自动验证表单填写是否有误，系统验证通过，将数据存入数据库后，会出现“数据提交成功”的信息，单击“关闭”按钮，结果如下图所示：
 <img src="{{'/assets/img/2018-2-24-登录Web客户端5A.png' | prepend: site.baseurl }}" alt=""><br>
 最终结果结果如下图所示：
-<img src="{{'/assets/img/2018-2-24-登录Web客户端5A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-24-登录Web客户端6A.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 修改“事务”数据实例
 在“事务”数据表格页面，选中要修改的数据实例，会向下展开工具栏，单击“编辑”图标，如下图所示：
