@@ -25,6 +25,10 @@ visible: 1
 <img src="{{'/assets/img/2018-2-24-登录Web客户端5A.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 修改“事务”数据实例
+在“事务”数据表格页面，选中要修改的数据实例，会向下展开工具栏，单击“编辑”图标，如下图所示：
+<img src="{{'/assets/img/2018-2-24-修改事务数据实例1.png' | prepend: site.baseurl }}" alt=""><br>
+将弹出“事务”数据实例编辑表单，可进行数据编辑修改，修改完毕后单击“提交”按钮，出现“数据提交成功”信息后，单击“关闭”按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-24-修改事务数据实例2.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 查询“事务”数据实例
 
