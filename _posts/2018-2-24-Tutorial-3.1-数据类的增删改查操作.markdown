@@ -15,7 +15,7 @@ visible: 1
 #### 添加“事务”数据实例
 进入首页后，单击“事务管理”图标，如下图所示:
 <img src="{{'/assets/img/2018-2-24-登录Web客户端2A.png' | prepend: site.baseurl }}" alt=""><br>
-出现“事务管理”表单页面，单击右上角“+Add”按钮添加数据实例，如下图所示：
+出现“事务管理”表单页面，单击右上角“+添加”按钮添加数据实例，如下图所示：
 <img src="{{'/assets/img/2018-2-24-登录Web客户端3A.png' | prepend: site.baseurl }}" alt=""><br>
 弹出“事务实例”表单，填写事务相关数据，填写完毕，单击“提交”按钮如下图所示：
 <img src="{{'/assets/img/2018-2-24-登录Web客户端4A.png' | prepend: site.baseurl }}" alt=""><br>
