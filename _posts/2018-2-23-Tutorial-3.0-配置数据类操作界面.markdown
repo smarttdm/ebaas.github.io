@@ -59,7 +59,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 从弹出“已存在的类”框里选择“事务”数据类，如下图所示：
 <img src="{{'/assets/img/2018-2-23-创建事务菜单项5.png' | prepend: site.baseurl }}" alt=""><br>
 最终结果如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项6.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项6A.png' | prepend: site.baseurl }}" alt="">
 
 #### 指定当前的“网站模型”
 
