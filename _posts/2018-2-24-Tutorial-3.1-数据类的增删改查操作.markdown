@@ -38,7 +38,12 @@ visible: 1
 其余属性查询类推。
 
 #### 删除“事务”数据实例
-
+在“事务”数据表格页面，选中要删除的数据实例，会向下展开工具栏，单击“删除辑”图标，如下图所示：
+<img src="{{'/assets/img/2018-2-24-删除事务数据实例1.png' | prepend: site.baseurl }}" alt=""><br>
+将弹出“确认”框中，单击“yes”按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-24-删除事务数据实例2.png' | prepend: site.baseurl }}" alt=""><br>
+单击“Yes”按钮，选中的数据实例，被删除，如下图所示：
+<img src="{{'/assets/img/2018-2-24-删除事务数据实例3.png' | prepend: site.baseurl }}" alt=""><br>
 
 
 
