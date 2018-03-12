@@ -11,7 +11,7 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 
 #### 创建“事务”数据类的定制命令组
 打开SiteMapStudio工具。 在打开的SiteMapStudio界面中右键选择“定制命令栏”，从弹出的菜单，选择“添加”命令，如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1B.png' | prepend: site.baseurl }}" alt=""><br>
 弹出“添加新项”框，“名称”栏输入：CommentsCommands，如下图所示:
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面2A.png' | prepend: site.baseurl }}" alt=""><br>
 选中“Comments”命令定制组，在右边“设置”选项卡参数配置如下：<br>
