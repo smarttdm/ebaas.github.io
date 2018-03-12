@@ -21,18 +21,9 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 结果如下图所示:
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面3A.png' | prepend: site.baseurl }}" alt=""><br>
 
-数据库设置，单击“数据库”栏右边的“箭头”按钮，从下拉框里选择“事务跟踪管理1.0”，如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项3.png' | prepend: site.baseurl }}" alt=""><br>
-数据类设置，单击“数据类”栏右边的“---”按钮，如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项4.png' | prepend: site.baseurl }}" alt=""><br>
-从弹出“已存在的类”框里选择“事务”数据类，如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项5.png' | prepend: site.baseurl }}" alt=""><br>
-语言栏输入：cn
-最终结果如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项6A.png' | prepend: site.baseurl }}" alt="">
-
-
 #### 创建“意见”定制命令
+右键单击“意见命令组”→在弹出的“菜单”→“添加”→在弹出的“添加新项”名称栏输入：Comments，如下图所示：
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面8.png' | prepend: site.baseurl }}" alt="">
 
 表1: “意见”定制命令菜单项的设置
 
