@@ -13,13 +13,13 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 打开SiteMapStudio工具。 在打开的SiteMapStudio界面中右键选择“定制命令栏”，从弹出的菜单，选择“添加”命令，如下图所示:
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1B.png' | prepend: site.baseurl }}" alt=""><br>
 弹出“添加新项”框，“名称”栏输入：CommentsCommands，如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1C.png' | prepend: site.baseurl }}" alt=""><br>
 选中“Comments”命令定制组，在右边“设置”选项卡参数配置如下：<br>
 在“显示名”栏输入：意见命令组<br>
 默认数据库选择：事务跟踪管理<br>
 数据类选择：事务<br>
 结果如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面3B.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面2C.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“意见”定制命令
 
@@ -39,15 +39,15 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 | relatedclass | Comment | 指定关联数据类的名称 |
 
 右键单击“意见命令组”→在弹出的“菜单”→“添加”→在弹出的“添加新项”名称栏输入：Comments，如下图所示：
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面8.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面8C.png' | prepend: site.baseurl }}" alt=""><br>
 单击“确定”按钮，在“设置”选项卡，做一下参数设置：<br>
 “显示名”栏输入：意见<br>
 “模块参数”栏，点击右边“...”按钮，如下图所示：
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面5.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面5C.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“定义参数”框，点击“添加”按钮→在右边“参数名”输入：relatedclass，“参数值”输入：Comment，如下图所示：
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面6.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面6C.png' | prepend: site.baseurl }}" alt=""><br>
 “图标名称”输入：fa fa-lg fa-task，最终结果见下图：<br>
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面7.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面7C.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 保存界面模型
 点击“文件”→选择“保存”，如下图所示：
