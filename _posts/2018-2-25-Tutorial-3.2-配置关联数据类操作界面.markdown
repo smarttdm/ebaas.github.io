@@ -17,9 +17,9 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 选中“Comments”命令定制组，在右边“设置”选项卡参数配置如下：<br>
 在“显示名”栏输入：意见命令组<br>
 默认数据库选择：事务跟踪管理<br>
-数据类选择：意见<br>
+数据类选择：事务<br>
 结果如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面3A.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面3B.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 创建“意见”定制命令
 
