@@ -49,8 +49,9 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 “图标名称”输入：fa fa-lg fa-task，最终结果见下图：<br>
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面7.png' | prepend: site.baseurl }}" alt=""><br>
 
-
 #### 保存界面模型
+点击“文件”→选择“保存”，如下图所示：
+<img src="{{'/assets/img/2018-2-25-保存事务菜单模板.png' | prepend: site.baseurl }}" alt=""><br>
 
 保存后请注意重启Ebaas服务器
 
