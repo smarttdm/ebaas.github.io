@@ -56,3 +56,11 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 保存后请注意重启Ebaas服务器
 
 #### 使用定制命令
+在谷歌浏览器地址栏输入：localhost:8080，单击“事务”图标，→ 单击某条数据实例，→ 在展开的下拉工具栏，单击“意见”图标，如下图所示：
+<img src="{{'/assets/img/2018-2-25-使用定制命令1.png' | prepend: site.baseurl }}" alt=""><br>
+页面转入“意见”页面，单击右上角“+添加”按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-25-使用定制命令2.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“意见”表单输入相关数据，完成后单击“提交”按钮，→ 出现”数据提交成功“信息，→ 单击”关闭“按钮，如下图所示：
+<img src="{{'/assets/img/2018-2-25-使用定制命令3.png' | prepend: site.baseurl }}" alt=""><br>
+最终结果，如下图所示：
+<img src="{{'/assets/img/2018-2-25-使用定制命令4.png' | prepend: site.baseurl }}" alt=""><br>
