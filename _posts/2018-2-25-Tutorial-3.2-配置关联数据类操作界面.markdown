@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "创建关联数据类操作界面"
+title:  "配置关联数据类操作界面"
 date:   2018-02-25
 visible: 1
 ---
