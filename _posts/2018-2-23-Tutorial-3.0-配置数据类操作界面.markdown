@@ -58,16 +58,17 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 <img src="{{'/assets/img/2018-2-23-创建事务菜单项4.png' | prepend: site.baseurl }}" alt=""><br>
 从弹出“已存在的类”框里选择“事务”数据类，如下图所示：
 <img src="{{'/assets/img/2018-2-23-创建事务菜单项5.png' | prepend: site.baseurl }}" alt=""><br>
-语言栏输入：cn
+语言栏输入：cn,如下图所示：
+<img src="{{'/assets/img/2018-2-23-创建事务菜单项6A.png' | prepend: site.baseurl }}" alt="">
 
 #### 指定当前的“网站模型”
 
 当SiteMapStudio中有多个网站模型时，需要指定一个网站模型为当前网站模型。步骤为选中左边栏“网站地图集”，在“设置”选项卡中“当前网站”右边点击“向下箭头”，在下拉菜单里选择“事务跟踪管理”数据模型，如下图所示：
 <img src="{{'/assets/img/2018-2-23 选择网站设置1.png' | prepend: site.baseurl }}" alt="">
-
-<img src="{{'/assets/img/2018-2-23 选择网站设置2.png' | prepend: site.baseurl }}" alt="">
 最终结果如下图所示：
-<img src="{{'/assets/img/2018-2-23-创建事务菜单项6A.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-23 选择网站设置2.png' | prepend: site.baseurl }}" alt="">
+
+
 
 #### 赋予权限
 
