@@ -30,7 +30,7 @@ Ebaas平台提供了一个基于模块可插拔机制的用户界面，并提供
 在弹出的“添加新项”对话框中，“名称”输入：事务跟踪管理，如下图所示：<br>
 <img src="{{'/assets/img/2018-2-23-配置数据类操作界面4.png' | prepend: site.baseurl }}" alt=""><br>
 点击“确认”按钮便创建了一个新的网站模型框架，结果见下图所示:<br>
-<img src="{{'/assets/img/2018-2-23-配置数据类操作界面5.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-23-配置数据类操作界面5.png' | prepend: site.baseurl }}" alt="">
 
 #### 配置网站模型
 
