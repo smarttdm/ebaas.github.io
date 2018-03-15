@@ -15,11 +15,12 @@ visible: 1
 
 {% highlight ruby %}
 this.Instance.SetValue（“状态”，“待处理”）; 
-this.Instance.SetValue（“提交日期”，CurrentDate）; // CurrentDate为内置函数，返回当前日期
-this.Instance.SetValue（“提交人”，CurrentUser）; // CurrentUser为内置函数，返回当前登录用户名
+this.Instance.SetValue（“提交日期”，CurrentDate）;
+this.Instance.SetValue（“提交人”，CurrentUser）;
 this.Instance.SetValue（“进度”，0）;
 {% endhighlight %}
 
+其中：CurrentDate为内置函数，返回当前日期；CurrentUser为内置函数，返回当前登录用户名。<br>
 写入“初始化程序”的代码会在打开添加“事务”实例的表单时执行，为表单的部分属性设置初始值。
 
 #### 保存数据模型
