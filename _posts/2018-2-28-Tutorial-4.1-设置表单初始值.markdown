@@ -5,23 +5,25 @@ date:   2018-02-28
 visible: 1
 ---
 
-这是一个常见的要求，当打开一个新表单时，表单中的某些字段用值初始化。例如，当您为新问题打开表单时，您希望分别使用“今日”，“姓名”和“打开”状态对“提交日期”，“提交日期”和“状态”进行初始化。在Ebaas中，您可以在数据模型中实现表单初始化的逻辑。
+当您为新问题打开表单时，您希望分别使用“今日”，“姓名”和“打开”状态对“提交日期”，“提交日期”和“状态”进行初始化。在Ebaas中，您可以在数据模型中实现表单初始化的逻辑。
 
 #### 打开数据模型
 
-#### 设置“事务”类的初始化代码
+#### 设置“事务”类的初始化代程序
 
 代码编辑器允许您使用C＃代码编写初始化逻辑。可以在编辑器中输入以下代码行，然后单击“确定”进行编译和关闭。
 
+{% highlight ruby %}
 this.Instance.SetValue（“状态”，“待处理”）; 
 this.Instance.SetValue（“提交日期”，CurrentDate）; // CurrentDate为内置函数，返回当前日期
 this.Instance.SetValue（“提交人”，CurrentUser）; // CurrentUser为内置函数，返回当前登录用户名
 this.Instance.SetValue（“进度”，0）;
+{% endhighlight %}
+
+写入“初始化程序”的代码会在打开添加“事务”实例的表单时执行，为表单的部分属性设置初始值。
+
+#### 保存数据模型
+
+#### 打开表单测试初始值
 
 
-this.Instance.SetValue（attributeName，attributeValue）
-是一种将值设置为当前加载到表单中的实例的属性的方法。 CurrentDate是获取Today日期的内置函数，CurrentUser是获取打开表单的用户的CurrentUser。图2显示了包含代码的编辑器。
-
-图2：在代码编辑器中编写代码
-
-第3步：保存数据模型
