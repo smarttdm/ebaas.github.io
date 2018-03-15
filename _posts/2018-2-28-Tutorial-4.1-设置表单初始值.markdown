@@ -1,0 +1,33 @@
+
+这是一个常见的要求，当打开一个新表单时，表单中的某些字段用值初始化。例如，当您为新问题打开表单时，您希望分别使用“今日”，“姓名”和“打开”状态对“提交日期”，“提交日期”和“状态”进行初始化。在Ebaas中，您可以在数据模型中实现表单初始化的逻辑。
+
+第1步：打开DesignStudio
+
+您可以在Start-> Ebaas-> DesignStudio中启动DesignStudio。
+
+第2步：打开数据模型
+
+选择包含“Issues”类的名为TDM的现有数据模型，以admin用户身份登录。 admin用户的用户名是“admin”，默认密码是“admin”。
+
+第3步：实施“问题”类的初始化代码
+
+选择树中“类”节点下的“问题”类节点以查看右侧类的设置。
+
+找到“方法”类别下的“初始化代码”设置，单击输入字段末尾的按钮以启动代码编辑器。
+
+图1：为问题设置初始化逻辑
+
+代码编辑器允许您使用C＃代码编写初始化逻辑。它不应该写在这个地方有很多代码的复杂逻辑。对于问题表单，您可以在编辑器中输入以下代码行，然后单击“确定”进行编译和关闭。
+
+this.Instance.SetValue（“状态”，“打开”）;
+this.Instance.SetValue（“SubmitDate”，CurrentDate）;
+this.Instance.SetValue（“SubmitBy”，CurrentUser）;
+this.Instance.SetValue（“Progress”，0）;
+代码在哪里
+
+this.Instance.SetValue（attributeName，attributeValue）
+是一种将值设置为当前加载到表单中的实例的属性的方法。 CurrentDate是获取Today日期的内置函数，CurrentUser是获取打开表单的用户的CurrentUser。图2显示了包含代码的编辑器。
+
+图2：在代码编辑器中编写代码
+
+第3步：保存数据模型
