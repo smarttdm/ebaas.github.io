@@ -34,6 +34,7 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 “图标名称”栏输入：“fa fa-fw fa-table”<br>
 如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单5.png' | prepend: site.baseurl }}" alt=""><br>
+完成后，保存=>重启Ebaas Server。
 
 #### 打开表单设计器
 
