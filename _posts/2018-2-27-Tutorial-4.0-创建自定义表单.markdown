@@ -15,7 +15,15 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 
 #### 创建表单设计器
 打开SiteMapStudio工具。 在打开的SiteMapStudio界面中右键选择“菜单栏” => 从弹出的菜单 => 选择“添加”命令，如下图所示: 
-<img src="{{'/assets/img/2018-2-26-创建自定义表单1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-26-创建自定义表单1.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“添加新体”=>“名称”输入：系统设置，如下图所示: 
+<img src="{{'/assets/img/2018-2-26-创建自定义表单2.png' | prepend: site.baseurl }}" alt=""><br>
+在左边”菜单栏“选中”系统设置“=>右边”设置“卡，做如下参数设置：<br>
+“数据库”栏，选择“事务跟踪管理1.0”<br>
+“图标名称”栏，输入“fa fa-la fa-fw fa-building”<br>
+如下图所示: 
+<img src="{{'/assets/img/2018-2-26-创建自定义表单3.png' | prepend: site.baseurl }}" alt=""><br>
+
 #### 打开表单设计器
 
 由于表单设计器是基于Web的，因此您需要使用Web浏览器连接到http：// localhost：8080上的Ebaas服务器，并以“demo1”用户身份登录，密码为“888”。
