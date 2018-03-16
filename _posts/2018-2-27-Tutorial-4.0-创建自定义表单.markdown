@@ -19,8 +19,8 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 在弹出的“添加新体”=>“名称”输入：系统设置，如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单2.png' | prepend: site.baseurl }}" alt=""><br>
 在左边”菜单栏“选中”系统设置“=>右边”设置“卡，做如下参数设置：<br>
-“数据库”栏选择“事务跟踪管理1.0”<br>
-“图标名称”栏输入“fa fa-la fa-fw fa-building”<br>
+“数据库”栏选择：“事务跟踪管理1.0”<br>
+“图标名称”栏输入：“fa fa-la fa-fw fa-building”<br>
 如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单3.png' | prepend: site.baseurl }}" alt=""><br>
 
@@ -30,8 +30,8 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 单击确定按钮，在左边”菜单栏“选中”表单设计器“=>右边”设置“卡，做如下参数设置：<br>
 “描述”栏输入：col-xs-4 col-sm-3 col-md-2 page-orange<br>
 "模块URL"输入：app.formeditor<br>
-“数据库”栏选择“事务跟踪管理1.0”<br>
-“图标名称”栏输入“fa fa-fw fa-table”<br>
+“数据库”栏选择：“事务跟踪管理1.0”<br>
+“图标名称”栏输入：“fa fa-fw fa-table”<br>
 如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单5.png' | prepend: site.baseurl }}" alt=""><br>
 
