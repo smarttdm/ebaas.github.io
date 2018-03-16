@@ -13,7 +13,7 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 
 本教程将引导您为“事务”数据类创建一个自定义表单，从而熟悉表单设计器的使用：
 
-#### 创建表单设计器
+#### 创建系统设置
 打开SiteMapStudio工具。 在打开的SiteMapStudio界面中右键选择“菜单栏” => 从弹出的菜单 => 选择“添加”命令，如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单1.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“添加新体”=>“名称”输入：系统设置，如下图所示: 
@@ -23,6 +23,17 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 “图标名称”栏，输入“fa fa-la fa-fw fa-building”<br>
 如下图所示: 
 <img src="{{'/assets/img/2018-2-26-创建自定义表单3.png' | prepend: site.baseurl }}" alt=""><br>
+
+#### 创建表单设计器
+在左边”菜单栏“右键单击”系统设置“=>在弹出“添加新项”框，“名称”栏输入：表单设计器：如下图所示: 
+<img src="{{'/assets/img/2018-2-26-创建自定义表单4.png' | prepend: site.baseurl }}" alt=""><br>
+单击确定按钮，在左边”菜单栏“选中”表单设计器“=>右边”设置“卡，做如下参数设置：<br>
+“描述”栏，输入：col-xs-4 col-sm-3 col-md-2 page-orange<br>
+"模块URL"输入：app.formeditor<br>
+“数据库”栏，选择“事务跟踪管理1.0”<br>
+“图标名称”栏，输入“fa fa-fw fa-table”<br>
+如下图所示: 
+<img src="{{'/assets/img/2018-2-26-创建自定义表单5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 打开表单设计器
 
