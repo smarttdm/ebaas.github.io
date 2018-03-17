@@ -27,7 +27,7 @@ if (this.Property == "Status")
 }
 {% endhighlight %}
 
-由于“回调函数程序”可以被表单中多个字段值的变化激活。所以，需要用<code>if (this.Property ==“Status”)</code> 语句来判断是否是“Status”这个字段值变化所激活的回调函数，以便区分其它字段值变化所激活的回调函数。
+提示：由于“回调函数程序”可以被表单中多个字段值的变化激活。所以，需要用<code>if (this.Property ==“Status”)</code> 语句来判断是否是“Status”这个字段值变化所激活的回调函数，以便区分其它字段值变化所激活的回调函数。
 
 #### 在“状态”属性上启用回调
 
