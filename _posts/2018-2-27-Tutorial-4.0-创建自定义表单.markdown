@@ -59,9 +59,15 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 <img src="{{'/assets/img/2018-2-26-打开自定义表单4.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 插入数据类属性
-
+将光标插入事务表格第一行第一列，→单击工具栏“属性”图标，→在弹出的“插入表单字段”框中，→左边选中“事务”数据类，→右边“数据类属性”选择“序号”属性，如下图所示:
+<img src="{{'/assets/img/2018-2-26-打开自定义表单6.png' | prepend: site.baseurl }}" alt=""><br>
+单击“确定”按钮，其它属性插入依此类推，结果如下图所示: 
+<img src="{{'/assets/img/2018-2-26-打开自定义表单7.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 保存表单
+单击工具栏“存盘”按钮，在弹出“消息”框中，显示“表单已保存”信息，如下图所示: 
+<img src="{{'/assets/img/2018-2-26-打开自定义表单8.png' | prepend: site.baseurl }}" alt=""><br>
+单击“关闭”按钮。
 
 #### 预览表单
 
