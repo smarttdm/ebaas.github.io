@@ -14,14 +14,14 @@ visible: 1
 
 #### 设置“事务”类的初始化代程序
 
-代码编辑器允许您使用C＃代码编写初始化逻辑。可以在编辑器中输入以下代码行，然后单击“确定”进行编译和关闭。<br>
-注意：符号要使用英文。
+代码编辑器允许您使用C＃代码编写初始化逻辑。您可以在编辑器中复制粘贴以下代码行，然后单击“确定”进行编译和关闭。<br>
+注意：代码中的引号，逗号和分号符号要使用英文。
 
 {% highlight ruby %}
 this.Instance.SetValue（“状态”，“待处理”）; 
 this.Instance.SetValue（“提交日期”，CurrentDate）;
 this.Instance.SetValue（“提交人”，CurrentUser）;
-this.Instance.SetValue（“进度”，0）;
+this.Instance.SetValue（“进度”，"0"）;
 {% endhighlight %}
 
 其中：CurrentDate为内置函数，返回当前日期；CurrentUser为内置函数，返回当前登录用户名.
@@ -31,11 +31,14 @@ this.Instance.SetValue（“进度”，0）;
 
 #### 保存数据模型
 
-单击菜单栏“文件”→“保存到数据库”，如下图：
+单击菜单栏“文件” => “保存到数据库”，如下图：
 <img src="{{'/assets/img/2018-2-28-设置表单初始值3.png' | prepend: site.baseurl }}" alt="">
 
+提示：您也可以使用工具栏的图标项执行“保存到数据库”的命令。
+
 #### 打开表单测试初始值
-在谷歌浏览器地址栏输入：http://localhost:8080 →在首页页面中单击“事务管理”图标，→进入“事务数据表格”页面，→单击右上角“+添加”按钮，弹出“事务表单”页面，可以看到预先设置的初始值，如下图：
+
+在浏览器地址栏输入：http://localhost:8080 => 在首页页面中单击“事务管理”图标 => 进入“事务数据表格”页面 => 单击右上角“+添加”按钮，弹出“事务表单”页面，可以看到预先设置的初始值，如下图：
 <img src="{{'/assets/img/2018-2-28-设置表单初始值4.png' | prepend: site.baseurl }}" alt="">
 
 
