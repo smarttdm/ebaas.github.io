@@ -42,4 +42,4 @@ if (this.Property == "Status")
 #### 测试表单自动填充
 在谷歌浏览器地址栏输入：http://localhost:8080, 单击“事务管理”图标，进入“事务”数据表格页面，单击某条数据实例，在下拉的工具栏中，单击“编辑”图标，
 现在，打开“事务”表单进行编辑，将“状态”的值更改为“关闭”，观察“进度”字段的值应变为100和“关闭日期”字段的值因为当前日期。如下图：
-<img src="{{'/assets/img/2018-2-29-设置表单字段自动填充4.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-2-29-设置表单字段自动填充4A.png' | prepend: site.baseurl }}" alt=""><br>
