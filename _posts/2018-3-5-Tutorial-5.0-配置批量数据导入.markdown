@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "配置数据导入脚本"
+title:  "配置批量数据导入"
 date:   2018-03-05
 visible: 1
 ---
