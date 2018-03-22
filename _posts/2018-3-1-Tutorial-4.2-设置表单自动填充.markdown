@@ -21,7 +21,7 @@ if (this.Property == "Status")
   string status = this.Instance.GetString("Status");
   if (status == "关闭")
   {
-      this.Instance.SetValue("进度", 100);
+      this.Instance.SetValue("进度", "100");
       this.Instance.SetValue("关闭日期", CurrentDate);
   }
 }
