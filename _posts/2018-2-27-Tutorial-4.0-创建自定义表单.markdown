@@ -42,7 +42,7 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 
 完成后，保存修改并重启Ebaas Server。
 
-{% include warning.html content="重启Ebaas Server。" %}
+{% include important.html content="重启Ebaas Server。" %}
 
 #### 打开表单设计器
 
