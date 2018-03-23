@@ -27,7 +27,7 @@ this.Instance.SetValue（“进度”，"0"）;
 其中：CurrentDate为内置函数，返回当前日期；CurrentUser为内置函数，返回当前登录用户名.
 
 以上“初始化程序”的代码会在打开添加“事务”实例的表单时执行，为表单的部分属性设置初始值。如下图：
-<img src="{{'/assets/img/2018-2-28-设置表单初始值2A.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-2-28-设置表单初始值2B.png' | prepend: site.baseurl }}" alt="">
 
 #### 保存数据模型
 
