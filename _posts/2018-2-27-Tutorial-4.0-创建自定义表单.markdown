@@ -42,6 +42,8 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 
 完成后，保存修改并重启Ebaas Server。
 
+{% include warning.html content="重启Ebaas Server。" %}
+
 #### 打开表单设计器
 
 由于表单设计器是基于Web的，因此您需要使用Web浏览器连接到http：// localhost：8080上的Ebaas服务器，并以“demo1”用户身份登录，密码为“888”。
