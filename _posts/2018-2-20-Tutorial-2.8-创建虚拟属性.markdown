@@ -30,7 +30,8 @@ return (today - submitDate).TotalDays.ToString();
 {% endhighlight %}
 
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性3.png' | prepend: site.baseurl }}" alt=""><br>
-注意：不要修改其它部分的代码。
+
+{% include important.html content="不要修改虚拟属性代码的其它部分。" %}
 
 编译代码确认代码无误后，单击“确定”按钮，见下图：
 
