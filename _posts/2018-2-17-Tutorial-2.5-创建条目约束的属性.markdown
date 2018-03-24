@@ -22,11 +22,12 @@ visible: 1
 {% highlight ruby %}
 Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 {% endhighlight %}
-<strong>说明</strong>：生成器代码中，Newtera.Common.MetaData.UsersListHandler定义生成器的C#类名，Newtera.Common为包含该生成器的DLL名称。
 
 最后设置结果如下图所示：
 
 <img src="{{'/assets/img/2018-2-17 创建事务用户条目约束2.png' | prepend: site.baseurl }}" alt=""><br>
+
+{% include note.html content="生成器代码中，Newtera.Common.MetaData.UsersListHandler定义生成器的C#类名，Newtera.Common为包含该生成器的DLL名称。" %}
 
 #### 创建“提交人”属性
 
