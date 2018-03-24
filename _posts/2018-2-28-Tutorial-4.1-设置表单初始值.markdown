@@ -15,7 +15,6 @@ visible: 1
 #### 设置“事务”类的初始化代程序
 
 代码编辑器允许您使用C＃代码编写初始化逻辑。您可以将下面的代码复制粘贴到编辑器中，然后单击“确定”进行编译和关闭。<br>
-注意：代码中的引号，逗号和分号符号要使用英文。
 
 {% highlight ruby %}
 this.Instance.SetValue（“状态”，“待处理”）; 
@@ -24,7 +23,8 @@ this.Instance.SetValue（“提交人”，CurrentUser）;
 this.Instance.SetValue（“进度”，"0"）;
 {% endhighlight %}
 
-其中：CurrentDate为内置函数，返回当前日期；CurrentUser为内置函数，返回当前登录用户名.
+{% include note.html content="以上代码中：CurrentDate为内置函数，返回当前日期；CurrentUser为内置函数，返回当前登录用户名。此外，代码中的引号，逗号和分号符号要使用英文。" %}
+
 
 以上“初始化程序”的代码会在打开添加“事务”实例的表单时执行，为表单的部分属性设置初始值。如下图：
 <img src="{{'/assets/img/2018-2-28-设置表单初始值2B.png' | prepend: site.baseurl }}" alt="">
@@ -34,7 +34,7 @@ this.Instance.SetValue（“进度”，"0"）;
 单击菜单栏“文件” => “保存到数据库”，如下图：
 <img src="{{'/assets/img/2018-2-28-设置表单初始值3.png' | prepend: site.baseurl }}" alt="">
 
-提示：您也可以使用工具栏的图标项执行“保存到数据库”的命令。
+{% include note.html content="您也可以使用工具栏的图标项执行“保存到数据库”的命令。" %}
 
 #### 打开表单测试初始值
 
