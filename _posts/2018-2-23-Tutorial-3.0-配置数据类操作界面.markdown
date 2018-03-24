@@ -90,7 +90,8 @@ SiteMapStudio允许您为网站模型中的元素设置用户访问权限（我�
 <img src="{{'/assets/img/2018-2-23-保存界面模型1.png' | prepend: site.baseurl }}" alt=""><br>
 从弹出“Confirm dialog”框里,选择“是（y）”按钮，如下图所示：
 <img src="{{'/assets/img/2018-2-23-保存界面模型2.png' | prepend: site.baseurl }}" alt=""><br>
-<strong>注意: 创建或修改网站模型并保存后，需要重启Ebaas服务器才能使修改生效。</strong>
+
+{% include important.html content="创建或修改网站模型并保存后，需要重启Ebaas服务器才能使修改生效。" %}
 
 #### 重启Ebaas服务器
 首先需要终止Ebaaas服务器。 步骤如下：
