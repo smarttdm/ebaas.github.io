@@ -56,7 +56,7 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 点击“文件” => 选择“保存”，如下图所示：
 <img src="{{'/assets/img/2018-2-25-保存事务菜单模板C.png' | prepend: site.baseurl }}" alt=""><br>
 
-注意保存后请重启Ebaas服务器。
+{% include important.html content="保存后请重启Ebaas服务器。" %}
 
 #### 使用定制命令
 使用浏览器登录到Web界面，单击“事务”图标 => 单击某条数据实例 => 在展开的下拉工具栏，单击“意见”图标，如下图所示：
