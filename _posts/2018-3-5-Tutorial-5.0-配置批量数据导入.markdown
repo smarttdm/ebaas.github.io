@@ -15,7 +15,7 @@ visible: 1
 
 [点击下载事务数据文件][1]
 
-[1]:{{ site.url }}/assets/事务数据.txt
+[1]:{{ site.url }}/assets/issues.csv
 
 {% include note.html content="数据导入向导支持文本，CSV，Excel等格式文件导入。特殊格式的文件需要编写导入转换器并进行配置。" %}
 
