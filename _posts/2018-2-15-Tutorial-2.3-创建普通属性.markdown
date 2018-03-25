@@ -91,7 +91,7 @@ DesignStudio会对数据模型进行校验。如果模型正确，会弹出下�
 
 <img src="{{'/assets/img/2018-2-15 保存数据模型到数据库3.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="数据模型保存数据库会在数据库自动生成表和字段。" %}
+{% include note.html content="如果模型有问题，会弹出错误信息。需要根据提示修复问题后才会保存到数据库。数据模型保存数据库后会在数据库自动生成表和字段。" %}
 
 
 请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。
