@@ -35,9 +35,11 @@ visible: 1
 * 将其名称更改为“IssueAssigned”;
 * 选择事件类型为“Update”，表示该事件由修改数据实例产生;
 * 点击“被修改属性”设置右边文字框，在弹出的窗口中选择左边列表中的“状态”属性，添加到右边的列表中，表示当“状态”属性值被修改时。如下图所示;
+
 <img src="{{'/assets/img/2018-3-21-定义IssueAssigned修改属性.png' | prepend: site.baseurl }}" alt="">
 
 * 点击“数据实例条件”设置右边文字框，在弹出的窗口中设置表达式为“状态=已指定”，表示当“状态”属性值被修改为“已指定”时。如下图所示;
+
 <img src="{{'/assets/img/2018-3-21-定义IssueAssigned数据条件.png' | prepend: site.baseurl }}" alt="">
 
 下图为最后配置结果截图：
