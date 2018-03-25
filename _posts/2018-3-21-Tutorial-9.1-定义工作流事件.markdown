@@ -14,6 +14,8 @@ visible: 1
 * 从数据库列表中选择“事务跟踪管理”数据库，并以管理员用户名“admin”和密码“admin”登录;
 * 在左边导航栏中选择“事务”数据类节点，然后在右下方切换到“事件”选项卡 （见下图）。
 
+<img src="{{'/assets/img/2018-3-21-定义数据库事件.png' | prepend: site.baseurl }}" alt="">
+
 创建“IssueCreated”事件
 
 将问题实例添加到数据库时会发生“IssueCreated”事件，该问题将启动工作流程实例。
