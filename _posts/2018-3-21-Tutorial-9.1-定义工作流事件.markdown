@@ -43,7 +43,7 @@ visible: 1
 <img src="{{'/assets/img/2018-3-21-定义IssueAssigned数据条件.png' | prepend: site.baseurl }}" alt="">
 
 下图为最后配置结果截图：
-<img src="{{'/assets/img/2018-3-21-定义IssureAssigned事件.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-3-21-定义IssueAssigned事件.png' | prepend: site.baseurl }}" alt="">
 
 {% include note.html content="定义修改数据实例产生的事件时，一定要定义‘被修改属性’和‘数据实例条件’，表示当这两个条件都满足是，数据库修改事件才会产生。否则，该事件会在很多情况下产生，造成流程误操作。" %}
 
