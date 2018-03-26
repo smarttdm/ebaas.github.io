@@ -65,9 +65,10 @@ Ebaas平台采用面向对象的数据模型，为了与关系数据库的术语
 | Content | 内容 | String | 是 | 普通属性 | 意见内容 |
 | ToIssue | 对应事务 | Integer | 是 | 关系属性 | 意见所对应的事务实例 |
 
-#### 运行环境
 
 {% include note.html content="在开始本教程之前，您需要在您的计算机上安装Ebaas平台。Ebaas平台可以从我公司官网(www.newtera.com)下载安装。" %}
+
+#### 运行环境
 
 教程练习所需的系统环境要求如下：
 
