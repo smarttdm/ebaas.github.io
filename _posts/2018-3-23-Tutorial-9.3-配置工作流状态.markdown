@@ -21,8 +21,6 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-23-修改开始状态名称.png' | prepend: site.baseurl }}" alt="">
 
-要将其他状态添加到工作流中，请将工具箱中的状态活动拖放到设计图面上。将活动命名为Working。
-
 #### 创建“处理中”状态
 
 * 从工具箱选择<strong>“CompositeStateActivity”</strong> => 把它拖拽到右边设计空间上；
