@@ -13,7 +13,7 @@ visible: 1
 
 创建状态是使用名为“StateActivity”，您可以在“活动”列表中找到它。但是，我们这个教程将使用“CompositeStateActivity”活动来创建状态。因为“CompositeStateActivityt”活动除了创建状态外，还会自动创建状态中的子活动。这样可以节省许多步骤。
 
-* 从工具箱选择“CompositeStateActivity” => 把它拖拽到右边设计空间上（见下图）；
+* 从工具箱选择<strong>“CompositeStateActivity”</strong> => 把它拖拽到右边设计空间上（见下图）；
 
 <img src="{{'/assets/img/2018-3-23-创建开始状态.png' | prepend: site.baseurl }}" alt="">
 
@@ -21,15 +21,22 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-23-修改开始状态名称.png' | prepend: site.baseurl }}" alt="">
 
-* 要将此活动标记为初始状态，请右键单击它并选择设为初始状态。绿圈重新出现（见图9）。
-
-<img src="{{'/assets/img/2018-3-23-设置初始状态.png' | prepend: site.baseurl }}" alt="">
-
 要将其他状态添加到工作流中，请将工具箱中的状态活动拖放到设计图面上。将活动命名为Working。
 
-现在将最终状态添加到工作流程中，将其称为“已完成”。要将其标记为已完成状态，请右键单击它并选择设为已完成状态。您现在应该在活动的标题栏中看到一个红色圆圈。
+#### 创建“处理中”状态
 
-图10：具有三种状态的状态机工作流程
+* 从工具箱选择<strong>“CompositeStateActivity”</strong> => 把它拖拽到右边设计空间上；
+* 在设计空间中选择新建的状态活动 => 点击左下方的“属性”选项卡 => 将上方的“Name”修改为“处理中”；
+
+#### 创建“结束”状态
+
+* 从工具箱选择<strong>“StateActivity”</strong> => 把它拖拽到右边设计空间上；
+* 在设计空间中选择新建的状态活动 => 点击左下方的“属性”选项卡 => 将上方的“Name”修改为“结束”；
+
+注意：“结束”状态选择的是StateActivity活动。因为结束状态不需要创建任务和状态转换。
+
+完成创建三个状态后的流程见下图：
+<img src="{{'/assets/img/2018-3-23-三个状态的流程图.png' | prepend: site.baseurl }}" alt="">
 
 WF要求您的状态机工作流将一个状态标记为初始状态，将一个状态标记为已完成状态。当工作流程开始时，工作流程将从标记为初始状态的状态开始。当工作流程达到完成状态时，工作流程将结束。
 
