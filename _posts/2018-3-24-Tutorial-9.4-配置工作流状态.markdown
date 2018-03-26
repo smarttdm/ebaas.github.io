@@ -29,7 +29,7 @@ visible: 1
 * 
 
 用关于任务的文本设置“主题”和“任务描述”属性（参见图12）。有关任务的文本将显示在用户界面或通知电子邮件中。您可以使用{attribute name}语法将绑定数据实例的属性值包含为文本的一部分，例如{SubmitBy}或{SubmitDate}。
-图12：设置任务的文本
+
 
 通过单击“静态分配”下的“角色”，选择“经理”角色，然后单击“确定”（请参见图13），将任务分配给“经理”角色，这意味着具有经理角色的用户将获得任务。
 图13：将任务分配给“经理”角色
@@ -39,10 +39,23 @@ visible: 1
 
 行动代码是：
 
-this.Instance.SetValue（“状态”，“分配”）;
+{% highlight ruby %}
+this.Instance.SetValue（“状态”，“已指定”）;
+{% endhighlight %}
+
+
 您可以使用相同的方式创建“拒绝”操作，但操作代码为：
-this.Instance.SetValue（“状态”，“拒绝”）;
+
+{% highlight ruby %}
+this.Instance.SetValue（“状态”，“退回”）;
+{% endhighlight %}
+
+
 关闭“已启动”状态的任务
 
 当工作流程离开“Started”状态时，它应该删除StartedStateInitializat中创建的任务。
+
+#### 配置“处理中”状态
+
+
 
