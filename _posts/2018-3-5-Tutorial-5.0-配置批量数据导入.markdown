@@ -28,6 +28,8 @@ visible: 1
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入1.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“连接数据库”窗口，选中“事务跟踪管理”数据模型 => 以admin用户身份登录 （admin用户的用户名是“admin”，默认密码是“admin”）。如下图所示。
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入2.png' | prepend: site.baseurl }}" alt=""><br>
+单击“确定”按钮，在弹出的“数据导入向导”面板中，单击“下一步”按钮，如下图所示。
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入3.jpg' | prepend: site.baseurl }}" alt=""><br>
 
 #### 选择导入文件
 
