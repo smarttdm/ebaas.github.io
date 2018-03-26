@@ -22,9 +22,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-24-展开待审批状态初始化.png' | prepend: site.baseurl }}" alt="">
 
-图11：StateInitialization活动是一个序列活动
-
-将CreateTask活动从工具箱拖动到StartedStateInitialization中，并将其名称更改为“CreateAssignTask”。点击CreateAssignTask，切换到“属性”标签来设置活动。
+* 点击<strong>“CreateTask1”</strong>活动，将其名称更改为“创建审批任务”。
 
 用关于任务的文本设置“主题”和“任务描述”属性（参见图12）。有关任务的文本将显示在用户界面或通知电子邮件中。您可以使用{attribute name}语法将绑定数据实例的属性值包含为文本的一部分，例如{SubmitBy}或{SubmitDate}。
 图12：设置任务的文本
