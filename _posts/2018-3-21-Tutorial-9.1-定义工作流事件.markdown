@@ -25,7 +25,7 @@ visible: 1
 * 选择事件类型为“Insert”，表示该事件由添加数据实例产生;
 
 下图为配置结果截图：
-<img src="{{'/assets/img/2018-3-21-定义IssureCreated事件.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-3-21-定义IssueCreated事件.png' | prepend: site.baseurl }}" alt="">
 
 #### 创建“IssueAssigned”事件
 
