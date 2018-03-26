@@ -31,7 +31,8 @@ visible: 1
 * 从工具箱选择<strong>“StateActivity”</strong> => 把它拖拽到右边设计空间上；
 * 在设计空间中选择新建的状态活动 => 点击左下方的“属性”选项卡 => 将上方的“Name”修改为“结束”；
 
-注意：“结束”状态选择的是StateActivity活动。因为结束状态不需要创建任务和状态转换。
+{% include note.html content="‘结束’状态选择的是StateActivity活动。因为结束状态不需要创建任务和状态转换。" %}
+
 
 完成创建三个状态后的流程见下图：
 <img src="{{'/assets/img/2018-3-23-三个状态的流程图.png' | prepend: site.baseurl }}" alt="">
