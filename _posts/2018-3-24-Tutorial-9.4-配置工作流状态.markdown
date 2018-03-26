@@ -14,11 +14,13 @@ visible: 1
 * 点击“待审批”状态中的“StateInitialization”活动，在“属性”选项卡将它的名称改为“待审批状态初始化” （改名是为了使得便于识别活动）。
 * 点击“待审批”状态中的“StateFinalization”活动，在“属性”选项卡将它的名称改为“待审批状态终止化” （见下图）。
 
-为“已启动”状态创建一个任务
+<img src="{{'/assets/img/2018-3-24-修改状态初始化和终止化.png' | prepend: site.baseurl }}" alt="">
 
-当工作流程进入“已启动”状态时，它会为具有管理员角色的用户创建一个任务，以向拥有者分配问题或拒绝该问题。您可以使用CreateTask活动来实现它。
+接下来，我们要为“待审批”状态创建一个工作流任务。具体步骤如下：
 
-从工具箱中，将StateInitialization活动拖入Started活动，将其名称更改为StartedStateInitialization。 StateInitialization是一个序列活动。要向其添加活动，请双击它。工作流设计器如图11所示。
+* 鼠标双击“待审批状态初始化”活动，展开“待审批状态初始化”活动，见下图：
+
+<img src="{{'/assets/img/2018-3-24-展开待审批状态初始化.png' | prepend: site.baseurl }}" alt="">
 
 图11：StateInitialization活动是一个序列活动
 
