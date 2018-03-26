@@ -33,7 +33,12 @@ visible: 1
 
 #### 选择导入文件
 
-在向导的第一步中 => 选择“文本文件”作为数据源（CSV是文本格式），然后选择前面步骤下载的文件，如下图所示。
+在向导的第一步中 => "数据源类型"选择“文本文件(txt)”（CSV是文本格式），然后单击“文件名”右边的“...”按钮，如下图所示：
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入4.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的窗口，选择前面步骤下载的文件，如下图所示。
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入5.png' | prepend: site.baseurl }}" alt=""><br>
+结果见下图，单击“下一步”按钮。
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 指定文件格式
 
