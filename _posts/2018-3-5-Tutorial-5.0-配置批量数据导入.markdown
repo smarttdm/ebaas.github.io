@@ -19,6 +19,8 @@ visible: 1
 
 {% include note.html content="数据导入向导支持TXT，CSV，Excel等格式文件导入。特殊格式的文件需要编写导入转换器并进行配置。" %}
 
+事务数据文件见下图：
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入0.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 打开数据导入向导
 
