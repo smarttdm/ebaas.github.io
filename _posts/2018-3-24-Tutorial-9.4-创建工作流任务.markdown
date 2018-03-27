@@ -69,9 +69,19 @@ this.Instance.SetValue("状态","退回");
 
 {% include note.html content="当定制操作的代码修改“状态”值时，会触发我们在前面教程为“事务”数据类定义的某个事件。例如，状态值修改为“已指定”时，会触发“IssueAssigned”事件；修改为“退回”时，会触发“IssueRejected”事件。产生的事件用于驱动工作流状态的转换。" %}
 
+接下来，点击左上角的“事务跟踪管理流程”返回显示流程状态的流程图（见下图）。
+
+<img src="{{'/assets/img/2018-3-24-返回全局流程图.png' | prepend: site.baseurl }}" alt="">
+
 #### 注销“审批”任务
 
-当工作流程离开“Started”状态时，它应该删除StartedStateInitializat中创建的任务。
+状态初始化活动中创建的工作流任务需要在工作流离开该状态是注销它，否则它一直会出现在用户的任务列表界面上。通常要在状态终止化活动中注销任务。
+
+鼠标双击“待审批状态初始化”活动，展开“待审批状态初始化”活动，可以看到已经存在了一个名为“CreateTask1”的活动。这是因为我们创建的状态是CompositeStateActivity，自动在初始化活动中包含了一个CreateTaskActivity活动。见下图：
+
+<img src="{{'/assets/img/2018-3-24-展开待审批状态初始化.png' | prepend: site.baseurl }}" alt="">
+
+
 
 #### 配置“处理中”状态
 
