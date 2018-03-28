@@ -64,9 +64,9 @@ visible: 1
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入11.png' | prepend: site.baseurl }}" alt=""><br>
 
 弹出“变换对话框”中，单击选择左边“源数据”的“主题”选择框，然后再单击选择右边“目标数据”的“主题”选择框，两端会连接一根直线，将源属性映射到目标属性。如下图。
-<img src="{{'/assets/img/2018-3-5-配置批量数据导入12.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入12A.png' | prepend: site.baseurl }}" alt=""><br>
 其它属性映射连接依次类推，，如下图。
-<img src="{{'/assets/img/2018-3-5-配置批量数据导入13.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入13A.png' | prepend: site.baseurl }}" alt=""><br>
 
 您也可以在此处编写一些脚本来将原始值转换或合并为所需的格式。
 
