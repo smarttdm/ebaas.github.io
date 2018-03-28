@@ -43,6 +43,8 @@ visible: 1
 
 流程图如下：
 
+<img src="{{'/assets/img/2018-3-20-事务跟踪流程图.png' | prepend: site.baseurl }}" alt="">
+
 我们这里只介绍Ebaas工作流的基本概念和操作。需要了解工作流的其它功能，可以参看WorkflowStudio工具的操作手册。
 
 
