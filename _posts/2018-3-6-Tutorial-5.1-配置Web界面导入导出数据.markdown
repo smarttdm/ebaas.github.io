@@ -11,7 +11,9 @@ visible: 1
 
 #### 打开SiteMapStudio工具
 
-从开始菜单 => Ebaas => SiteMapStudio打开SiteMapStudio工具，单击工具栏上的“打开”图标，以管理员用户身份以“admin”作为用户名和“admin”作为密码登录。
+从开始菜单 => Ebaas => SiteMapStudio打开SiteMapStudio工具，单击工具栏上的“打开”图标，以管理员用户身份以“admin”作为用户名和“admin”作为密码登录。如下图所示:
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据1.png' | prepend: site.baseurl }}" alt=""><br>
+
 
 #### 修改菜单项的设置
 
