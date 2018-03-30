@@ -23,6 +23,9 @@ visible: 1
 app.smarttables.datagrid（{import：true，export：true}）
 {% endhighlight %}
 
+如下图所示:
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据2.png' | prepend: site.baseurl }}" alt=""><br>
+
 #### 保存站点地图模型
 
 点击工具栏上的保存图标保存站点地图模型。需要重新启动Ebaas服务器才能使更改生效。
