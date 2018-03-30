@@ -67,7 +67,7 @@ visible: 1
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入12A.png' | prepend: site.baseurl }}" alt=""><br>
 其它属性映射连接依次类推，如下图。
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入13A.png' | prepend: site.baseurl }}" alt=""><br>
-
+也可以单击“自动同名”按钮，进行属性映射自动匹配。
 您也可以在此处编写一些脚本来将原始值转换或合并为所需的格式。
 
 #### 预览转换后的数据
