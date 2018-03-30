@@ -11,8 +11,6 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 30
 
-future: true
-
 navigation:
  - title: 首页
    url: /index.html
