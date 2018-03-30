@@ -76,7 +76,7 @@ visible: 1
 其它属性映射连接依次类推，如下图。
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入13A.png' | prepend: site.baseurl }}" alt=""><br>
 
-
+{% include note.html content="如果源数据与目标数据的属性名相同的话，可以点击下方的‘自动同名映射’按键自动建立连线。" %}
 
 #### 预览转换后的数据
 
@@ -87,6 +87,7 @@ visible: 1
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入14.png' | prepend: site.baseurl }}" alt=""><br>
 如果校验不正确，则可以返回上一步进行更正。
 
+{% include note.html content="如果源数据与目标数据的属性名相同的话，可以点击下方的‘自动同名映射’按键自动建立连线。" %}
 
 
 #### 导入数据并保存导入脚本
