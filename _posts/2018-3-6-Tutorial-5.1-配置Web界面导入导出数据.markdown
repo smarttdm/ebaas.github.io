@@ -20,7 +20,7 @@ visible: 1
 点击“主菜单”节点下的“事务跟踪”菜单项，修改“导航URL”的设置，如下图所示。新的URL是：
 
 {% highlight ruby %}
-app.smarttables.datagrid（{import：true，export：true}）
+app.smarttables.datagrid({import:true,export:true})
 {% endhighlight %}
 
 如下图所示:
