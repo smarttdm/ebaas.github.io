@@ -100,6 +100,6 @@ visible: 1
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入16.png' | prepend: site.baseurl }}" alt=""><br>
 
 
-导入的数据可以在DS里切换到“数据模型编辑器”里查看，如下图。
+导入的数据可以在DesignStudio工具里切换到“数据模型编辑器”里查看，如下图。
 <img src="{{'/assets/img/2018-3-5-配置批量数据导入18.png' | prepend: site.baseurl }}" alt=""><br>
 
