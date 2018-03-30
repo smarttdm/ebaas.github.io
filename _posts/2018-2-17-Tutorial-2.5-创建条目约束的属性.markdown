@@ -59,7 +59,7 @@ Newtera.Common.MetaData.UsersListHandler,Newtera.Common
 单击“确认”按钮，并对其作如下参数设置：<br>
 
 •	“数据类型”在选择约束条件时会自动设置为约束条件的数据类型。<br>
-•	“是否必要”选择为“true”<br>
+•	“是否必要”选择为“false”<br>
 •	其它设置采用默认值<br>
 •	属性约束设置为：事务用户（List）。“参数设置”栏中，点击”属性约束“最右边的“...”按钮，见下图：
 
