@@ -35,10 +35,20 @@ app.smarttables.datagrid({import:true,export:true})
 
 #### 测试导入及导出操作
 
-使用推荐的Web浏览器连接到http：// localhost：8080的应用程序。以用户“demo1”和密码“888”登录到Web首页。
+使用推荐的Web浏览器连接到http//localhost8080的应用程序。以用户“demo1”和密码“888”登录到Web首页。
 
 点击“事务跟踪”菜单进入表格页面，您会看到表格的标题栏右侧出现的“导出”和“导入”按钮，如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据4.png' | prepend: site.baseurl }}" alt=""><br>
+点击“导入”按钮打开一个“导入数据”对话框，单击“选择文件”按钮，如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据5.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的文件选择框中，您可以在其中选择一个导入文件，如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据6.png' | prepend: site.baseurl }}" alt=""><br>
+单击“选择脚本”右边的向下箭头，选择前面教程创建的”导入事务数据脚本“，如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据7.png' | prepend: site.baseurl }}" alt=""><br>
+单击”提交“执行数据导入任务。如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据8.png' | prepend: site.baseurl }}" alt=""><br>
+数据导入成功后，会出现”数据导入成功“的信息，如下图。
+<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据9.png' | prepend: site.baseurl }}" alt=""><br>
 
-点击“导入”按钮打开一个对话框（如下图），您可以在其中选择一个导入文件和前面教程创建的数据导入脚本执行数据导入任务。
 
 点击“导出”按钮将“事务”数据导出为Excel文件。
