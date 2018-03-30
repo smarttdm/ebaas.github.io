@@ -45,3 +45,4 @@ Ebaas平台提供了一个Web组件，称为“我的空间”，提供了用户
 <img src="{{'/assets/img/2018-3-26-Web界面我的空间菜单项.png' | prepend: site.baseurl }}" alt="">
 
 现在，我们可以开始测试工作流的操作。
+
