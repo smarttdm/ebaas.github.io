@@ -16,7 +16,7 @@ visible: 1
 
 * 填写事务表单的数据（如下图），提交并关闭表格。
 
-<img src="{{'/assets/img/2018-3-27-点击添加事务按键.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-3-27-填写事务数据.png' | prepend: site.baseurl }}" alt="">
 
 {% include note.html content="提交新的事务表单会在‘事务’数据类创建一条新的数据实例，因而产生了IssueCreated事件，从而发起了‘事务跟踪管理流程’。" %}
 
