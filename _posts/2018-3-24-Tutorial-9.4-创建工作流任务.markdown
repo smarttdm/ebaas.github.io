@@ -123,6 +123,8 @@ this.Instance.SetValue("状态","退回");
 
 {% highlight ruby %}
 this.Instance.SetValue("状态","完成");
+this.Instance.SetValue("关闭日期", CurrentDate);
+this.Instance.SetValue("进度", "100");
 {% endhighlight %}
 
 “处理完毕”定制操作配置结果如下图所示：
