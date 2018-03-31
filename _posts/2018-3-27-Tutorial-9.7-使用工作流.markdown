@@ -18,7 +18,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-27-点击添加事务按键.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="提交新的事务表单会在‘事务’数据类创建一条新的数据实例，因而产生了IssueCreated事件，从而发起了‘事务跟踪管理流程’。 %}
+{% include note.html content="提交新的事务表单会在‘事务’数据类创建一条新的数据实例，因而产生了IssueCreated事件，从而发起了‘事务跟踪管理流程’。" %}
 
 新创建的事务数据实例发起流程后，流程进入初始状态“待审批”。该状态会创建一个工作流任务并赋予具有经理角色的用户。
 
