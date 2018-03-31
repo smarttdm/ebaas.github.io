@@ -29,8 +29,6 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-2-校验规则错误信息设置.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="错误信息可以任意填写，用于界面显示。" %}
-
 * 点击确认。完成了一条校验规则的定义。校验规则可以根据需要定义多条；
 * 保存数据模型到数据库；
 
