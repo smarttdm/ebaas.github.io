@@ -11,7 +11,7 @@ Excel是常用的制表工具，具有强大的功能。制作一个Excel报表�
 
 <img src="{{'/assets/img/2018-3-7-Excel的XML映射例子.png' | prepend: site.baseurl }}" alt=""><br>
 
-Ebaas平台就是应用了Excel的这个XML与单元格映射关系的功能来实现报表的自动生成功能。
+Ebaas平台就是应用了Excel的这个XML与单元格映射关系的功能来实现报表的自动生成功能。创建一个具有XML映射关系报表的第一步是要定义该XML的架构（XML Schema）。XML架构反映了数据的结构及关系。
 
 {% include note.html content="说明" %}
 
