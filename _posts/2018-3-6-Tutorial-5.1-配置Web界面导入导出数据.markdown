@@ -54,9 +54,8 @@ app.smarttables.datagrid({import:true,export:true})
 将“事务”数据导出为Excel文件。
 点击“事务”表格的标题栏右侧出现的“导出”按钮，如下图。
 <img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据10.png' | prepend: site.baseurl }}" alt=""><br>
-数据文件下载完毕后，点击屏幕左下角导出数据文件下拉箭头，选择“打开”，如下图。
+数据文件下载完毕后，点击屏幕左下角导出数据文件下拉箭头，选择“打开”，可以浏览导出的数据。如下图。
 <img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据11.png' | prepend: site.baseurl }}" alt=""><br>
-浏览数据文件结果如下图。
-<img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据12.png' | prepend: site.baseurl }}" alt=""><br>
+
 
 
