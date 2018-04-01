@@ -7,8 +7,32 @@ visible: 1
 
 这个教程，我们将使用Excel创建一个“事务”报表模板。
 
-<img src="{{'/assets/img/2018-3-7-Excel的XML映射例子.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-8-打开SmartExcel.png' | prepend: site.baseurl }}" alt="">
 
-Ebaas平台就是应用了Excel的这个XML与单元格映射关系的功能来实现报表的自动生成功能。创建一个具有XML映射关系报表的第一步是要定义该XML的架构（XML Schema）。XML架构反映了数据的结构及关系。
+{% include note.html content="建议使用Excel 2013以上的版本" %}
 
-{% include note.html content="说明" %}
+加载XML架构
+
+<img src="{{'/assets/img/2018-3-8-加载事务XML架构.png' | prepend: site.baseurl }}" alt="">
+
+XML架构显示窗口
+
+<img src="{{'/assets/img/2018-3-8-显示事务XML架构.png' | prepend: site.baseurl }}" alt="">
+
+定义报告格式及XML元素映射
+
+<img src="{{'/assets/img/2018-3-8-CreateMappings.png' | prepend: site.baseurl }}" alt="">
+
+测试报告生成
+
+<img src="{{'/assets/img/2018-3-8-测试报告生成.png' | prepend: site.baseurl }}" alt="">
+
+另存模板为普通Excel文件
+
+<img src="{{'/assets/img/2018-3-8-另存为Excel模板.png' | prepend: site.baseurl }}" alt="">
+
+保存为Excel文件
+
+<img src="{{'/assets/img/2018-3-8-另存为普通Excel文件.png' | prepend: site.baseurl }}" alt="">
+
+
