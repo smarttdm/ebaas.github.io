@@ -56,7 +56,7 @@ visible: 1
 #### 预览提取的数据
 
 向导的第三步是使用设置预览从文件中提取的数据，如下图所示。如果提取的数据看起来不正确，则可以返回上一步更改设置并重试。
-<img src="{{'/assets/img/2018-3-5-配置批量数据导入8.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-5-配置批量数据导入8A.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 数据转换
 
