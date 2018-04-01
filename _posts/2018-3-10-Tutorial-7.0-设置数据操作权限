@@ -71,7 +71,10 @@ visible: 1
 
 条件的地方
 
-$这种/状态！= “关闭”
+{% highlight ruby %}
+$this/Status!="Closed"
+{% endhighlight %}
+
 是引擎用来检查实例是否符合条件的XQuery表达式。如果属实，则适用该规则。否则，引擎不会使用它。
 
 第5步：保存数据模型
