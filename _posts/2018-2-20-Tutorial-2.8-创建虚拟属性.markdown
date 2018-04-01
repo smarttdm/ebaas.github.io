@@ -26,7 +26,7 @@ visible: 1
 {% highlight ruby %}
 DateTime today = DateTime.Now; // 今天的日期
 DateTime submitDate = instance.GetDateTime("SubmitDate"); // 获取提交日期
-return (today - submitDate).TotalDays.ToString();
+return (today - submitDate).Days.ToString();
 {% endhighlight %}
 
 <img src="{{'/assets/img/Update 2018-2-20-创建虚拟属性3.png' | prepend: site.baseurl }}" alt=""><br>
