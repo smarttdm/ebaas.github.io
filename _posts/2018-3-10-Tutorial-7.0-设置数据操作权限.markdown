@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "设置数据操作权限控制"
+title:  "设置数据操作权限"
 date:   2018-03-10
 visible: 1
 ---
