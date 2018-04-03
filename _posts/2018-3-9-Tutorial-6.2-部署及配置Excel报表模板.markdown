@@ -15,6 +15,8 @@ visible: 1
 
 {% highlight ruby %}
 C:\Program Files\Ebaas\Templates\Reports\{数据库名称 1.0}\{数据类英文名}
+
+数据库名称和1.0之间有一个空格；
 {% endhighlight %}
 
 #### 创建“生成报告”定制命令
