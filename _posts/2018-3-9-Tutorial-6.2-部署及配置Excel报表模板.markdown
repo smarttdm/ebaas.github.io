@@ -13,7 +13,9 @@ visible: 1
 
 报表模板存放目录的定义如下：
 
+{% highlight ruby %}
 C:\Program Files\Ebaas\Templates\Reports\{数据库名称 1.0}\{数据类英文名}
+{% endhighlight %}
 
 #### 创建“生成报告”定制命令
 
