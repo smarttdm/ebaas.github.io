@@ -42,7 +42,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-8-CreateMappings.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="复杂的报表会有图形和统计数据显示的要求。针对这个的报表，可以将XML元素映射到第二个工作簿中，再通过编写宏的脚本进行计算并将显示结果写入第一个工作簿中，形成动态的报表。" %}
+{% include note.html content="复杂的报表会有图形和统计数据显示的要求。针对这类的报表，可以将XML元素映射到第二个工作簿中，再通过编写宏的脚本进行计算并将显示结果写入第一个工作簿中，形成动态的报表。Ebaas服务器会自动执行所编写的宏来生成报表。" %}
 
 #### 测试报表生成
 
