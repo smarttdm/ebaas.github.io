@@ -16,7 +16,8 @@ visible: 1
 {% highlight ruby %}
 C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
-其中: “事务跟踪管理 1.0”为数据库名称和版本号（注意：中间有一个空格）；Issue为“事务”数据类的英文名；
+“事务跟踪管理 1.0”为数据库名称和版本号（注意：中间有一个空格）；
+“Issue”为“事务”数据类的英文名；
 {% endhighlight %}
 
 #### 创建“生成报告”定制命令
