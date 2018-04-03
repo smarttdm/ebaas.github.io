@@ -55,17 +55,27 @@ visible: 1
 
 如果测试有问题，需要修复问题。否则可以进行保存模板的步骤。
 
-#### 保存报表模板
+#### 保存SmartExcel报表模板
 
-我们需要保存两种类型的模板，一种是SmartExcel模板，另一种是普通Excel模板。SmartExcel模板可以用SmartExcel打开，并在左边显示任务窗口，便于后续对报表格式进一步修改。普通Excel模板用于部署到Ebaas服务器端生成报表用途。普通Excel模板用SmartExcel打开后，不会出现右边的任务窗口，因而不能继续修改XML映射。
+我们需要保存两种类型的模板，一种是SmartExcel模板，另一种是普通Excel模板。
 
-首先，在SmartExcel中将创建后的模板另存为一个SmartExcel的文件。用于以后修改报表之用。
+SmartExcel模板因为应用了产品的DLL库，所以可以用SmartExcel打开。打开后会在右边显示任务窗口，可以修改XML与单元格的映射。
 
-然后，点击右上角的“关闭”按键，使得任务窗口消失。见下图。 
+普通Excel模板不应用产品的DLL库，所以打开后不会出现右边的任务窗口。主要用于部署到Ebaas服务器端生成报表的用途。
+
+为了便于后续对模板进行修改，建议现将模板保存为SmartExcel模板，具体步骤如下：
+
+* 点击Excel文件菜单下的“另存为”菜单 => 将文件名改为“事务报表” => 点击“保存”按键。
+
+{% include important.html content="SmartExcel模板必须保存在C:\Program Files\Ebaas\bin目录下。否则打开会报错，因为找不到所需的DLL文件。" %}
+
+#### 保存普通Excel报表模板
+
+保存模板为普通Excel文件需要点击右上角的“关闭”按键，点击后任务窗口会消失。见下图。 
 
 <img src="{{'/assets/img/2018-3-8-另存为Excel模板.png' | prepend: site.baseurl }}" alt="">
 
-再使用“另存为...”将模板保存为另一个文件。这个保存的文件就是普通Excel模板了。见下图。
+然后，再使用Excel的“另存为”将模板保存为一个Excel文件。这个保存的文件就是普通Excel模板了。普通Excel模板可以保存到任意目录下，见下图。
 
 <img src="{{'/assets/img/2018-3-8-另存为普通Excel文件.png' | prepend: site.baseurl }}" alt="">
 
