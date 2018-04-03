@@ -9,8 +9,7 @@ visible: 1
 
 将上一个教程保存的普通Excel模板文件手工复制到下图所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
 
-<img src="{{'/assets/img/2018-3-9-模板存放目录.png' | prepend: site.b。seurl }}" alt="">
-
+<img src="{{'/assets/img/2018-3-9-模板存放目录.png' | prepend: site.b。seurl }}" alt=""><br>
 报表模板存放目录的定义如下：
 
 {% highlight ruby %}
