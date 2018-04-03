@@ -9,14 +9,14 @@ visible: 1
 
 将上一个教程保存的普通Excel模板文件手工复制到下图所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
 
-<img src="{{'/assets/img/2018-3-9-模板存放目录.png' | prepend: site.b。seurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-9-模板存放目录.png' | prepend: site.b。seurl }}" alt="">
 
 报表模板存放目录的定义如下：
 
 {% highlight ruby %}
-C:\Program Files\Ebaas\Templates\Reports\{数据库名称 1.0}\{数据类英文名}
+C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
-数据库名称和1.0之间有一个空格；
+其中: “事务跟踪管理 1.0”为数据库名称和版本号（注意：中间有一个空格）；Issue为“事务”数据类的英文名；
 {% endhighlight %}
 
 #### 创建“生成报告”定制命令
