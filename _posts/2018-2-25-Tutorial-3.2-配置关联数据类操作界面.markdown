@@ -11,10 +11,12 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 
 #### 创建“事务”数据类的定制命令组
 打开SiteMapStudio工具。 在打开的SiteMapStudio界面中右键选择“定制命令栏” => 从弹出的菜单 => 选择“添加”命令，如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1B.png' | prepend: site.baseurl }}" alt=""><br>
-弹出“添加新项”框，“名称”栏输入：IssueCommands，如下图所示:
-<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1C.png' | prepend: site.baseurl }}" alt=""><br>
-选中“IssueCommands”命令定制组，在右边“设置”选项卡参数配置如下：<br>
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1B.png' | prepend: site.baseurl }}" alt="">
+
+弹出“添加新项”框 => “名称”栏输入：IssueCommands，如下图所示:
+<img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1C.png' | prepend: site.baseurl }}" alt="">
+
+选中“IssueCommands”命令定制组 => 在右边“设置”选项卡参数配置如下：<br>
 * 在“显示名”栏输入：事务命令组<br>
 * 默认数据库选择：事务跟踪管理<br>
 * 数据类选择：事务<br>
@@ -23,7 +25,8 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 
 #### 创建“意见”定制命令
 
-右键单击“事务命令组”，在弹出的“菜单”=>“添加”=>在弹出的“添加新项”名称栏输入：Comments，单击“确定”按钮
+右键单击“事务命令组” => 在弹出的“菜单” => “添加” => 在弹出的“添加新项”名称栏输入：Comments，单击“确定”按钮;
+
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面8C.png' | prepend: site.b。seurl }}" alt=""><br>
 
 在“事务命令组”下选择“Comments”节点，在“设置”选项卡中按照表1的参数进行设置：<br>
