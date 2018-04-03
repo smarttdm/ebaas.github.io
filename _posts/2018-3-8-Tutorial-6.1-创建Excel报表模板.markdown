@@ -23,16 +23,20 @@ visible: 1
 
 #### 加载XML架构
 
-* 从“数据库”下拉菜单中选择“事物跟踪管理
+* 从“数据库”下拉菜单中选择“事务跟踪管理 1.0”数据库；
+* 在下方的数据模型中选择“事务”数据类。“事务”数据类的XML架构会显示在下方的列表中；
+* 选择“事务XML架构”。这个XML架构是上个教程的创建的XML架构
+
 <img src="{{'/assets/img/2018-3-8-加载事务XML架构.png' | prepend: site.baseurl }}" alt="">
 
-XML架构显示窗口
+* 最后点击“加载及显示XML”按键 => Excel打开“XML源”窗口显示“事务XML架构”的结构，见下图；
 
 <img src="{{'/assets/img/2018-3-8-显示事务XML架构.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="如果没有出现任务窗口，可以尝试在‘视图’菜单下打开任务面板" %}
+{% include note.html content="如果XML源窗口没有显示，可能是‘开发者工具’功能没有打开。可以打开‘开发者工具’后再点击按键。" %}
 
-定义报告格式及XML元素映射
+#### 定义报告格式及XML映射
+
 
 <img src="{{'/assets/img/2018-3-8-CreateMappings.png' | prepend: site.baseurl }}" alt="">
 
