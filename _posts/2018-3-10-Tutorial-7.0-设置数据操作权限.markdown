@@ -33,6 +33,13 @@ visible: 1
 
 打开DesignStudio
 从“开始”菜单→打开DesignStudio
+
+在工具栏上选择“工具”→“选项”→“权限控制”，如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限11.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的“权限控制选项对话框”选中“允许优先”选项，如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限12.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的“权限控制选项对话框”选中“允许优先”选项，如下图。
+
 打开数据模型
 单击“打开存储于数据库的模型”图标
 选择“事务”数据类。然后单击右侧的“访问控制”选项卡，如下图。
