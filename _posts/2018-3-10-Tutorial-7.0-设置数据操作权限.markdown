@@ -43,7 +43,7 @@ visible: 1
 
 由于继承的规则不符合我们的需要，您可以创建一个本地规则来覆盖它。你想要做的是创建一个本地规则，只允许通过下图所示的步骤读取访问“事务”类。
 添加一个替代继承的规则的本地规则。
-单击“添加”按钮，在打开“定义用户和角色”框，类型选中“角色”，名称选中“Everyone”，单击“确认”，按钮如下图。
+单击“添加”按钮，在打开“定义用户和角色”框，类型选中“角色”，名称选中“Everyone”，单击“确认”，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限2.png' | prepend: site.baseurl }}" alt=""><br>
 完成后，单击“确认”按钮，弹出“确认”框，单击“是（y）”，覆盖默认规z则，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限3.png' | prepend: site.baseurl }}" alt=""><br>
@@ -54,16 +54,20 @@ visible: 1
 #### 配置权限规则2
 
 规则2配置起来很容易，只需为“系统管理员”角色添加一条规则，并为其授予所有权限。
-
+配置规则2的步骤与上述方法一样，添加“Administrator”用户，如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限5.png' | prepend: site.baseurl }}" alt=""><br>
+然后将“Administrator”读取、下载、修改、上传、创建和删除权限设置为“允许”,如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 配置权限规则3
 
 为了让“产品实验室”部门的用户具有增，改和查的权限，您可以添加一个为“产品实验室”部门的权限规则。
 
 但规则3还有一个条件，就是只有“事务”的状态值不是“关闭”时才能进行增和改操作。换句话说，如果某个事务的状态为“关闭”，则它变为只读。这里我们要用到Ebaas所特有的基于数据实例的权限控制功能。
-
+添加“LabA”用户，如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限7.png' | prepend: site.baseurl }}" alt=""><br>
 对于规则3，您可以创建一个下图所示的规则：
-
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限8.png' | prepend: site.baseurl }}" alt=""><br>
 在“过滤条件”的文本框中粘贴复制下面的表达式：
 
 {% highlight ruby %}
@@ -74,7 +78,8 @@ $this/Status!="Closed"
 
 #### 保存数据模型
 
-单击工具栏上的“保存到数据库”图标将数据模型保存到数据库。
+单击工具栏上的“保存到数据库”图标将数据模型保存到数据库。如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限9.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 验证权限控制效果
 
