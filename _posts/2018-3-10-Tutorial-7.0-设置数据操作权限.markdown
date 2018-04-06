@@ -78,7 +78,7 @@ visible: 1
 在“过滤条件”的文本框中粘贴复制下面的表达式：
 
 {% highlight ruby %}
-$this/Status!="Closed"
+$this/Status!="关闭"
 {% endhighlight %}
 
 提示：该表达式是XQuery语句，用于评价数据实例是否符合该表达式的结果。如果结果为True，则应用该权限规则。否则，就不使用该权限规则。
