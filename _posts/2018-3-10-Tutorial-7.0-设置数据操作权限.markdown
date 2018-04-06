@@ -139,7 +139,7 @@ $this/Status!="关闭"
 打开“事务管理”页面，展开“状态”为“关闭”的数据实例。在展开的命令栏中没有没有“编辑”和“删除”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限14.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="对于demo2用户和‘状态’等于‘关闭’的数据实例，有'Everyone'为作用者的规则起作用。" %}
+{% include note.html content="对于demo2用户和‘状态’等于‘关闭’的数据实例，只有'Everyone'为作用者的规则起作用。作用者为‘LabA’的权限规则由于不满足规则的过滤条件而无效。" %}
 
 展开点击“状态”不是“关闭”的数据实例，在命令栏中有“编辑”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限13.png' | prepend: site.baseurl }}" alt=""><br>
