@@ -114,7 +114,7 @@ $this/Status!="关闭"
 
 使用推荐的Web浏览器连接到Web客户端（http://localhost:8080)。
 
-我们首先检查规则1，即一般用户只允许查看事物，而不能对其增删改。
+我们首先检查规则1，即一般用户只允许查看事务，而不能对其增删改。
 
 登录为demo8。“demo8”用户的密码是“888”。demo8用户不属于“产品实验室”也不是系统管理员。因而只能查看“事务”。登录后进入“事务管理”界面，展开任何一条记录的命令栏，应没有允许其修改和删除事务的命令。如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限10.png' | prepend: site.baseurl }}" alt="">
@@ -126,7 +126,6 @@ $this/Status!="关闭"
 测试权限规则2。即具有管理员角色的用户具有增删改查的权限。
 
 注销“demo8”，以具有管理员角色的“demo1”登录。 “demo1”用户的密码是“888”。进入“事务管理”界面 展开任何一条“事务”数据记录的命令栏，可以看到“编辑”和删除命令。
-
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限15.png' | prepend: site.baseurl }}" alt=""><br>
 
 打开添加表单也显示“提交”按键。验证了权限规则2起作用。
@@ -140,12 +139,14 @@ $this/Status!="关闭"
 打开“事务管理”页面，展开“状态”为“关闭”的数据实例。在展开的命令栏中没有没有“编辑”和“删除”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限14.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="对于demo1用户，有'Everyone'为作用者和‘Administror’的两条规则起作用，允许的权限优先。" %}
+{% include note.html content="对于demo2用户和‘状态’等于‘关闭’的数据实例，有'Everyone'为作用者的规则起作用。" %}
 
 展开点击“状态”不是“关闭”的数据实例，在命令栏中有“编辑”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限13.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="对于demo1用户，有'Everyone'为作用者和‘Administror’的两条规则起作用，允许的权限优先。" %}
+{% include note.html content="对于demo2用户和‘状态’不等于‘关闭’的数据实例，有'Everyone'为作用者和‘LabA’为作用者的两条规则起作用。" %}
+
+本教程介绍了一些基本的数据操作权限控制配置方法。请参看后续的高级教程了解更多的数据操作权限配置功能。
 
 
 
