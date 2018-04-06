@@ -77,15 +77,16 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限4.png' | prepend: site.baseurl }}" alt="">
 
-这样我们为“事务”数据类创建了一个只允许读取和下载的默认规则。
+这样我们为“事务”数据类创建了一个对所有用户只允许读取和下载的默认规则。
 
 #### 配置权限规则2
 
-规则2配置起来很容易，只需为“系统管理员”角色添加一条规则，并为其授予所有权限。
-配置规则2的步骤与上述方法一样，添加“Administrator”用户，如下图。
-<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限5.png' | prepend: site.baseurl }}" alt=""><br>
-然后将“Administrator”读取、下载、修改、上传、创建和删除权限设置为“允许”,如下图。
-<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限6.png' | prepend: site.baseurl }}" alt=""><br>
+规则2用于允许具有管理员角色的用户对“事务”数据类有增删改查的权限。所以需要创建一个针对“管理员”角色的规则，并为其授予所有权限。创建规则2的步骤与上述方法一样，如下图。
+
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限5.png' | prepend: site.baseurl }}" alt="">
+
+然后将作用者为“Administrator”的规则的读取、下载、修改、上传、创建和删除权限设置为“允许”,如下图。
+<img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限6.png' | prepend: site.baseurl }}" alt="">
 
 #### 配置权限规则3
 
