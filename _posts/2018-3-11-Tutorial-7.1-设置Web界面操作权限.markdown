@@ -13,6 +13,7 @@ visible: 1
 
 * 从“开始” => Ebaas => SiteMapStudio打开SiteMapStudio工具， 登录为admin；
 * 在打开的SiteMapStudio界面中选择左边“菜单栏” => “系统设置” => 右边选择“权限控制”选项卡，可以看到有一条继承的“Everyone”的权限规则，该规则允许所有人访问这个菜单功能，如下图所示:
+
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限1.png' | prepend: site.baseurl }}" alt="">
 
 首先，我们需要创建一条本地的“Everyone”规则覆盖继承的规则，并将权限修改为“拒绝”。
