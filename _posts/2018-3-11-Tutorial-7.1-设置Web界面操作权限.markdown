@@ -8,3 +8,11 @@ visible: 1
 除了在数据层面设置权限控制外，您还可以在Web功能层面设置权限。通过前面的教程，您已经了解如何使用SiteMapStudio为Web页面创建各种菜单来实现界面操作功能。您也许需要在Web界面针对不同角色的用户显示不同的菜单项。例如，对“事务跟踪管理”系统，允许具有管理员角色的用户使用所有菜单项。而针对普通用户，则隐藏所有与系统管理相关的菜单功能，比如“表单设计器”等。
 
 这个教程，我们介绍如何使用SiteMapStudio来设置Web界面菜单的权限，使得“系统设置”菜单下的所有菜单项只对系统管理员角色的用户显示。
+从“开始”- > Ebaas-> SiteMapStudio打开SiteMapStudio工具。 在打开的SiteMapStudio界面中选择左边“菜单栏”- >“系统设置”，右边选择“权限控制”选项卡，将“Everyone”隶属属性由“继承”改为“本地”，单击“添加”按钮，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限1.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“选择用户和角色”框，类型选择“角色”、名称“Everyone”，单击“确认”按钮，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限2.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“确认”框，单击“是（y）”，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限3.png' | prepend: site.baseurl }}" alt=""><br>
+“Everyo”隶属属性已改为“本地”，再单击“添加”按钮，添加“Administrator”用户，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限4.png' | prepend: site.baseurl }}" alt=""><br>
