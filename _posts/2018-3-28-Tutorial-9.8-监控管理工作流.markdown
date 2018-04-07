@@ -5,9 +5,39 @@ date:   2018-03-28
 visible: 1
 ---
 
-监控管理
+上一节教程中，我们介绍了用户如何在Web界面通过“我的任务”列表来执行工作流所赋予的任务，从而实现由工作流控制的业务流程执行。这一节教程将介绍使用WorkflowStduio监控工作流实例的执行情况以及在必要的情况下终止工作流实例的执行。
 
-<img src="{{'/assets/img/2018-3-21-定义数据库事件.png' | prepend: site.baseurl }}" alt="">
+#### 监控工作流运行情况
 
-{% include note.html content="监控。" %}
+* 从“开始” => Ebaas => WorkflowStduio菜单打开WorkflowStduio工具；
+* 选择“事务跟踪管理系统”项目 => 登录为admin用户（密码：admin）;
+
+<img src="{{'/assets/img/2018-3-28-打开WorkflowStudio工具.png' | prepend: site.baseurl }}" alt="">
+
+* 选择左边导航栏中的“事务跟踪管理流程”工作流 => 点击工具栏的“观察工作流”图标打开工作流观察器，如下图所示：
+
+<img src="{{'/assets/img/2018-3-28-打开监控窗口.png' | prepend: site.baseurl }}" alt="">
+
+* 在工作流观察器左上方显示正在执行，终止或已完成的“事务跟踪管理流程”的工作流实例；
+* 选择一个正在执行的工作流实例，则在右边的窗口显示该工作流实例所处的状态（绿色箭头所在的状态）。见下图：
+
+<img src="{{'/assets/img/2018-3-28-观察工作流执行.png' | prepend: site.baseurl }}" alt="">
+
+* 右键点击正在执行的工作流实例，从右键菜单中点击“当前任务”。可以观察当前任务的信息，例如任务赋予的用户或角色等。如下图：
+
+<img src="{{'/assets/img/2018-3-28-查看当前任务.png' | prepend: site.baseurl }}" alt="">
+
+* 右键点击正在执行的工作流实例，从右键菜单中点击“绑定的数据实例”。可以观察该工作流实例所绑定的“事务”数据实例。如下图：
+
+<img src="{{'/assets/img/2018-3-28-查看绑定的数据实例.png' | prepend: site.baseurl }}" alt="">
+
+#### 终止工作流运行
+
+在特殊情况下，如果需要终止某个工作流实例的运行，可以在工作流观察器中进行。
+
+* 选择正在运行的工作流实例 => 右键菜单中选择“终止”，便可终止该工作流实例的运行。见下图。
+
+<img src="{{'/assets/img/2018-3-28-终止工作流执行.png' | prepend: site.baseurl }}" alt="">
+
+{% include note.html content="如果要删除一条数据实例，如果有工作流实例正在运行，需要先终止该工作流实例的运行，才能删除数据实例。" %}
 
