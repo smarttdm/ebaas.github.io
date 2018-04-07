@@ -18,5 +18,16 @@ visible: 1
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限4.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“选择用户和角色”框，类型选择“角色”、名称“Administrator”，单击“确认”按钮，如下图所示:
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限11.png' | prepend: site.baseurl }}" alt=""><br>
-将“Administrator”权限设置为“允许”，删除“Everyone”用户，目的将“Everyone”权限改为“拒绝”，选中“Everyone”用户，单击“删除”，如下图所示:
+将“Administrator”权限设置为“允许”，删除“Everyone”用户，目的将“Everyone”本地权限改为“拒绝”，选中“Everyone”用户，单击“删除”，如下图所示:
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限5.png' | prepend: site.baseurl }}" alt=""><br>
+删除“Everyone”本地用户后，“Everyone”用户隶属属性变为“继承”，单击“添加”按钮，再把“Everyone”隶属属性改为“本地”，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限6.png' | prepend: site.baseurl }}" alt=""><br>
+操作步骤和前述一致，最终结果如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限7.png' | prepend: site.baseurl }}" alt=""><br>
+单击工具栏“保存”图标，保存设置，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限8.png' | prepend: site.baseurl }}" alt=""><br>
+重启“Ebaas server”。
+验证用户权限，从浏览器输入：http://localhost:8080 用户:demo2,密码：888 登入，demo2用户没有管理员权限，登入进去后，看不到“系统设置”和“表单设计”图标，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限9.png' | prepend: site.baseurl }}" alt=""><br>
+用户:demo1,密码：888 登入，demo1用户具有管理员权限，登入进去后，可以看到“系统设置”和“表单设计”图标，如下图所示:
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限10.png' | prepend: site.baseurl }}" alt=""><br>
