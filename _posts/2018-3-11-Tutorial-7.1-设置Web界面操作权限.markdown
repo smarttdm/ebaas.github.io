@@ -17,11 +17,16 @@ visible: 1
 
 * 点击下方的“添加”按键 => 弹出“选择用户和角色”框 => 类型选择“角色” => 再选择名称“Everyone”的角色 => 单击“确认”按钮.如下图所示:
 
-<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限2.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限2.png' | prepend: site.baseurl }}" alt="">
 
-在弹出的“确认”框，单击“是（y）”，如下图所示:
-<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限3.png' | prepend: site.baseurl }}" alt=""><br>
-“Everyo”隶属属性已改为“本地”，再单击“添加”按钮，添加“Administrator”用户，如下图所示:
+在弹出的“确认”框，单击“是”按键以确认覆盖同名规则，如下图所示:
+
+<img src="{{'/assets/img/2018-3-11-设置Web界面操作权限3.png' | prepend: site.baseurl }}" alt="">
+
+可以看到“Everyone”规则隶属已改为“本地”。将其权限设置为“拒绝”，表示所有人均不能访问，见下图：
+
+
+再单击“添加”按钮，添加“Administrator”用户，如下图所示:
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限4.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出的“选择用户和角色”框，类型选择“角色”、名称“Administrator”，单击“确认”按钮，如下图所示:
 <img src="{{'/assets/img/2018-3-11-设置Web界面操作权限11.png' | prepend: site.baseurl }}" alt=""><br>
