@@ -25,7 +25,8 @@ visible: 1
 * 规则1：默认情况下，任何人对“事务”数据类只能查看，不能添，改或删；
 * 规则2：具有管理员角色的用户可以对“事务”数据类进行增，删，改，查；
 * 规则3：当“事务”的数据实例的“状态”值不等于为“关闭”时，允许“产品试验室”部门的用户进行增，改，查；
-以下是描述如何实施这些要求的步骤。确保Ebaas服务器正在运行。
+
+以下是描述如何实施这些要求的步骤。
 
 #### 设置权限冲突解决策略
 
@@ -121,7 +122,7 @@ $this/Status!="关闭"
 
 打开添加表单，也没有提交按键。证明了规则1满足要求。
 
-{% include note.html content="对于demo8用户，只有'Everyone'为作用者的规则起作用，因而不存在冲突。" %}
+{% include note.html content="对于demo8用户，只有'Everyone'为作用者的规则起作用。该规则不允许增删改。" %}
 
 测试权限规则2。即具有管理员角色的用户具有增删改查的权限。
 
@@ -130,7 +131,7 @@ $this/Status!="关闭"
 
 打开添加表单也显示“提交”按键。验证了权限规则2起作用。
 
-{% include note.html content="对于demo1用户，有'Everyone'为作用者和‘Administror’的两条规则起作用，允许的权限优先。" %}
+{% include note.html content="对于demo1用户，有'Everyone'为作用者和‘Administror’的两条规则起作用，其中‘Administrator’规则允许增删改。" %}
 
 最后，测试规则3。即属于“产品实验室”的用户可以对“状态”不等于“关闭”的事物进行修改，但对状态为“关闭”的事务则不能修改。
 
@@ -139,18 +140,14 @@ $this/Status!="关闭"
 打开“事务管理”页面，展开“状态”为“关闭”的数据实例。在展开的命令栏中没有没有“编辑”和“删除”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限14.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="对于demo2用户和‘状态’等于‘关闭’的数据实例，只有'Everyone'为作用者的规则起作用。作用者为‘LabA’的权限规则由于不满足规则的过滤条件而无效。" %}
+{% include note.html content="对于demo2用户和‘状态’等于‘关闭’的数据实例，只有'Everyone'为作用者的规则起作用，这条规则不允许增删改。作用者为‘LabA’的权限规则由于不满足规则的过滤条件而无效。" %}
 
 展开点击“状态”不是“关闭”的数据实例，在命令栏中有“编辑”命令，如下图。
 <img src="{{'/assets/img/2018-3-10-Tutorial-设置数据操作权限13.png' | prepend: site.baseurl }}" alt=""><br>
 
-{% include note.html content="对于demo2用户和‘状态’不等于‘关闭’的数据实例，有'Everyone'为作用者和‘LabA’为作用者的两条规则起作用。" %}
+{% include note.html content="对于demo2用户和‘状态’不等于‘关闭’的数据实例，有'Everyone'为作用者和‘LabA’为作用者的两条规则起作用。其中，‘LabA’规则允许增改" %}
 
 本教程介绍了一些基本的数据操作权限控制配置方法。请参看后续的高级教程了解更多的数据操作权限配置功能。
-
-{% comment %}
-  This is a comment!
-{% endcomment %}
 
 
 
