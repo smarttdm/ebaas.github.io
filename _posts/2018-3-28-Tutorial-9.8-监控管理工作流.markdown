@@ -14,7 +14,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-28-打开WorkflowStudio工具.png' | prepend: site.baseurl }}" alt="">
 
-* 选择左边导航栏中的“事务跟踪管理流程”工作流 => 点击工具栏的“观察工作流”图标打开工作流观察器，如下图所示：
+* 选择左边工作流项目中的“事务跟踪管理流程”工作流 => 点击工具栏的“观察工作流”图标打开工作流观察器，如下图所示：
 
 <img src="{{'/assets/img/2018-3-28-打开监控窗口.png' | prepend: site.baseurl }}" alt="">
 
