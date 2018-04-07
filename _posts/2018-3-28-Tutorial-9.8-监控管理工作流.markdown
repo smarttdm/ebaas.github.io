@@ -6,3 +6,8 @@ visible: 1
 ---
 
 监控管理
+
+<img src="{{'/assets/img/2018-3-21-定义数据库事件.png' | prepend: site.baseurl }}" alt="">
+
+{% include note.html content="监控。" %}
+
