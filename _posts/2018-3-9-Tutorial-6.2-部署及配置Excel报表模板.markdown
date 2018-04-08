@@ -23,7 +23,7 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 使用SiteMapStudio为“事务”数据类创建一个“生成报告”的定制命令，步骤如下：
 
-* 从“开始”菜单 => Ebaas => SiteMapStudio打开SiteMapStudio工具 => 登录为系统管理员；
+* 从“开始”菜单 => Ebaas => SiteMapStudio打开SiteMapStudio工具 => “文件” => “打开” => 登录为admin；
 * 右键点击“事务跟踪管理”下的“事务命令组”节点 => 在弹出的“菜单”中选择“添加” => 在弹出的“添加新项”名称栏输入：Report => 确定”;
 * 选择新创建的“Report”定制命令，在“设置”选项卡中按照下表的参数进行设置：
 
@@ -42,7 +42,7 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 配置结果如下图所示：
 
-<img src="{{'/assets/img/2018-3-9-创建生成报告定制命令.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-3-9-创建生成报告定制命令.png' | prepend: site.baseurl }}" alt="">
 
 点击“文件” => 选择“保存”。
 
