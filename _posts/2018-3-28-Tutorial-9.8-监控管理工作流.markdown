@@ -39,5 +39,5 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-28-终止工作流执行.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="如果要删除一条数据实例，如果有工作流实例正在运行，需要先终止该工作流实例的运行，才能删除数据实例。" %}
+{% include note.html content="当工作流实例尚未结束前，不能删除与之绑定的数据实例。需要先终止对应工作流实例的运行，才能删除绑定的数据实例。" %}
 
