@@ -54,7 +54,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-3-14-测试角色管理菜单.png' | prepend: site.baseurl }}" alt="">
 
-点击“角色管理”菜单进入用户管理界面，可以进行查询，添加，修改，或者删除角色信息的操作。如下图所示：
+点击“角色管理”菜单进入角色管理界面，可以进行查询，添加，修改，或者删除角色信息的操作。如下图所示：
 
 <img src="{{'/assets/img/2018-3-14-使用角色管理菜单.png' | prepend: site.baseurl }}" alt="">
 
