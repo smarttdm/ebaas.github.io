@@ -50,12 +50,14 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型1.png' | prepend: site.baseurl }}" alt="">
 
-在弹出的“系统用户登陆”中，选中”事务跟踪管理“数据库模型，输入系统管理员用户名“admin”，密码“admin”，见下图：
+在弹出的“连接数据库”窗口中，选中”事务跟踪管理“数据库模型，输入系统管理员用户名“admin”，密码“admin”，见下图：
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型2.png' | prepend: site.baseurl }}" alt="">
 
 点击“确定”，结果见下图：
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型3.png' | prepend: site.baseurl }}" alt="">
+
+{% include note.html content="数据库连接窗口中其它数据库，例如，USERINFO等为系统数据库； ONETDM为演示数据库。" %}
 
 接下来的教程将介绍创建数据类及属性。请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。
