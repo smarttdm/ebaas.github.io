@@ -58,6 +58,6 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-12 打开数据库模型3.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="数据库连接窗口中其它数据库，例如，USERINFO等为系统数据库； ONETDM为演示数据库。" %}
+{% include note.html content="数据库连接窗口中其它数据库，例如，USERINFO，COMMON和WORKFLOWINFO等为系统数据库； ONETDM为演示数据库。" %}
 
 接下来的教程将介绍创建数据类及属性。请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。
