@@ -28,7 +28,7 @@ visible: 1
 | 显示名 | 角色管理 | 菜单项在用户界面显示的名称 |
 | 数据库 | USERINFO 1.0 | 菜单项所指向的数据库 |
 | 数据类 | Role | 菜单项所指向的角色数据类 |
-| 模块URL | app.smarttables.datagrid({attachment:false}) | 菜单指向的界面模块，该模块是用户目录管理模块 |
+| 模块URL | app.smarttables.datagrid({attachment:false}) | 菜单指向的界面模块，该模块是二维表格模块 |
 | 图标名称 | fa fa-fw fa-group | 菜单显示的图标 |
 | 描述 | col-xs-4 col-sm-3 col-md-2 page-gray | 菜单显示的样式 |
 
