@@ -36,7 +36,7 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-26-数据视图向导第二步.png' | prepend: site.baseurl }}" alt="">
 
-值得注意的是，currentUser()为系统内置函数，返回当前登录用户名，输入时一定要包含括号，如下图：
+值得注意的是，currentUser()为系统内置函数，返回当前登录用户名，输入时一定要包含英文的括号，如下图：
 
 <img src="{{'/assets/img/2018-2-26-数据视图向导定义表达式.png' | prepend: site.baseurl }}" alt="">
 
