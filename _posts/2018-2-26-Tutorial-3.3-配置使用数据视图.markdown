@@ -95,6 +95,12 @@ visible: 1
 
 <img src="{{'/assets/img/2018-2-26-使用我的事务菜单.png' | prepend: site.baseurl }}" alt="">
 
+#### 修改数据视图
+
+如果需要对数据视图进行修改的话，使用DesignStudio登录数据库，在左边的导航栏中的“数据视图”下选择要修改的数据视图，右键菜单选择修改，会弹出数据视图向导进行修改（如下图）。修改后要保存到数据库。
+
+<img src="{{'/assets/img/2018-2-26-修改数据视图.png' | prepend: site.baseurl }}" alt="">
+
 以上内容介绍了配置和使用数据视图的步骤。
 
 
