@@ -37,7 +37,7 @@ visible: 1
 配置图如下所示: 
 <img src="{{'/assets/img/2018-4-1-配置事件订阅器.png' | prepend: site.baseurl }}" alt="">
 
-{% include note.html content="如果在‘事件名称’下拉菜单中没有‘IssueFixed’的事件，请参看<a class='post-link' href='https://smarttdm.github.io/blog/Tutorial-9.1-%E5%AE%9A%E4%B9%89%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%BA%8B%E4%BB%B6/'>《教程9.1》</a>创建该事件。" %}
+{% include note.html content="如果您没有按照前面工作流进行了配置，在‘事件名称’下拉菜单中不会有‘IssueFixed’的事件，请参看<a class='post-link' href='https://smarttdm.github.io/blog/Tutorial-9.1-%E5%AE%9A%E4%B9%89%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%BA%8B%E4%BB%B6/'>《教程9.1》</a>创建该事件。" %}
 
 点击工具栏的“保存到数据库”图标将修改的模型保存到数据库。见下图：
 <img src="{{'/assets/img/2018-4-1-保存到数据库.png' | prepend: site.baseurl }}" alt="">
