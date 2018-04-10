@@ -6,3 +6,6 @@ visible: 1
 ---
 
 配置消息通知
+
+如下图所示: 
+<img src="{{'/assets/img/2018-2-26-创建自定义表单3.png' | prepend: site.baseurl }}" alt=""><br>
