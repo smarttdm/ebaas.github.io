@@ -5,7 +5,7 @@ date:   2018-03-06
 visible: 1
 ---
 
-前面教程介绍了使用DesignStudio的数据导入向导批量导出数据工具。但是DesignStudio工具需要单独安装，不便于用户导入数据。
+前面教程介绍了使用DesignStudio的数据导入向导批量导出数据。但是DesignStudio工具需要单独安装，不便于用户在日常工作中导入数据。
 
 为此，Ebaas提供了基于Web界面的导入功能。前提条件是事先使用DesignStudio配置好数据导入脚本，并使用SiteMapStudio工具配置Web页面的导入功能。
 
