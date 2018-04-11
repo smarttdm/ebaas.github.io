@@ -75,7 +75,7 @@ SmartExcel模板因为应用了产品的DLL库，所以可以用SmartExcel打开
 
 <img src="{{'/assets/img/2018-3-8-另存为Excel模板.png' | prepend: site.baseurl }}" alt="">
 
-然后，再使用Excel的“另存为”将模板保存为一个Excel文件。这个保存的文件就是普通Excel模板了。普通Excel模板可以保存到任意目录下，见下图。
+然后，再使用Excel的“另存为”将模板保存为一个Excel文件，名称为："事务报告模板.xlsx"。这个保存的文件就是普通Excel模板了。普通Excel模板可以保存到任意目录下，见下图。
 
 <img src="{{'/assets/img/2018-3-8-另存为普通Excel文件.png' | prepend: site.baseurl }}" alt="">
 
