@@ -46,7 +46,7 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 
 #### 打开表单设计器
 
-由于表单设计器是基于Web的，因此您需要使用Web浏览器连接到http：// localhost：8080上的Ebaas服务器，并以“demo1”用户身份登录，密码为“888”。
+由于表单设计器是基于Web的，使用Web浏览器连接到http：// localhost：8080，并以“demo1”用户身份登录，密码为“888”。
 进入“首页” => 点击“表单设计器”图标，如下图所示: 
 <img src="{{'/assets/img/2018-2-26-打开自定义表单.png' | prepend: site.baseurl }}" alt=""><br>
 
@@ -86,6 +86,8 @@ Ebass的表单设计器是基于Web的工具。与市场上的常见的表单设
 单击工具栏“存盘”图标，在弹出“消息”框中，显示“表单已保存”信息，如下图所示: 
 <img src="{{'/assets/img/2018-2-26-打开自定义表单8B.png' | prepend: site.baseurl }}" alt=""><br>
 单击“关闭”按钮。
+
+{% include note.html content="表单模板（*.htm）以文件的方式保存在服务器端的文件目录下。。" %}
 
 #### 预览表单
 
