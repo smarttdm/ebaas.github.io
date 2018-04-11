@@ -36,7 +36,7 @@ app.smarttables.datagrid({import:true,export:true})
 
 #### 测试导入及导出操作
 
-使用推荐的Web浏览器连接到http//localhost8080的应用程序。以用户“demo1”和密码“888”登录到Web首页。
+使用推荐的Web浏览器连接到http//localhost8080指向的服务器。以用户“demo1”和密码“888”登录到Web首页。
 
 点击“事务跟踪”菜单进入表格页面，您会看到表格的标题栏右侧出现的“导出”和“导入”按钮，如下图。
 <img src="{{'/assets/img/2018-3-6-配置Web界面导入导出数据4.png' | prepend: site.baseurl }}" alt=""><br>
