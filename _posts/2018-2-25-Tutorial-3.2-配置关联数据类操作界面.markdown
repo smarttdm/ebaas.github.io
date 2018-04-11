@@ -16,10 +16,12 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 弹出“添加新项”框 => “名称”栏输入：IssueCommands，如下图所示:
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面1C.png' | prepend: site.baseurl }}" alt="">
 
-选中“IssueCommands”命令定制组 => 在右边“设置”选项卡参数配置如下：<br>
-* 在“显示名”栏输入：事务命令组<br>
-* 默认数据库选择：事务跟踪管理<br>
-* 数据类选择：事务<br>
+选中“IssueCommands”命令定制组 => 在右边“设置”选项卡参数配置如下：
+
+* 在“显示名”栏输入：事务命令组
+* 默认数据库选择：事务跟踪管理
+* 数据类选择：事务
+
 结果如下图所示:
 <img src="{{'/assets/img/2018-2-25-创建关联数据类操作界面2C.png' | prepend: site.baseurl }}" alt=""><br>
 
@@ -66,13 +68,19 @@ Ebaas平台提供了一些针对定制命令模块。您可以根据应用的需
 * 使用浏览器登录到Web界面；
 * 单击“事务管理”图标，进入“事务”表格；
 * 单击某条数据实例 => 在展开的下拉工具栏，单击“意见”图标，如下图所示：
-<img src="{{'/assets/img/2018-2-25-使用定制命令1.png' | prepend: site.baseurl }}" alt=""><br>
-页面转入“意见”页面，单击右上角“+添加”按钮，如下图所示：
-<img src="{{'/assets/img/2018-2-25-使用定制命令2.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“意见”表单输入相关数据，完成后单击“提交”按钮 => 出现”数据提交成功“信息 => 单击”关闭“按钮，如下图所示：
-<img src="{{'/assets/img/2018-2-25-使用定制命令3.png' | prepend: site.baseurl }}" alt=""><br>
+
+<img src="{{'/assets/img/2018-2-25-使用定制命令1.png' | prepend: site.baseurl }}" alt="">
+
+* 页面转入“意见”页面，单击右上角“+添加”按钮，如下图所示：
+
+<img src="{{'/assets/img/2018-2-25-使用定制命令2.png' | prepend: site.baseurl }}" alt="">
+
+* 在弹出的“意见”表单输入相关数据，完成后单击“提交”按钮 => 出现”数据提交成功“信息 => 单击”关闭“按钮，如下图所示：
+
+<img src="{{'/assets/img/2018-2-25-使用定制命令3.png' | prepend: site.baseurl }}" alt="">
+
 最终结果，如下图所示：
 <img src="{{'/assets/img/2018-2-25-使用定制命令4.png' | prepend: site.baseurl }}" alt=""><br>
 
-可以点击上方的导航链接返回“事务”数据表格。
+点击上方的导航链接返回“事务”数据表格。
 
