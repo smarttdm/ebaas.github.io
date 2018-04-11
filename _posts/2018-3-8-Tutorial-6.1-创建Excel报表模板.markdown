@@ -63,11 +63,11 @@ SmartExcel模板因为应用了产品的DLL库，所以可以用SmartExcel打开
 
 普通Excel模板不使用产品的DLL库，所以打开后不会出现右边的任务窗口。主要用于部署到Ebaas服务器端生成报表的用途。
 
-为了便于后续对模板进行修改，建议现将模板保存为SmartExcel模板，具体步骤如下：
+为了便于后续对模板进行修改，建议先将模板保存为SmartExcel模板，具体步骤如下：
 
 * 点击Excel文件菜单下的“另存为”菜单 => 将文件名改为“事务报表” => 点击“保存”按键。
 
-{% include important.html content="SmartExcel模板必须保存在C:\Program Files\Ebaas\bin目录下。否则打开会报错，因为找不到所需的DLL文件。" %}
+{% include important.html content="SmartExcel模板必须保存在C:\Program Files\Ebaas\bin目录下。否则打开会报错，因为找不到所链接的产品的DLL文件。" %}
 
 #### 保存普通Excel报表模板
 
