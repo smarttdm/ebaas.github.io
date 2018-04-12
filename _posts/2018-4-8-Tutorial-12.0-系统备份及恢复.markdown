@@ -35,8 +35,14 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-系统恢复6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 备份数据库文件
-
 保存数据库文件。
+从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 运行Design Studio，在打开的界面中工具栏选择“工具”的“打开存储于数据库的模型”命令，在打开的“连接数据库”框，选择要备份的数据库“事务跟踪管理”，输入用户名：“admin”，密码：“admin”，如下图所示:
+<img src="{{'/assets/img/2018-4-8-保存数据库文件1.png' | prepend: site.baseurl }}" alt=""><br>
+选择工具栏“文件”，下拉菜单中选择“保存文件”命令，如下图所示:
+<img src="{{'/assets/img/2018-4-8-保存数据库文件2.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的“另存为”框，选择备份文件目录，文件名输入：“事务跟踪管理”，如下图所示:
+<img src="{{'/assets/img/2018-4-8-保存数据库文件3.png' | prepend: site.baseurl }}" alt=""><br>
+单击“保存”按钮，数据库文件保存完毕。
 
 #### 配置文件备份
 
