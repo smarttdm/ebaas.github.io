@@ -47,6 +47,7 @@ visible: 1
 #### 配置文件备份
 
 使用CCI
+备份配置文件前先结束Ebaas Server 。
 从“开始”- > Ebaas->Accsesories->CCI 打开“CCI”备份配置文件，如下图所示:
 <img src="{{'/assets/img/2018-4-8-配置文件备份1.png' | prepend: site.baseurl }}" alt=""><br>
 在打开的面板中，单击工具栏“打开” 按钮图标，如下图所示:
