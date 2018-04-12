@@ -47,3 +47,13 @@ visible: 1
 #### 配置文件备份
 
 使用CCI
+从“开始”- > Ebaas->Accsesories->CCI 打开“CCI”备份配置文件，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件备份1.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的面板中，单击工具栏“打开” 按钮图标，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件备份2.png' | prepend: site.baseurl }}" alt=""><br>
+软件会自动搜索“配置文件”，搜索完毕后单击工具栏"保存"图标，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件备份3.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出“另存为”对话框中，文件名输入：“事务跟踪管理”，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件备份4.png' | prepend: site.baseurl }}" alt=""><br>
+单击“保存”按钮，保存完毕，弹出“备份文件完成”信息框，单击“确定”按钮，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件备份5.png' | prepend: site.baseurl }}" alt=""><br>
