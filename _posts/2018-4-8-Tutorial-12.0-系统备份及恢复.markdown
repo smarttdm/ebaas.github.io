@@ -36,13 +36,11 @@ visible: 1
 
 #### 备份数据库文件
 保存数据库文件。
-从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 运行Design Studio，在打开的界面中工具栏选择“工具”的“打开存储于数据库的模型”命令，在打开的“连接数据库”框，选择要备份的数据库“事务跟踪管理”，输入用户名：“admin”，密码：“admin”，如下图所示:
+保存数据库文件前先结束Ebaas Server 。
+打开路径C:\Program Files\Ebaas\Database，复制newtera.sdf数据库，如下图所示:
 <img src="{{'/assets/img/2018-4-8-保存数据库文件1.png' | prepend: site.baseurl }}" alt=""><br>
-选择工具栏“文件”，下拉菜单中选择“保存文件”命令，如下图所示:
-<img src="{{'/assets/img/2018-4-8-保存数据库文件2.png' | prepend: site.baseurl }}" alt=""><br>
-在打开的“另存为”框，选择备份文件目录，文件名输入：“事务跟踪管理”，如下图所示:
-<img src="{{'/assets/img/2018-4-8-保存数据库文件3.png' | prepend: site.baseurl }}" alt=""><br>
-单击“保存”按钮，数据库文件保存完毕。
+将数据库文件复制到备份的文件夹即可。
+
 
 #### 配置文件备份
 
@@ -58,3 +56,16 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-配置文件备份4.png' | prepend: site.baseurl }}" alt=""><br>
 单击“保存”按钮，保存完毕，弹出“备份文件完成”信息框，单击“确定”按钮，如下图所示:
 <img src="{{'/assets/img/2018-4-8-配置文件备份5.png' | prepend: site.baseurl }}" alt=""><br>
+
+#### 配置文件恢复
+使用CCI
+恢复配置文件前先结束Ebaas Server。
+从“开始”- > Ebaas->Accsesories->CCI 打开“CCI”备份配置文件，在工具栏单击“打开文件”，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件恢复1.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的“打开”的对话框，选择先前备份的配置文件，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件恢复2.png' | prepend: site.baseurl }}" alt=""><br>
+单击“打开”按钮，软件将先前备份的配置文件全部导入进来后，单击工具栏“恢复”图标，如下图所示:
+<img src="{{'/assets/img/2018-4-8-配置文件恢复3.png' | prepend: site.baseurl }}" alt=""><br>
+文件恢复完成后，弹出“恢复完成”信息框，单击“确定”按钮。
+
+
