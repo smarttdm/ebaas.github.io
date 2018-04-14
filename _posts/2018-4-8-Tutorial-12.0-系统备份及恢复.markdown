@@ -14,7 +14,7 @@ visible: 1
 您可以在路径C:\Program Files\Ebaas\Database目录下看到“newtera.sdf”文件（见下图），复制该文件并保存到其它的存储位置:
 <img src="{{'/assets/img/2018-4-8-保存数据库文件1.png' | prepend: site.baseurl }}" alt=""><br>
 
-需要回复数据库时，例如在升级Ebaas平台后，将保存的数据库文件复制粘贴到上述位置，重启Ebaas服务器便可。
+需要恢复数据库时，例如在升级Ebaas平台后，将保存的数据库文件复制粘贴到上述位置，重启Ebaas服务器便可。
 
 #### 备份数据库
 
