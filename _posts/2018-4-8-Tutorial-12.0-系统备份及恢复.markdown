@@ -29,9 +29,8 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-系统恢复3.png' | prepend: site.baseurl }}" alt=""><br>
 单击“打开”，弹出“确认”框，单击“是（y）”覆盖原来的数据库，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统恢复4.png' | prepend: site.baseurl }}" alt=""><br>
-弹出“进度条”，工作进行中，如下图所示:
-<img src="{{'/assets/img/2018-4-8-系统恢复5.png' | prepend: site.baseurl }}" alt=""><br>
-数据库恢复结束，弹出信息框，如下图所示:
+弹出“进度条”，表示正在恢复数据库。数据库比较大时会需要一段时间。请耐心等待直到弹出恢复结束的信息框，如下图。
+
 <img src="{{'/assets/img/2018-4-8-系统恢复6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 备份数据库文件
