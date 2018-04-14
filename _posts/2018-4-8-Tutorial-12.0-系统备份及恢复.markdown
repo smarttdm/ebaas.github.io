@@ -9,7 +9,7 @@ visible: 1
 
 #### 备份内置数据库文件
 
-如果，您的Ebaas平台使用内置数据库（），那么备份数据库的工作非常简单。只要保存内置数据库的数据文件。
+如果，您的Ebaas平台使用内置数据库，那么备份数据库的工作非常简单。只要保存内置数据库的数据文件。
 
 您可以在路径C:\Program Files\Ebaas\Database目录下看到“newtera.sdf”文件（见下图），复制该文件并保存到其它的存储位置:
 <img src="{{'/assets/img/2018-4-8-保存数据库文件1.png' | prepend: site.baseurl }}" alt=""><br>
