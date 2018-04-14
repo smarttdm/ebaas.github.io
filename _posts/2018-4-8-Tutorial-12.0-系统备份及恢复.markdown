@@ -22,15 +22,16 @@ visible: 1
 
 * 从“开始” => Ebaas => DesignStudio打开DesignStudio工具。
 * 在打开的DesignStudio中工具栏选择“工具” => “备份数据库”命令，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统备份1.png' | prepend: site.baseurl }}" alt="">
 
-* 在打开的“连接数据库”框，选择要备份的数据库“事务跟踪管理” => 输入用户名：“admin”，密码：“admin”，如下图所示:
+在打开的“连接数据库”框，选择要备份的数据库“事务跟踪管理” => 输入用户名：“admin”，密码：“admin”，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统备份2.png' | prepend: site.baseurl }}" alt="">
 
-* 在打开的“另存为”框，输入备份文件的名称：“事务跟踪管理”，单击“保存”按钮，如下图所示:
+在打开的“另存为”框，输入备份文件的名称：“事务跟踪管理”，单击“保存”按钮，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统备份3.png' | prepend: site.baseurl }}" alt="">
 
-* 单击“是（y）”确认备份，如下图所示:
+单击“是（y）”确认备份，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统备份4.png' | prepend: site.baseurl }}" alt="">
 
 弹出“工作进行中”进度条，数据库正在备份中（如下图）。当数据量很大时，需要较长的备份时间。
@@ -43,21 +44,19 @@ visible: 1
 
 恢复备份的数据库的步骤如下：
 
-* 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 在打开的界面中工具栏选择“工具” => “恢复数据库”命令，如下图所示:
+从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 在打开的界面中工具栏选择“工具” => “恢复数据库”命令，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统恢复1' | prepend: site.baseurl }}" alt="">
 
-* 弹出“系统用户登入”框，输入用户名：“admin”，密码：“admin”，如下图所示:
+弹出“系统用户登入”框，输入用户名：“admin”，密码：“admin”，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统恢复2.png' | prepend: site.baseurl }}" alt="">
 
-* 在打开的“打开”框中，选择先前备份的数据库文件,如下图所示:
+在打开的“打开”框中，选择先前备份的数据库文件,如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统恢复3.png' | prepend: site.baseurl }}" alt="">
 
 如果同名数据库已经存在，会弹出下图的确认框，点击“是”按键确认覆盖：
-
 <img src="{{'/assets/img/2018-4-8-系统恢复4.png' | prepend: site.baseurl }}" alt="">
 
 弹出“进度条”，表示正在恢复数据库。数据库比较大时会需要一段时间。请耐心等待直到弹出恢复结束的信息框，如下图。
-
 <img src="{{'/assets/img/2018-4-8-系统恢复6.png' | prepend: site.baseurl }}" alt="">
 
 {% include note.html content="当使用外部数据库作为Ebaas平台的数据库时，建议使用数据自带的备份恢复工具对数据库进行备份和恢复。特别是数据量很大时。Ebaas平台的备份和恢复主要用在不同数据库迁移时使用，例如从内置数据库迁移到外部数据时。" %}
@@ -68,6 +67,7 @@ visible: 1
 
 * 备份配置文件前先终止Ebaas Server；
 * 从“开始” => Ebaas => Accsesories => CCI 打开CCI工具，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件备份1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的工具界面中，单击工具栏“打开” 按钮图标，如下图所示:
@@ -86,6 +86,7 @@ visible: 1
 
 * 恢复CCI文件前先结束Ebaas Server；
 * 从“开始”- > Ebaas->Accsesories->CCI，在工具栏单击“打开文件”，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件恢复1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的“打开”的对话框，选择先前备份的配置文件，如下图所示:
