@@ -22,7 +22,7 @@ visible: 1
 
 #### 恢复数据库
 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 运行Design Studio，在打开的界面中工具栏选择“工具”下拉菜单的“恢复数据库”命令，如下图所示:
-<img src="{{'/assets/img/2018-4-8-系统恢复1.png' | prepend: site.baseurl }}" alt=""><br>
+<img src="{{'/assets/img/2018-4-8-系统恢复1' | prepend: site.baseurl }}" alt=""><br>
 弹出“系统用户登入”框，输入用户名：“admin”，密码：“admin”，如下图所示:
 <img src="{{'/assets/img/2018-4-8-系统恢复2.png' | prepend: site.baseurl }}" alt=""><br>
 在打开的“打开”框中，选择先前备份的数据库文件,如下图所示:
