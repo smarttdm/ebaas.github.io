@@ -52,7 +52,7 @@ visible: 1
 
 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 在打开的界面中工具栏选择“工具” => “恢复数据库”命令，如下图所示:
 
-<img src="{{'/assets/img/2018-4-8-系统恢复1' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-4-8-系统恢复1.png' | prepend: site.baseurl }}" alt="">
 
 弹出“系统用户登入”框，输入用户名：“admin”，密码：“admin”，如下图所示:
 
