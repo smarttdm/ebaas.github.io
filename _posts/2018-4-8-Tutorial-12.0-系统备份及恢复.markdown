@@ -80,7 +80,6 @@ visible: 1
 | Ebaas服务器配置文件 | EbaasServer.exe.config文件包含服务器的配置 |
 | 表单模板 | 使用表单设计器所创建的自定义表单模板 |
 | 报告模板 | 使用SmartExcel或SmartWord工具所创建的报表模板 |
-| 报告模板 | 使用SmartExcel或SmartWord工具所创建的报表模板 |
 | 内置数据库文件 | 内置数据库的储存文件 |
 | 扩展开发的DLL | 在Ebaas平台上进行扩展开发的DLL文件 |
 | 其它配置文件 | 在Config目录下的其它配置文件 |
