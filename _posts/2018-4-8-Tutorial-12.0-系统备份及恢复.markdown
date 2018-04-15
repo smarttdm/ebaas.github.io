@@ -5,13 +5,14 @@ date:   2018-04-08
 visible: 1
 ---
 
-系统的数据或配置文件等可能由于电脑损坏或软件升级安装等造成丢失或损坏。因而需要能对数据库和配置文件等进行备份，以备不测。由于Ebaas平台可以使用内置数据库（SQL Server Compact）和外部数据库，例如SQL Server或Oracle。因而数据库备份和恢复的方式不同。下面，我们介绍几种备份和恢复方式。
+系统的数据或配置文件等需要进行备份，以备由于电脑损坏或软件升级安装等造成数据或配置文件的丢失或损坏。根据Ebaas平台所连接的是内置数据库（SQL Server Compact）还是外部数据库（例如SQL Server或Oracle），数据库备份和恢复的方式有所不同。下面，我们介绍几种备份和恢复方式。
 
 #### 备份内置数据库文件
 
 如果，您的Ebaas平台使用内置数据库，那么备份数据库的工作非常简单。只要保存内置数据库的数据文件。
 
 您可以在路径C:\Program Files\Ebaas\Database目录下看到“newtera.sdf”文件（见下图），复制该文件并保存到其它的存储位置:
+
 <img src="{{'/assets/img/2018-4-8-保存数据库文件1.png' | prepend: site.baseurl }}" alt=""><br>
 
 需要恢复数据库时，例如在升级Ebaas平台后，将保存的数据库文件复制粘贴到上述位置，重启Ebaas服务器便可。
@@ -26,18 +27,23 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-系统备份1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的“连接数据库”框，选择要备份的数据库“事务跟踪管理” => 输入用户名：“admin”，密码：“admin”，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统备份2.png' | prepend: site.baseurl }}" alt="">
 
 在打开的“另存为”框，输入备份文件的名称：“事务跟踪管理”，单击“保存”按钮，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统备份3.png' | prepend: site.baseurl }}" alt="">
 
 单击“是（y）”确认备份，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统备份4.png' | prepend: site.baseurl }}" alt="">
 
 弹出“工作进行中”进度条，数据库正在备份中（如下图）。当数据量很大时，需要较长的备份时间。
+
 <img src="{{'/assets/img/2018-4-8-系统备份5.png' | prepend: site.baseurl }}" alt="">
 
 数据库备份完成，会弹出信息框“备份数据库结束”，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统备份6.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 恢复数据库
@@ -45,15 +51,19 @@ visible: 1
 恢复备份的数据库的步骤如下：
 
 从“开始”- > Ebaas-> DesignStudio打开DesignStudio工具。 在打开的界面中工具栏选择“工具” => “恢复数据库”命令，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统恢复1' | prepend: site.baseurl }}" alt="">
 
 弹出“系统用户登入”框，输入用户名：“admin”，密码：“admin”，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统恢复2.png' | prepend: site.baseurl }}" alt="">
 
 在打开的“打开”框中，选择先前备份的数据库文件,如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-系统恢复3.png' | prepend: site.baseurl }}" alt="">
 
 如果同名数据库已经存在，会弹出下图的确认框，点击“是”按键确认覆盖：
+
 <img src="{{'/assets/img/2018-4-8-系统恢复4.png' | prepend: site.baseurl }}" alt="">
 
 弹出“进度条”，表示正在恢复数据库。数据库比较大时会需要一段时间。请耐心等待直到弹出恢复结束的信息框。
@@ -70,15 +80,19 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-配置文件备份1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的工具界面中，单击工具栏“打开” 按钮图标，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件备份2.png' | prepend: site.baseurl }}" alt="">
 
 软件会自动搜索配置及模板文件，搜索完毕后单击工具栏"保存"图标，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件备份3.png' | prepend: site.baseurl }}" alt="">
 
 在弹出“另存为”对话框中，输入文件包名称：“事务跟踪管理”，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件备份4.png' | prepend: site.baseurl }}" alt="">
 
 单击“保存”按钮，保存完毕，弹出“备份文件完成”信息框，单击“确定”按钮，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件备份5.png' | prepend: site.baseurl }}" alt=""><br>
 
 #### 恢复配置及模板文件
@@ -89,9 +103,11 @@ visible: 1
 <img src="{{'/assets/img/2018-4-8-配置文件恢复1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的“打开”的对话框，选择先前备份的配置文件，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件恢复2.png' | prepend: site.baseurl }}" alt="">
 
 单击“打开”按钮，软件将先前备份的配置文件全部导入进来后，单击工具栏“恢复”图标，如下图所示:
+
 <img src="{{'/assets/img/2018-4-8-配置文件恢复3.png' | prepend: site.baseurl }}" alt="">
 
 文件恢复完成后，弹出“恢复完成”信息框，单击“确定”按钮。
