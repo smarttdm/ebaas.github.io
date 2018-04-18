@@ -65,4 +65,6 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 <img src="{{'/assets/img/2018-3-9-generated-report.png' | prepend: site.baseurl }}" alt="">
 
+{% include note.html content="如果您希望‘生成报告’定制命令在事务处理完毕时才出现，可以在SiteMapStudio的定制命令的‘可见条件’设置条件，例如： $this/Status = '完成'。这样当事务状态等于‘完成’时，该定制命令才会显示在命令栏中。" %}
+
 至此，配置生成报告的教程介绍完毕。
