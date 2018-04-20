@@ -10,6 +10,20 @@ visible: 1
 Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以有零到多个附件。附件可以是任何形式的文件。为了方便用户在浏览器上上传或下载数据实例的附件，Ebaas平台提供了一个附件管理的Web组件。在设计表单时，可以将该组件插入到表单的某个位置来实现在表单中进行附件上传或下载的功能。下面我们就介绍如何在Ebaas表单设计器中插入附件管理组件的步骤。
 
 #### 在表单中插入附件管理组件
+浏览器地址栏输入：http://locslhost:8080 ， 用户名输入：demo1，密码：888，进入首页单击“表单设计”图标，见下图：
+<img src="{{'/assets/2018-03-03 配置表单附件功能1.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的表单设计器页面中，单击“打开表单”图标，在“新建或打开表单”面板左边选中“事务”数据类，右边“已存在的表单”选择“defaualt”，单击“确定”按钮，见下图：
+<img src="{{'/assets/2018-03-03 配置表单附件功能2.png' | prepend: site.baseurl }}" alt=""><br>
+在打开的“default”表单，工具栏单击“源码”图标，在底部插入以下代码：
+<div class="row row-7">
+<div class="col col-md-12">
+<div class="content"><attachments dbclass="dbclass" dbschema="dbschema" oid="oid"></attachments></div>
+</div>
+</div>
+见下图：
+<img src="{{'/assets/2018-03-03 配置表单附件功能4.png' | prepend: site.baseurl }}" alt=""><br>
+注意：class="row row-7"行数要比插入代码上一行多一。
+完后，单击“保存”图标，单击“预览”图标可以查看熊效果。
 
 #### 测试表单上传附件
 
