@@ -13,9 +13,7 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 浏览器地址栏输入：http://locslhost:8080 ， 用户名输入：demo1，密码：888，进入首页单击“表单设计”图标，见下图：
 
-<img src="{{'/assets/2018-03-03 配置表单附件功能1.png' | prepend: site.baseurl }}" alt="">
-
-<img src="{{'/assets/img/2018-2-13 创建普通属性2.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能1.png' | prepend: site.baseurl }}" alt="">
 
 在打开的表单设计器页面中，单击“打开表单”图标，在“新建或打开表单”面板左边选中“事务”数据类，右边“已存在的表单”选择“defaualt”，单击“确定”按钮，见下图：
 
@@ -32,7 +30,7 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 {% endhighlight %}
 
 见下图：
-<img src="{{'/assets/2018-03-03 配置表单附件功能4.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能4.png' | prepend: site.baseurl }}" alt="">
 
 完后再次单击“源码”图标，回到表单页面，单击“保存”图标保存修改，单击“预览”图标可以查看效果。
 
@@ -44,19 +42,19 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 单击“选择文件”在打开“打开”文件框中，选择要上传的图或文件，见下图：
 
-<img src="{{'/assets/2018-03-03 配置表单附件功能8.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能8.png' | prepend: site.baseurl }}" alt="">
 
 完成单击“打开”，单击“上传”按钮，图片或文件将上传，见下图：
 
-<img src="{{'/assets/2018-03-03 配置表单附件功能9.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能9.png' | prepend: site.baseurl }}" alt="">
 
 文件或图片上传完毕后，单击“提交”按钮，完成后，单击“关闭”按钮，见下图：
-<img src="{{'/assets/2018-03-03 配置表单附件功能10.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能10.png' | prepend: site.baseurl }}" alt="">
 
 
 #### 测试表单下载附件
 
 单击记录下展开工具栏“附件”图标，单击右上角“下载”图标，就可以下载文件，见下图：
 
-<img src="{{'/assets/2018-03-03 配置表单附件功能11.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-03-03 配置表单附件功能11.png' | prepend: site.baseurl }}" alt="">
 
