@@ -19,7 +19,7 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 <img src="{{'/assets/2018-03-03 配置表单附件功能2.png' | prepend: site.baseurl }}" alt="">
 
-在打开的“default”表单，工具栏单击“源码”图标，在底部插入以下代码：
+在打开的“default”表单，工具栏单击“源码”图标，在底部插入以下代码（可以选择表单的任何位置）：
 
 {% highlight ruby %}
 <div class="col col-md-12">
