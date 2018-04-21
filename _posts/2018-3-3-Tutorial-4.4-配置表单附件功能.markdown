@@ -15,6 +15,8 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 <img src="{{'/assets/2018-03-03 配置表单附件功能1.png' | prepend: site.baseurl }}" alt="">
 
+<img src="{{'/assets/img/2018-2-13 创建普通属性2.png' | prepend: site.baseurl }}" alt="">
+
 在打开的表单设计器页面中，单击“打开表单”图标，在“新建或打开表单”面板左边选中“事务”数据类，右边“已存在的表单”选择“defaualt”，单击“确定”按钮，见下图：
 
 <img src="{{'/assets/2018-03-03 配置表单附件功能2.png' | prepend: site.baseurl }}" alt="">
