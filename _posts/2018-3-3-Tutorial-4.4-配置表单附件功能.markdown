@@ -21,10 +21,8 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 在打开的“default”表单，工具栏单击“源码”图标，在底部插入以下代码：
 
 {% highlight ruby %}
-<div class="row row-7">
 <div class="col col-md-12">
 <div class="content"><attachments dbclass="dbclass" dbschema="dbschema" oid="oid"></attachments></div>
-</div>
 </div>
 {% endhighlight %}
 
@@ -37,15 +35,11 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 #### 测试表单上传附件
 
-回到事务数据记录页面，单击右上角“+添加”图标，输入相关数据，单击“提交”按钮，提交成功后，单击“关闭”按钮，见下图：
+回到事务数据记录页面，单击右上角“+添加”图标，输入相关数据，见下图：
 
 <img src="{{'/assets/2018-03-03 配置表单附件功能5.png' | prepend: site.baseurl }}" alt="">
 
-单击刚刚提交的数据记录，下拉工具栏中单击“编辑”图标，见下图；
-
-<img src="{{'/assets/2018-03-03 配置表单附件功能6.png' | prepend: site.baseurl }}" alt="">
-
-在打开的表单中单击“显示上传功能”，展开上传区域，见下图：
+接下来在表单中单击“显示上传功能”，展开上传区域，见下图：
 
 <img src="{{'/assets/2018-03-03 配置表单附件功能7.png' | prepend: site.baseurl }}" alt="">
 
