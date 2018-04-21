@@ -19,7 +19,7 @@ Ebaas平台提供了“附件”管理功能。针对每个数据实例都可以
 
 <img src="{{'/assets/img/2018-03-03 配置表单附件功能2.png' | prepend: site.baseurl }}" alt="">
 
-在打开的“default”表单 => 工具栏单击“源码”图标，显示表单的HTML代码 => 选择在表单中需要显示附件管理组件的位置复制粘贴以下代码（执行这项操作需要了解基本的HTML和Bootstrap的知识）：
+在打开的“default”表单 => 工具栏单击“源码”图标，显示表单的HTML代码 => 选择在表单中需要显示附件管理组件的位置复制粘贴以下代码（执行这项操作需要了解HTML和Bootstrap样式的基本知识）：
 
 {% highlight ruby %}
 <div class="row">
