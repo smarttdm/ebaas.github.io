@@ -7,6 +7,36 @@ visible: 1
 
 #### ElasticSearch基本概念
 
-ElasticSearch是一个基于Lucene的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，是一个流行的全文检索引擎。能够达到实时搜索，稳定，可靠，快速，安装使用方便，零配置和完全免费。
+ElasticSearch（简称ES）是一个基于Lucene的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，是一个流行的全文检索引擎。能够达到实时搜索，稳定，可靠，快速，安装使用方便，零配置和完全免费。
+
+首先请先去了解下ES的一些基本概念：cluster，node，index，type, document, shard，replica shard，plugin。这里就不一一赘述了。
+
+#### ES的安装
+
+ES的安装很简单：
+
+* 确保机器上已经安装了JDK8以上版本
+* 下载ES (要求7.2.2以上版本）：官网下载地址：https://www.elastic.co/downloads/elasticsearch
+* 将下载后的文件解压到某个目录（例如： C:/opt/eshome)
+* 进入到ES目录下的bin文件夹下，执行“elasticsearch”，启动ES服务器
+* 假如ES安装在本地电脑上，可以使用浏览器访问  http://localhost:9200, 会在浏览器显示类似下列结果。
+
+{% highlight ruby %}
+{
+  "status" : 200,
+  "name" : "test_node_196",
+  "cluster_name" : "test_cluster1",
+  "version" : {
+    "number" : "1.7.0",
+    "build_hash" : "929b9739cae115e73c346cb5f9a6f24ba735a743",
+    "build_timestamp" : "2015-07-16T14:31:07Z",
+    "build_snapshot" : false,
+    "lucene_version" : "4.10.4"
+  },
+  "tagline" : "You Know, for Search"
+} 
+{% endhighlight %}
+
+ 
 
 
