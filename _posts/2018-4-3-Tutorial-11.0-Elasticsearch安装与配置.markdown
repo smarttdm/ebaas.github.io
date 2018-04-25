@@ -23,18 +23,20 @@ ES的安装很简单：
 
 {% highlight ruby %}
 {
-  "status" : 200,
-  "name" : "test_node_196",
-  "cluster_name" : "test_cluster1",
+  "name" : "Dqdicw4",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "Q_gr2daSQ2KQu4aPrh9pVQ",
   "version" : {
-    "number" : "1.7.0",
-    "build_hash" : "929b9739cae115e73c346cb5f9a6f24ba735a743",
-    "build_timestamp" : "2015-07-16T14:31:07Z",
+    "number" : "6.2.3",
+    "build_hash" : "c59ff00",
+    "build_date" : "2018-03-13T10:06:29.741383Z",
     "build_snapshot" : false,
-    "lucene_version" : "4.10.4"
+    "lucene_version" : "7.2.1",
+    "minimum_wire_compatibility_version" : "5.6.0",
+    "minimum_index_compatibility_version" : "5.0.0"
   },
   "tagline" : "You Know, for Search"
-} 
+}
 {% endhighlight %}
 
  
