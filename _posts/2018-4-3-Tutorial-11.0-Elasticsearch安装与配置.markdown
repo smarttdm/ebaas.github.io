@@ -25,7 +25,7 @@ ES的安装很简单：
 * 确保机器上已经安装了JDK8以上版本
 * 下载ES (要求6.2.3以上版本）：官网下载地址：<a class='post-link' href='https://www.elastic.co/downloads/elasticsearch'>https://www.elastic.co/downloads/elasticsearch</a> 
 * 将下载后的文件解压到某个目录（例如： C:/opt/eshome)
-* 进入到ES目录下的bin文件夹下，执行“elasticsearch”，启动ES服务器
+* 打开Cmd窗口，进入到ES目录下的bin文件夹下，执行“elasticsearch”，启动ES服务器
 * 假如ES安装在本地电脑上，可以使用浏览器访问  http://localhost:9200, 会在浏览器显示类似下列结果。
 
 {% highlight ruby %}
