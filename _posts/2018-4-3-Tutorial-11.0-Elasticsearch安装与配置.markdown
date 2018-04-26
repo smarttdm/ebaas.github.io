@@ -54,7 +54,7 @@ ES附带了很多合理的默认值，它安装好了就可以使用了。对于
 
 开启Ebaas基于Elasticsearch的全文检索模式只需要在Ebaas的配置文件中配置ES的服务器URL。如果您的ES安装在本地机器上，默认的URL为： http://localhost:9200。
 
-使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ServerUrl”参数设置为“http://localhost:9200”，如下所示。
+使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ElasticsearchURL”参数设置为“http://localhost:9200”，如下所示。
 保存配置文件后，重启Ebaas服务器即可。
 
 <img src="{{'/assets/img/2018-4-3-configfile.png' | prepend: site.baseurl }}" alt="">
