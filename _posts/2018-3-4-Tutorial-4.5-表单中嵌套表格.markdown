@@ -39,8 +39,16 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt="">
 完成后单击“源码”回到表单设计页面，光标放在刚刚插入的空白行，单击工具栏”插入表单字段“，在打开的”插入表单字段“中，选择左边”意见“数据类，再选择右边数据类属性”到事务（R）“，单击”确定“按钮，见下图：
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt="">
+结果见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt="">打开的xi
 完成后，单击工具栏”保存“图标。
 
-
 #### 测试嵌套二维表格
+在事务记录页面，单击右上角”+添加“，在打开新表单中，输入相关数据，单击”提交“按钮，数据提交成功后，单击”关闭“按钮，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格6.png' | prepend: site.baseurl }}" alt="">
+单击刚提交的这条记录，在下弹出的工具栏单击”编辑“按钮，在打开的编辑表单中可以看到嵌入的”意见“二维表单，见下图；
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格7.png' | prepend: site.baseurl }}" alt="">
+
+
+
 
