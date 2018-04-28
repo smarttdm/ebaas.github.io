@@ -13,7 +13,11 @@ visible: 1
 
 #### 配置关系属性的显示控件
 首先，使用DesignStudio打开“意见”数据类。“意见”数据类到“事务”数据类应建立了一个多对一的关系属性，叫做“到事务”。对这个关系属性的“控件生成器”配置动态表格控件，如下图所示：
+
+{% highlight ruby %}
 Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
+{% endhighlight %}
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格1.png' | prepend: site.baseurl }}" alt="">
 完成后，单击工具栏“保存数据库模型到数据库中”图标，保存到数据库。
 
@@ -21,12 +25,22 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 登入浏览器http://localhost:8080  在首页单击“表单设计器”图标，在“表单设计器”工具栏单击“打开”图标，在打开的“新建或打开表单”左边选择“事务”数据类，右边选择“default”表单，单击“确定”按钮，见下图：
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格2.png' | prepend: site.baseurl }}" alt="">
 在打开的“事务”表单中，单击工具栏“源码”图标，插入下面代码：
+
+{% highlight ruby %}
 <div class="row row-7">
 <div class="col col-md-12">
 <div class="content">
 </div>
 </div>
 </div>
+{% endhighlight %}
+
+如下图所示：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt="">
+完成后单击“源码”回到表单设计页面，光标放在刚刚插入的空白行，单击工具栏”插入表单字段“，在打开的”插入表单字段“中，选择左边”意见“数据类，再选择右边数据类属性”到事务（R）“，单击”确定“按钮，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt="">
+完成后，单击工具栏”保存“图标。
+
 
 #### 测试嵌套二维表格
 
