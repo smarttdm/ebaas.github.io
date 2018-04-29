@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "使用全文检索搜索"
+date:   2018-04-05
+visible: 1
+---
+
+<img src="{{'/assets/img/2018-4-4-打开数据编辑器.png' | prepend: site.baseurl }}" alt="">
