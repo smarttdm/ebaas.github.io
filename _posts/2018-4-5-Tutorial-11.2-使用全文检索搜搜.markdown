@@ -5,4 +5,12 @@ date:   2018-04-05
 visible: 1
 ---
 
-<img src="{{'/assets/img/2018-4-4-打开数据编辑器.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-4-5-自动补全功能.png' | prepend: site.baseurl }}" alt="">
+
+<img src="{{'/assets/img/2018-4-5-搜索编写试验方案.png' | prepend: site.baseurl }}" alt="">
+
+<img src="{{'/assets/img/2018-4-5-创建编写试验报告事务.png' | prepend: site.baseurl }}" alt="">
+
+<img src="{{'/assets/img/2018-4-5-编写试验报告自动补全.png' | prepend: site.baseurl }}" alt="">
+
+<img src="{{'/assets/img/2018-4-5-查询编写试验报告.png' | prepend: site.baseurl }}" alt="">
