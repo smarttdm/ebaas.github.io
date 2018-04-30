@@ -15,6 +15,8 @@ Ebaas平台的基于ES的全文检索提供了近似百度的搜索体验，包�
 
 <img src="{{'/assets/img/2018-4-5-自动补全功能.png' | prepend: site.baseurl }}" alt="">
 
+{% include note.html content="根据输入文字的长短，会自动更新提示的内容和数量。" %}
+
 * 从下拉菜单中选择“编写发动机试验方案”的提示，就能使用全文检索准确地找到该条事务并显示在列表中（见下图）
 
 <img src="{{'/assets/img/2018-4-5-搜索编写试验方案.png' | prepend: site.baseurl }}" alt="">
