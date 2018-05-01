@@ -68,9 +68,9 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 
 #### 测试嵌套二维表格
 在事务记录页面，单击右上角”+添加“，在打开新表单中，输入相关数据，单击”提交“按钮，数据提交成功后，单击”关闭“按钮，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格13.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格17.png' | prepend: site.baseurl }}" alt="">
 单击刚提交的这条记录，在下弹出的工具栏单击”编辑“按钮，在打开的编辑表单中可以看到嵌入的”意见“二维表单，见下图；
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格7.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格18.png' | prepend: site.baseurl }}" alt="">
 
 
 
