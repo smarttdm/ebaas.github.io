@@ -33,8 +33,14 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 单击“确定“按钮，单击”下一步“，在”返回属性“卡，单击”添加“，见下图：
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格8.png' | prepend: site.baseurl }}" alt=""><br>
 在弹出”选择返回结果属性“框，选择左边要返回的属性，再单击中间向右箭头，将属性添加到右边”返回属性结果“框中，结果见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt=""><br>
-
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格9.png' | prepend: site.baseurl }}" alt=""><br>
+单击”确认“按钮，结果见下图:
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格10.png' | prepend: site.baseurl }}" alt=""><br>
+ 单击”结束“按钮。
+ 单击”意见“数据类，在”参数设置“面板，”嵌套表数据视图“栏单击向下箭头，选择”事务视图“，见下图：
+ <img src="{{'/assets/img/018-3-4-表单中嵌套表格11.png' | prepend: site.baseurl }}" alt=""><br>
+ 完成后，单击工具栏”保存数据库“图标，见下图：
+ <img src="{{'/assets/img/018-3-4-表单中嵌套表格12.png' | prepend: site.baseurl }}" alt=""><br>
 
 完成后，单击工具栏“保存数据库模型到数据库中”图标，保存到数据库。
 
