@@ -19,6 +19,23 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 {% endhighlight %}
 
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格1.png' | prepend: site.baseurl }}" alt="">
+#### 创建意见数据视图
+鼠标右键“数据视图”，单击“创建”，如下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格2.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出“添加新体”对话框中，输入名称：commenView，显示名：事务视图，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“数据视图”框中，单击“数据类”右边“...”按钮，添加数据类，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出的“选择数据类”框中，选择“意见”数据类，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt=""><br>
+在下一步，单击“关联数据类”，在弹出的“选择关联数据类”框，右边选择“事务”数据类，单击中间的向左箭头，将“意见”数据类添加到左边，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格6.png' | prepend: site.baseurl }}" alt=""><br>
+单击“确定“按钮，单击”下一步“，在”返回属性“卡，单击”添加“，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格8.png' | prepend: site.baseurl }}" alt=""><br>
+在弹出”选择返回结果属性“框，选择左边要返回的属性，再单击中间向右箭头，将属性添加到右边”返回属性结果“框中，结果见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt=""><br>
+
+
 完成后，单击工具栏“保存数据库模型到数据库中”图标，保存到数据库。
 
 #### 在表单中插入关系属性
