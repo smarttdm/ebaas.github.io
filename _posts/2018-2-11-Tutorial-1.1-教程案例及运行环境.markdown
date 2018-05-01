@@ -76,6 +76,6 @@ Ebaas平台采用面向对象的数据模型，为了与关系数据库的术语
 *	操作系统：Windows 7（x64）, Windows 10(x64)；
 *	.Net环境：Microsoft.Net Framework 4.5.2；
 *	浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11；
-* Elasticsearch 6.2.2以上版本（非必须）
+* Elasticsearch 6.2.3以上版本（非必须）
 
 请点击左下方的链接回到上一个教程，点击右下方的链接进入下一个教程。
