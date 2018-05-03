@@ -48,14 +48,32 @@ ES的安装很简单：
 
 ES附带了很多合理的默认值，它安装好了就可以使用了。对于我们的教程，使用ES的默认设置就够用了。对于实际的项目和不同的检索需求，还可以利用ES更多高级的功能，可以很灵活地进行配置，根据自身需求来定制属于自己的全文搜索功能。具体请参考ES官网的资料。
 
-为了方便测试和管理ES，建议您从“Chrome Web Store”下载和安装“Elasticsearch Head”web插件，用于查看索引和查询数据。
+#### 安装ik中文分词插件
+
+Elasticsearch本身自带分词器standard，但对中文的支持不是很好。
+比如针对“我是中国人”，会分词成“我”、“是”、“中”、“国”、“人”，这显然不是我们想要的结果。
+我们更希望“中国”、“中国人”这样的分词。 因此，我们需要中文分词插件。这样会有更好的中文搜索效果。
+
+IK Analysis for Elasticsearch是一款开源的能符合我们需求的中文分词插件。IK中文分词插件需要另行安装。安装步骤很简单：
+
+* 首先确保你已经下载和解压了ES 6.2.3以上的版本
+* 使用CMD命令进入ES的安装目录，并使用elasticsearch-plugin来安装，安装命令如下：
+
+./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.2.3/elasticsearch-analysis-ik-6.2.3.zip
+
+注意：这个例子安装的是IK 6.2.3版本。需要有Internet连接。
+
+另外，为了方便测试和管理ES，建议您从“Chrome Web Store”下载和安装“Elasticsearch Head”web插件，用于查看索引和查询数据。
 
 #### 配置ES服务器URL
 
 开启Ebaas基于Elasticsearch的全文检索模式只需要在Ebaas的配置文件中配置ES的服务器URL。如果您的ES安装在本地机器上，默认的URL为： http://localhost:9200。
 
-使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ElasticsearchURL”参数设置为：http://localhost:9200，
-如下图所示。保存配置文件后，重启Ebaas服务器即可。
+使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ElasticsearchURL”参数设置为：http://localhost:9200 。
+
+如果您安装了IK中文分词插件，这需要去掉“Ananlyzer”和“Search-Ananlyzer”的注释，使得Ebaas平台将创建索引时使用IK分词插件。如下图所示。
+
+保存配置文件后，重启Ebaas服务器即可。
 
 <img src="{{'/assets/img/2018-4-3-configfile.png' | prepend: site.baseurl }}" alt="">
 
