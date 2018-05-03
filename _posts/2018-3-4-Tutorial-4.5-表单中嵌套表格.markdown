@@ -67,9 +67,12 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 
 #### 在表单中插入关系属性
 
-登入浏览器http://localhost:8080  在首页单击“表单设计器”图标，在“表单设计器”工具栏单击“打开”图标，在打开的“新建或打开表单”左边选择“事务”数据类，右边选择“default”表单，单击“确定”按钮，见下图：
+* 使用浏览器打开“表单设计器”
+* 在“表单设计器”工具栏单击“打开”图标 => 在“新建或打开表单”窗口左边选择“事务”数据类，右边选择“default”表单，单击“确定”按钮，见下图：
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格13.png' | prepend: site.baseurl }}" alt="">
-在打开的“事务”表单中，单击工具栏“源码”图标，插入下面代码：
+
+* 在表单中选择一个位置插入一个一行一列的空白栅格。或者切换到“源码”模式，在要显示表格的位置插入下面HTML代码：
 
 {% highlight ruby %}
 <div class="row row-7">
@@ -80,15 +83,19 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 </div>
 {% endhighlight %}
 
-如下图所示：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格14.png' | prepend: site.baseurl }}" alt="">
-完成后单击“源码”回到表单设计页面，光标放在刚刚插入的空白行，单击工具栏”插入表单字段“，在打开的”插入表单字段“中，选择左边”意见“数据类，再选择右边数据类属性”到事务（R）“，单击”确定“按钮，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格15.png' | prepend: site.baseurl }}" alt=""><br>
-结果见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格16.png' | prepend: site.baseurl }}" alt=""><br>
-完成后，单击工具栏”保存“图标。
+* 回到表单设计页面 => 光标定位在刚刚插入的空白栅格中；
+* 单击工具栏“插入表单字段” => 在打开的“插入表单字段”中 => 选择左边”意见“数据类 => 再选择右边数据类属性“到事务（R）”的关系属性，单击”确定“按钮，见下图：
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格15.png' | prepend: site.baseurl }}" alt="">
+
+* 插入关系属性后表单显示见下图：
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格16.png' | prepend: site.baseurl }}" alt="">
+
+* 点击工具栏”保存“图标保存修改的表单模板。
 
 #### 测试嵌套二维表格
+
 在事务记录页面，单击右上角”+添加“，在打开新表单中，输入相关数据，单击”提交“按钮，数据提交成功后，单击”关闭“按钮，见下图：
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格17.png' | prepend: site.baseurl }}" alt="">
 单击刚提交的这条记录，在下弹出的工具栏单击”编辑“按钮，在打开的编辑表单中可以看到嵌入的”意见“二维表单，见下图；
