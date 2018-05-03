@@ -35,6 +35,7 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt="">
 
 * 在弹出的“数据视图”向导中，单击“数据类”右边“...”按钮，添加数据类，见下图：
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt="">
 
 * 在弹出的“选择数据类”框中，选择“意见”数据类，见下图：
@@ -42,23 +43,27 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 
 * 点击下一步，这一步无需添加关联数据类
 * 点击下一步，在”返回属性“卡，单击”添加“，见下图：
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格8.png' | prepend: site.baseurl }}" alt="">
 
 * 在弹出”选择返回结果属性“框，选择左边要返回的属性，再单击中间向右箭头，将属性添加到右边”返回属性结果“框中，结果见下图：
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格9.png' | prepend: site.baseurl }}" alt="">
 
 * 点击”确认“按钮，结果见下图:
+
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格10.png' | prepend: site.baseurl }}" alt="">
 
 * 创建数据视图完毕，单击”结束“按钮。
  
- 接下来，将创建的数据视图与表格控件绑定。
+接下来，将创建的数据视图与表格控件绑定。
  
- * 点击左边的“意见”数据类 => 在右边的“参数设置”选项卡中，在“嵌套表数据视图”设置栏单击向下箭头，选择“意见视图”，见下图：
- <img src="{{'/assets/img/018-3-4-表单中嵌套表格11.png' | prepend: site.baseurl }}" alt="">
+* 点击左边的“意见”数据类 => 在右边的“参数设置”选项卡中，在“嵌套表数据视图”设置栏单击向下箭头，选择“意见视图”，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格11.png' | prepend: site.baseurl }}" alt="">
  
- * 完成配置后，单击工具栏”保存数据库“图标将模型保存到数据库，见下图：
- <img src="{{'/assets/img/018-3-4-表单中嵌套表格12.png' | prepend: site.baseurl }}" alt="">
+* 完成配置后，单击工具栏”保存数据库“图标将模型保存到数据库，见下图：
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格12.png' | prepend: site.baseurl }}" alt="">
 
 #### 在表单中插入关系属性
 
