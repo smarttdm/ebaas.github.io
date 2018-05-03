@@ -12,39 +12,56 @@ visible: 1
 比较常见的需求是在表单中嵌套二维表格来展示或编辑通过一对多关系所关联的数据类的数据实例。例如，在“事务”表单中以表格的方式查看或添加多条“意见”数据记录，而无需在页面转换到“意见”数据类进行操作。这个教程，我们将介绍如何在“事务”表单中插入显示“意见”的二维表格。
 
 #### 配置关系属性的显示控件
-首先，使用DesignStudio打开“意见”数据类。“意见”数据类到“事务”数据类应建立了一个多对一的关系属性，叫做“到事务”。对这个关系属性的“控件生成器”配置动态表格控件，如下图所示：
+
+
+首先，使用DesignStudio打开“意见”数据类 => 选择“意见”数据类到“事务”数据类的多对一的关系属性，“到事务” => 将这个关系属性的“控件生成器”配置表格控件的DLL，如下图所示：
 
 {% highlight ruby %}
 Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 {% endhighlight %}
 
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格1.png' | prepend: site.baseurl }}" alt="">
-#### 创建意见数据视图
-鼠标右键“数据视图”，单击“创建”，如下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格2.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出“添加新体”对话框中，输入名称：commenView，显示名：事务视图，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“数据视图”框中，单击“数据类”右边“...”按钮，添加数据类，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出的“选择数据类”框中，选择“意见”数据类，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt=""><br>
-在下一步，单击“关联数据类”，在弹出的“选择关联数据类”框，右边选择“事务”数据类，单击中间的向左箭头，将“意见”数据类添加到左边，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格6.png' | prepend: site.baseurl }}" alt=""><br>
-单击“确定“按钮，单击”下一步“，在”返回属性“卡，单击”添加“，见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格8.png' | prepend: site.baseurl }}" alt=""><br>
-在弹出”选择返回结果属性“框，选择左边要返回的属性，再单击中间向右箭头，将属性添加到右边”返回属性结果“框中，结果见下图：
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格9.png' | prepend: site.baseurl }}" alt=""><br>
-单击”确认“按钮，结果见下图:
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格10.png' | prepend: site.baseurl }}" alt=""><br>
- 单击”结束“按钮。
- 单击”意见“数据类，在”参数设置“面板，”嵌套表数据视图“栏单击向下箭头，选择”事务视图“，见下图：
- <img src="{{'/assets/img/018-3-4-表单中嵌套表格11.png' | prepend: site.baseurl }}" alt=""><br>
- 完成后，单击工具栏”保存数据库“图标，见下图：
- <img src="{{'/assets/img/018-3-4-表单中嵌套表格12.png' | prepend: site.baseurl }}" alt=""><br>
 
-完成后，单击工具栏“保存数据库模型到数据库中”图标，保存到数据库。
+该表格控件会在Web表单中显示一个二维表格。在默认情况下，会使用“意见”数据类的默认视图中定义的属性作为表格的列名。由于“意见”数据类的默认视图只包含了“提交人”和“提交时间”两个属性，所以我们需要创建一个“意见”数据类的数据视图，使其包含“内容”属性。并将这个视图与表格控件绑定。
+
+#### 创建数据视图
+
+* 在DesignStudio中，右键选择“数据视图”节点，从弹出的菜单中单击“创建”，如下图：
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格2.png' | prepend: site.baseurl }}" alt="">
+
+* 在弹出“添加新体”对话框中，输入名称：commentView，显示名：事务视图，见下图：
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格3.png' | prepend: site.baseurl }}" alt="">
+
+* 在弹出的“数据视图”向导中，单击“数据类”右边“...”按钮，添加数据类，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格4.png' | prepend: site.baseurl }}" alt="">
+
+* 在弹出的“选择数据类”框中，选择“意见”数据类，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格5.png' | prepend: site.baseurl }}" alt="">
+
+* 点击下一步，这一步无需添加关联数据类
+* 点击下一步，在”返回属性“卡，单击”添加“，见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格8.png' | prepend: site.baseurl }}" alt="">
+
+* 在弹出”选择返回结果属性“框，选择左边要返回的属性，再单击中间向右箭头，将属性添加到右边”返回属性结果“框中，结果见下图：
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格9.png' | prepend: site.baseurl }}" alt="">
+
+* 点击”确认“按钮，结果见下图:
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格10.png' | prepend: site.baseurl }}" alt="">
+
+* 创建数据视图完毕，单击”结束“按钮。
+ 
+ 接下来，将创建的数据视图与表格控件绑定。
+ 
+ * 点击左边的“意见”数据类 => 在右边的“参数设置”选项卡中，在“嵌套表数据视图”设置栏单击向下箭头，选择“意见视图”，见下图：
+ <img src="{{'/assets/img/018-3-4-表单中嵌套表格11.png' | prepend: site.baseurl }}" alt="">
+ 
+ * 完成配置后，单击工具栏”保存数据库“图标将模型保存到数据库，见下图：
+ <img src="{{'/assets/img/018-3-4-表单中嵌套表格12.png' | prepend: site.baseurl }}" alt="">
 
 #### 在表单中插入关系属性
+
 登入浏览器http://localhost:8080  在首页单击“表单设计器”图标，在“表单设计器”工具栏单击“打开”图标，在打开的“新建或打开表单”左边选择“事务”数据类，右边选择“default”表单，单击“确定”按钮，见下图：
 <img src="{{'/assets/img/018-3-4-表单中嵌套表格13.png' | prepend: site.baseurl }}" alt="">
 在打开的“事务”表单中，单击工具栏“源码”图标，插入下面代码：
