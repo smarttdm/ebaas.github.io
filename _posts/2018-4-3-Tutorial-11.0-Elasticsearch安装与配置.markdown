@@ -81,5 +81,3 @@ IK Analysis for Elasticsearch是一款开源的能符合我们需求的中文分
 
 下一个教程将介绍如何配置和创建ES的索引。
 
-
-
