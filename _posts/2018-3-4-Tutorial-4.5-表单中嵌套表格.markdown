@@ -98,10 +98,13 @@ Newtera.WebForm.RelationshipGridViewControl,Newtera.WebForm
 
 * 在Web界面打开“事务管理”界面 =>单击右上角“+添加”打开表单;
 * 由于事物主数据还未创建，因而嵌套的表格还不能填写数据；
+
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格17.png' | prepend: site.baseurl }}" alt="">
+
 * 填写事物的相关数据后，单击”提交“按钮；
 * 数据提交成功后，嵌套的表格便可以直接添加相关意见了，见下图：
 
-<img src="{{'/assets/img/018-3-4-表单中嵌套表格17.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/018-3-4-表单中嵌套表格18.png' | prepend: site.baseurl }}" alt="">
 
 * 在嵌套表格中输入内容，点击“提交”按键，会在“意见”数据类创建数据实例。
 
