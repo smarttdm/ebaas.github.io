@@ -38,7 +38,7 @@ Ebaas平台使用Elasticsearch作为全文检索引擎，因而需要在ES中创
 * 展开“数据类”文件夹的“事务”数据类
 * 选择“主题”属性 => 在右边的配置参数选项卡中将“是否适合搜索建议”设置为“true”，见下图
 
-<img src="{{'/assets/img/2018-4-4-配置适合全文检索属性.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-4-4-配置适合搜索建议属性.png' | prepend: site.baseurl }}" alt="">
 
 * 选择“描述”属性 => 在右边的配置参数选项卡中将“是否适合全文检索”设置为“true”， （注意：不是“是否全文检索”参数， 见下图）
 
