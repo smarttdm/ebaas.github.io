@@ -67,13 +67,19 @@ IK Analysis for Elasticsearch是一款开源的能符合我们需求的中文分
 
 开启Ebaas基于Elasticsearch的全文检索模式只需要在Ebaas的配置文件中配置ES的服务器URL。如果您的ES安装在本地机器上，默认的URL为： http://localhost:9200。
 
-使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ElasticsearchURL”参数设置为：http://localhost:9200 。
+使用文本编辑器打开C:\Program Files\Ebaas\Config\Elasticsearch_config.xml文件，将“ElasticsearchURL”参数设置为：http://localhost:9200 。如果您安装了IK中文分词插件，这需要去掉“Ananlyzer”和“Search-Ananlyzer”的注释，使得Ebaas平台将创建索引时使用IK分词插件。如下所示。
 
-如果您安装了IK中文分词插件，这需要去掉“Ananlyzer”和“Search-Ananlyzer”的注释，使得Ebaas平台将创建索引时使用IK分词插件。如下图所示。
+{% highlight ruby %}
+<?xml version="1.0" encoding="utf-16"?>
+<Settings>
+    <!-- url to Elasticsearch server, such as http://localhost:9200 -->
+    <add key="ElasticsearchURL" value="http://localhost:9200" />
+	  <add key="analyzer" value="ik_max_word" />
+	  <add key="search_analyzer" value="ik_max_word" />
+</Settings>
+{% endhighlight %}
 
 保存配置文件后，重启Ebaas服务器即可。
-
-<img src="{{'/assets/img/2018-4-3-configfile.png' | prepend: site.baseurl }}" alt="">
 
 接下来，使用所推荐的浏览器登陆到（http://localhost:8080） => 登陆到Web界面后，会看到页面的上端出现了全文检索的查询框，见下图。表示基于ES的全文检索已经开启。但是还搜索不到任何数据，因为我们还没有配置和创建任何索引。
 
