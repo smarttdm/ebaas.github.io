@@ -57,9 +57,13 @@ IK Analysis for Elasticsearch是一款开源的能符合我们需求的中文分
 * 首先确保你已经下载和解压了ES 6.2.3以上的版本
 * 使用CMD命令进入ES的安装目录，并使用elasticsearch-plugin来安装，安装命令如下：
 
+{% highlight ruby %}
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.2.3/elasticsearch-analysis-ik-6.2.3.zip
+{% endhighlight %}
 
 {% include note.html content="以上例子安装的是IK 6.2.3版本。如果您安装不同的IK插件版本，请修改上面命令中的版本号。另外，安装时需要有Internet连接。" %}
+
+安装好IK分词插件后，要重启Elasticsearch。
 
 另外，为了方便测试和管理ES，建议您从“Chrome Web Store”下载和安装“Elasticsearch Head”web插件，用于查看索引和查询数据。
 
