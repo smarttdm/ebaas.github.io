@@ -72,10 +72,9 @@ IK Analysis for Elasticsearch是一款开源的能符合我们需求的中文分
 {% highlight ruby %}
 <?xml version="1.0" encoding="utf-16"?>
 <Settings>
-    <!-- url to Elasticsearch server, such as http://localhost:9200 -->
     <add key="ElasticsearchURL" value="http://localhost:9200" />
-	  <add key="analyzer" value="ik_max_word" />
-	  <add key="search_analyzer" value="ik_max_word" />
+    <add key="analyzer" value="ik_max_word" />
+    <add key="search_analyzer" value="ik_max_word" />
 </Settings>
 {% endhighlight %}
 
