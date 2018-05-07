@@ -25,7 +25,10 @@ ES的安装很简单，这里我们介绍在Windows上安装ES。
 * 确保机器上已经安装了Java 8以上版本
 * 下载ES (要求6.2.3以上版本）：官网下载地址：<a class='post-link' href='https://www.elastic.co/downloads/elasticsearch'>https://www.elastic.co/downloads/elasticsearch</a> 
 * 将下载后的文件解压到指定的目录（例如： C:/eshome/elasticsearch-6.2.3)，后续称为ES安装目录
-* 使用“{ES安装目录}/bin/elasticsearch.bat”启动ES服务器
+* 双击“{ES安装目录}/bin/elasticsearch.bat”启动ES服务器
+
+{% include note.html content="如果双击启动ES不成功，用CMD命令来执行这个文件，可以查看具体失败原因。如果是因为内存不满足ES的默认要求，可以通过修改ES的配置来解决。" %}
+
 * 假如ES安装在本地电脑上，可以使用浏览器访问  http://localhost:9200, 会在浏览器显示类似下列结果。
 
 {% highlight ruby %}
