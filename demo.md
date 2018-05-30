@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ebaas App Demo
+title: Ebaas Application Demo
 ---
 
 <div class="post">
