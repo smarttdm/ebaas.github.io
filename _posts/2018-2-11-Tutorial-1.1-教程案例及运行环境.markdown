@@ -72,7 +72,7 @@ Ebaas平台采用面向对象的数据模型，为了与关系数据库的术语
 
 教程练习所需的系统环境要求如下：
 
-*	Ebaas 7.3.0以上版本 （使用自带数据库）；
+*	Ebaas 7.4.0以上版本 （使用自带数据库）；
 *	操作系统：Windows 7（x64）, Windows 10(x64)；
 *	.Net环境：Microsoft.Net Framework 4.5.2；
 *	浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11；
