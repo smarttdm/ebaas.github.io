@@ -40,6 +40,18 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 #### 部署报告模板
 
+将创建的XSL-FO模板文件手工复制到下图所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
+
+<img src="{{'/assets/img/2018-3-9-模板存放目录.png' | prepend: site.b。seurl }}" alt=""><br>
+报表模板存放目录的定义如下：
+
+{% highlight ruby %}
+C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
+
+“事务跟踪管理 1.0”为数据库名称和版本号（注意：中间有一个空格）；
+“Issue”为“事务”数据类的英文名；
+{% endhighlight %}
+
 #### 创建“生成PDF报告”定制命令
 
 使用SiteMapStudio为“事务”数据类创建一个“生成PDF报告”的定制命令，步骤如下：
