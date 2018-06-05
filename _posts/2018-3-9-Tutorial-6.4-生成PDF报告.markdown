@@ -80,4 +80,14 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 #### 测试生成PDF报告
 
+* 使用浏览器连接到http://localhost:8080；
+* 登录为用户demo1 (登录名：demo1， 密码：888）；
+* 在首页点击“事务管理”图标 => 进入“事务”表格；
+* 单击一条数据实例 => 在展开的下拉工具栏，可见“生成PDF报告”图标，如下图所示：
+
+<img src="{{'/assets/img/2018-3-9-2-显示生成报告定制命令.png' | prepend: site.baseurl }}" alt="">
+
+* 点击“生成报告”图标，弹出确认窗口，再点击“生成并下载报告”按键，经过稍许等待服务器生成报告后，会下载为PDF报告文件。
+
+<img src="{{'/assets/img/2018-3-9-2-generated-report.png' | prepend: site.baseurl }}" alt="">
 
