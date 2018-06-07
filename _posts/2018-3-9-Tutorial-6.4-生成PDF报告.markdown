@@ -272,6 +272,7 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 | 设置参数名 | 设置参数值 | 描述 |
 |-------|--------|---------|
 | template | issueReport.xsl | 指定生成报告的XSL-FO模板 |
+| xmlschema | IssueXML | 指定生成XML数据所使用的XML架构的英文名 |
 
 配置结果如下图所示：
 
