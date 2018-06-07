@@ -239,6 +239,11 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 [1]:{{ site.url }}/assets/issueReport.xsl
 
+基于XSL-FO和XML的机制非常强大，可以应对复杂的报告格式。您若有兴趣深入了解XSL-FO的用法，可查看参考资料：<a class='post-link' href='http://www.xmlpdf.com/builds/ibex.pdf'>Ibex PDF使用文档</a> 。
+
+这里我们对报告模板的几个要点进行说明。
+
+
 #### 部署报告模板
 
 将创建的XSL-FO模板文件手工复制到下面所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
@@ -287,6 +292,5 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 * 点击“生成报告”图标，弹出确认窗口，再点击“生成并下载报告”按键，经过稍许等待服务器生成报告后，会下载为PDF报告文件。
 
-<img src="{{'/assets/img/2018-3-9-2-generated-report.png' | prepend: site.baseurl }}" alt="">
+<img src="{{'/assets/img/2018-3-9-2-生成的PDF报告.png' | prepend: site.baseurl }}" alt="">
 
-基于XSL-FO和XML的生成报告机制可以生成任意复杂的报告格式。您可以深入了解XSL-FO的标识的用法，定义更复杂的报告模板。可查看参考资料：<a class='post-link' href='http://www.xmlpdf.com/builds/ibex.pdf'>Ibex PDF使用文档</a> 
