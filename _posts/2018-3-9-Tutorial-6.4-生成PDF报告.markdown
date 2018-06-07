@@ -273,6 +273,8 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 <xsl:apply-templates select="意见" />
 {% endhighlight %}
 
+{% include note.html content="XSL-FO模板也可以使用可视化工具生成，例如微软Word工具。我们会在高级教程介绍" %}
+
 #### 部署报告模板
 
 将创建的XSL-FO模板文件（issueReport.xsl）和图片手工复制到下面所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
