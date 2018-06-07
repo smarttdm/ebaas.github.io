@@ -91,4 +91,4 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 <img src="{{'/assets/img/2018-3-9-2-generated-report.png' | prepend: site.baseurl }}" alt="">
 
-基于XSL-FO和XML的生成报告机制可以生成任意复杂的报告格式。您可以深入了解XSL-FO的标识的用法，定义更复杂的报告模板。
+基于XSL-FO和XML的生成报告机制可以生成任意复杂的报告格式。您可以深入了解XSL-FO的标识的用法，定义更复杂的报告模板。可查看参考资料：<a class='post-link' href='http://www.xmlpdf.com/builds/ibex.pdf'>Ibex PDF使用文档</a> 
