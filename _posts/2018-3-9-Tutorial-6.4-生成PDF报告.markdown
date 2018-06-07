@@ -243,6 +243,35 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 这里我们对报告模板的几个要点进行说明。
 
+* 下面这行代码是与XML数据根元素绑定
+
+{% highlight ruby %}
+<xsl:template match="事务">
+{% endhighlight %}
+
+* 下面这行代码定义所使用到的中文字体
+
+{% highlight ruby %}
+<root font-family="宋体">
+{% endhighlight %}
+	
+* 下面这行代码在报告中插入图片。图片“MyLogo.png”与报告模板部署到同一目录下（具体位置参看下面步骤）。
+
+{% highlight ruby %}
+<external-graphic src="url(MyLogo.png)" content-height="scale-to-fit" scaling="non-uniform"/>
+{% endhighlight %}
+
+* 下面这行代码在报告中插入指定的XML元素的值。
+
+{% highlight ruby %}
+<xsl:value-of select="主题/text()" />
+{% endhighlight %}
+
+* 下面这行代码在报告中二维表格显示事务的意见信息。
+
+{% highlight ruby %}
+<xsl:apply-templates select="意见" />
+{% endhighlight %}
 
 #### 部署报告模板
 
