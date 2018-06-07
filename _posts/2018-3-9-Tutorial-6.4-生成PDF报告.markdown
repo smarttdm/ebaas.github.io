@@ -235,7 +235,9 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 </xsl:stylesheet>
 {% endhighlight %}
 
-您可以将上面的XSL-FO代码复制粘贴到记事本中，保存为issueReport.xsl。注意要保存为UTF-8编码格式。
+[您可以下载这个报告模板文件][1]
+
+[1]:{{ site.url }}/assets/issueReport.xsl
 
 #### 部署报告模板
 
