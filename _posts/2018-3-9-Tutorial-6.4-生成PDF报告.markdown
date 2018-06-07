@@ -21,7 +21,7 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 首先，我们需要导出一个创建报告模板所需的XML数据。因为在创建XSL-FO模板时需要在不同的位置应用XML数据的元素，这样在最终生成PDF报告时，生成报告的引擎能从动态生成的XML数据中选择相应元素的数据并将数据插入到报告的具体位置。
 
-导出事务的XML数据结构是依据所使用的XML架构。我们在前面教程介绍了如何在“事务”数据类上创建XML架构。如果您没有创建事务的XML架构，请参看 <a class="post-link" href="https://smarttdm.github.io/blog/Tutorial-6.0-%E9%85%8D%E7%BD%AEExcel%E6%8A%A5%E8%A1%A8%E6%95%B0%E6%8D%AE%E6%BA%90XML%E6%9E%B6%E6%9E%84/">这个教程</a>创建。
+导出事务的XML数据结构是依据所使用的XML架构。我们在前面教程介绍了如何在“事务”数据类上创建XML架构。如果您没有创建事务的XML架构，请参看 <a class="post-link" href="https://smarttdm.github.io/blog/Tutorial-6.0-%E9%85%8D%E7%BD%AEExcel%E6%8A%A5%E8%A1%A8%E6%95%B0%E6%8D%AE%E6%BA%90XML%E6%9E%B6%E6%9E%84/">这个教程</a>创建。如果已经创建了XML架构，请按照下面步骤执行。
 
 * 打开DesignStudio，以admin用户登录到“事务跟踪管理”数据库；
 * 进入DS的“数据编辑器”，左边菜单选择“事务”数据类后，右边表格显示事务数据实例；
@@ -40,15 +40,209 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 #### 创建报告模板
 
+假设我们要生成的PDF报告为以下显示的样例，包含页头，页尾，事务信息及该事物意见的列表。
+
+<img src="{{'/assets/img/2018-3-9-2-PDF报告格式.png' | prepend: site.baseurl }}" alt="">
+
+针对这个要求，我们可以使用XSL-FO语言创建一个报告模板，其代码如下。
+
+{% highlight ruby %}
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Format"
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output indent="yes" />
+  <xsl:strip-space elements="*" />
+  <xsl:template match="事务">
+    <root font-family="宋体">
+      <layout-master-set>
+        <simple-page-master master-name="page-layout" page-height="11in" page-width="8.5in" margin-top=".5in" margin-bottom=".5in" margin-left=".5in" margin-right=".5in">
+          <region-body margin="1in" region-name="body" />
+		  <region-before region-name="xsl-region-before" extent="5in" padding-left=".5in" padding-right=".5in"/>
+          <region-after region-name="xsl-region-after" extent=".5in" padding-left=".5in" padding-right=".5in"/>
+        </simple-page-master>
+      </layout-master-set>
+      <page-sequence master-reference="page-layout">
+	    <static-content flow-name="xsl-region-before">
+			<block space-after="0pt" space-after.conditionality="retain" line-height="1.147" font-size="11pt" text-align="left">
+				<inline>
+					<external-graphic src="url(MyLogo.png)" content-height="scale-to-fit" scaling="non-uniform"/>
+				</inline>
+				<block-container>
+				   <block text-align="center" font-size="20pt" font-weight="bold">事务处理报告</block>
+				</block-container >
+			</block>
+        </static-content>
+        <static-content flow-name="xsl-region-after">
+			<block text-align-last="justify">
+			  公司名称
+			  <leader leader-pattern="space" text-align="end"/>
+				Page <page-number/> of 
+						<page-number-citation ref-id="TheVeryLastPage"/>
+			</block>
+        </static-content>
+        <flow flow-name="body">
+			<block>&#160;</block>
+		  <block font-size="13pt" font-weight="bold">事务信息</block>
+		  <table>
+            <table-column column-number="1" column-width="40%" />
+            <table-column column-number="2" column-width="60%" />
+            <table-body>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  主题
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="主题/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  描述
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="描述/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  提交日期
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="提交日期/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  关闭日期
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="关闭日期/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  状态
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="状态/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  提交人
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="提交人/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  处理人
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="处理人/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+				<table-row>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  进度
+					</block>
+				  </table-cell>
+				  <table-cell border="1pt solid black" padding="4pt">
+					<block>
+					  <xsl:value-of select="进度/text()" />
+					</block>
+				  </table-cell>
+				</table-row>
+            </table-body>
+          </table>
+		  <block>&#160;</block>
+		  <block font-size="13pt" font-weight="bold">事务处理意见表</block>
+          <table>
+            <table-column column-number="1" column-width="30%" />
+            <table-column column-number="2" column-width="15%" />
+            <table-column column-number="3" column-width="55%" />
+            <table-header font-weight="bold">
+              <table-row>
+                <table-cell border="1pt solid black" padding="4pt">
+                  <block>提交时间</block>
+                </table-cell>
+                <table-cell border="1pt solid black" padding="4pt">
+                  <block>提交人</block>
+                </table-cell>
+                <table-cell border="1pt solid black" padding="4pt">
+                  <block>内容</block>
+                </table-cell>
+              </table-row>
+            </table-header>
+            <table-body>
+              <xsl:apply-templates select="意见" />
+            </table-body>
+          </table>
+		  <block id="TheVeryLastPage" />
+        </flow>
+      </page-sequence>
+    </root>
+  </xsl:template>
+  <xsl:template match="意见">
+    <table-row>
+      <table-cell border="1pt solid black" padding="4pt">
+        <block>
+          <xsl:value-of select="提交时间/text()" />
+        </block>
+      </table-cell>
+      <table-cell border="1pt solid black" padding="4pt">
+        <block>
+          <xsl:value-of select="提交人/text()" />
+        </block>
+      </table-cell>
+      <table-cell border="1pt solid black" padding="4pt">
+        <block>
+          <xsl:value-of select="内容/text()" />
+        </block>
+      </table-cell>
+    </table-row>
+  </xsl:template>
+</xsl:stylesheet>
+{% endhighlight %}
+
+您可以将上面的XSL-FO代码复制粘贴到记事本中，保存为issueReport.xsl。注意要保存为UTF-8编码格式。
+
 #### 部署报告模板
 
 将创建的XSL-FO模板文件手工复制到下面所示的目录下。如果第一次部署模板，部分目录路径不存在，需要手工创建后再将模板文件复制粘贴进去。
 
 {% highlight ruby %}
 C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
-
-“事务跟踪管理 1.0”为数据库名称和版本号（注意：中间有一个空格）；
-“Issue”为“事务”数据类的英文名；
 {% endhighlight %}
 
 #### 创建“生成PDF报告”定制命令
