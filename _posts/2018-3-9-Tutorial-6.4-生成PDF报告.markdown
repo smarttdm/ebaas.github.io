@@ -294,3 +294,5 @@ C:\Program Files\Ebaas\Templates\Reports\事务跟踪管理 1.0\Issue
 
 <img src="{{'/assets/img/2018-3-9-2-生成的PDF报告.png' | prepend: site.baseurl }}" alt="">
 
+{% include note.html content="Ebaas试用版所带的PDF引擎为IBex PDF Creator的试用版。您购买Ebaas正式版软件将带有正式的Ibex PDF Creator引擎。" %}
+
