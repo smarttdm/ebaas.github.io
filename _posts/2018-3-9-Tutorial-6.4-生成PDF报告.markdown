@@ -239,7 +239,7 @@ XSL-FO格式化规范是W3C的建议的标准。XSL-FO定义了许多XML标记�
 
 [1]:{{ site.url }}/assets/issueReport.xsl
 
-这个教程所提供的报告格式较为简单，您可以参看<a class='post-link' href='http://www.xmlpdf.com/builds/ibex.pdf'>Ibex PDF使用文档</a>，它提供了更为全面的报告类型的例子 。
+这个教程所提供的报告格式较为简单，您可以参看<a class='post-link' href='http://www.xmlpdf.com/builds/ibex.pdf'>Ibex PDF使用文档</a>，它提供了各种报告类型的XML-FO模板例子 。
 
 这里我们对报告模板的几个要点进行说明。
 
