@@ -8,7 +8,9 @@ visible: 1
 上一个教程，您使用SiteMapStudio配置了网站模型，包含了一个“事务管理”菜单功能。这个教程介绍如何使用浏览器登陆Web界面对“事务”数据类进行操作，包括添加，修改，删除和查询。
 
 #### 登录Web客户端
-打开下述任何一款浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11。在地址栏输入：http://localhost:8080。
+打开本机的下述任何一款浏览器：Google Chrome 45以上（推荐），Windows Edge， IE11。在地址栏输入：http://localhost:8080。
+
+{% include note.html content="在实际应用场景，客户将使用浏览器远程访问Ebaas服务器。远程访问的地址通常是http://IPAddress：port。我们会在后续的教程介绍如何配置服务器以使用IP和Port进行访问" %}
 
 在出现的登录页面上，“用户名”输入：demo1, “密码”输入：888,，如下图所示：
 
